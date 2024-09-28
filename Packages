@@ -16,6 +16,38 @@ Icon: http://cdn.share.lzsxcl.cc/Tweak/a2.png
 Name: A2锁屏时间修改
 
 Package: cloud368.github.io
+Version: 0.0.2
+Architecture: iphoneos-arm64 iphoneos-arm64e
+Maintainer: 桃花源
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/Flex3汉化包-rootless_0.0.2.deb
+Size: 10486
+MD5sum: bcd4ecdbfbede90a3020875021e9d8c7
+SHA1: 206f086faabaa5e1deb0f1a1411eb62514659bfb
+SHA256: f821af5bd5ebaea39f69adac9426b69da59b4315bd76a554b7ec6cc55c32cbe8
+Section: Theos依赖
+Description: Flex3--(rootless专用)简体中文包
+Author: PoomSmart
+Name: Flex3汉化包-rootless
+
+Package: cloud368.github.io
+Version: 0.0.31
+Architecture: iphoneos-arm64 iphoneos-arm64e
+Maintainer: 桃花源
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/Flex3汉化包-rootless.deb
+Size: 13714
+MD5sum: 2fcd1a23c3136fc74811dc9ee812c180
+SHA1: cece297d522e63913d3e84b729e25e0a738fe2ca
+SHA256: db2a9be04c8ca13f964751cbadd8b1e9eda2a96f0f4e9fd25af52ee249d60343
+Section: Theos依赖
+Description: Flex3--(rootless专用)简体中文包
+Author: PoomSmart
+Name: Flex3汉化包-rootless
+
+Package: cloud368.github.io
 Version: 0.6
 Architecture: iphoneos-arm64 iphoneos-arm64e
 Maintainer: 桃花源
@@ -77,6 +109,116 @@ Depiction: https://Randy-420.GitHub.io/depic/appfetch.html
 Name: appfetch
 
 Package: cloud368.github.io
+Version: 1.0
+Architecture: iphoneos-arm64 iphoneos-arm64e
+Maintainer: 桃花源
+Installed-Size: 184
+Depends: com.opa334.ccsupport, com.cpdigitaldarkroom.itsevanesco
+Filename: ./debs/evanescocc.deb
+Size: 21460
+MD5sum: 669c75e4aa6c6d5ec02ca4fb5cac7028
+SHA1: 5647f5b3b353c226be0d8e9c221107463cd02049
+SHA256: 82c98d96c70b24d8a1ca90212733f9feb33704c1b532ae2791953a737b23fe43
+Section: Theos依赖
+Description: Control Center Modules for Evanesco
+Author: PoomSmart
+Depiction: https://Randy-420.GitHub.io/depic/evanescoCc.html
+Name: evanescocc
+
+Package: cloud368.github.io
+Version: 1.0
+Architecture: iphoneos-arm64 iphoneos-arm64e
+Maintainer: 桃花源
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/Flex3开启修改新增补丁-rootless.deb
+Size: 3906
+MD5sum: 924c3ad4db0a62e6ace1d1d822bf8b37
+SHA1: 7ac984b656ed48b54665c7c88873820466fceed4
+SHA256: dae6c48eaf68f8863d9557bd5e178241c7369bf89171d73c1f29cd66a1a0a4e3
+Section: Theos依赖
+Description: Flex3 Turn on the permission to modify the new patch。Flex3开启修改新增补丁的权限（不限于下载或他人分享的）
+Author: PoomSmart
+Name: Flex3开启修改新增补丁-rootless
+
+Package: cloud368.github.io
+Version: 1.0
+Architecture: iphoneos-arm64 iphoneos-arm64e
+Maintainer: 桃花源
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/Flex3Copy-rootless.deb
+Size: 4774
+MD5sum: 7b0c106f22cfc3912104200a96093b2a
+SHA1: b60bcbaf5f687d0b0d26557a9c0dcc2c671c396b
+SHA256: 5a59ed4d9b7575bc84d58f7533d9288728d295e26b2a1e2fc879459cb3c03989
+Section: Theos依赖
+Description: Specifically customized for Flex3, long press to copy the description or popup content, combined with translation tools or software, making it convenient for you to understand languages you don't know.（专门为Flex3定制，长按描述或者弹窗复制内容，配合翻译工具或者软件，方便你去了解不懂的语言）
+Author: PoomSmart
+Name: Flex3Copy-rootless
+
+Package: cloud368.github.io
+Version: 1.4
+Architecture: iphoneos-arm64 iphoneos-arm64e
+Maintainer: 桃花源
+Installed-Size: 1300
+Depends: mobilesubstrate, com.randy420.tools (>=2.3.7)
+Replaces: com.ipadkid.ftt, com.azmilaila.ftt, com.ceadd.flextotheosbyipadkid358, com.randy420.ipadkid.ftt
+Filename: ./debs/Flex To Theos.deb
+Size: 370734
+MD5sum: 4d9d0679add4827c86df20dc2f655dde
+SHA1: 820d97ce7e2465c26e42d8f218e19a8dbe121562
+SHA256: 7e8875bb1675a3def731ca7b89306b4056cad151ba71d3d9dd3e0bbf98dfb406
+Section: Theos依赖
+Homepage: https://theemeraldisle.family
+Description: First made by iPadkid358 - then updated by myself. Change Flex 3 patches into Theos projects using simple terminal commands.
+  
+ - Use 'ftt -?' For a full list of options.
+Author: PoomSmart
+Depiction: https://Randy-420.GitHub.io/depic/ftt.html
+Name: Flex To Theos
+
+Package: cloud368.github.io
+Version: 1.4
+Architecture: iphoneos-arm64 iphoneos-arm64e
+Maintainer: 桃花源
+Installed-Size: 1300
+Depends: mobilesubstrate, com.randy420.tools (>=2.3.7)
+Replaces: com.ipadkid.ftt, com.azmilaila.ftt, com.ceadd.flextotheosbyipadkid358, com.randy420.ipadkid.ftt
+Filename: ./debs/Flex To Theos_1.4.deb
+Size: 370730
+MD5sum: 5abff59bafc63aadfe93df38c43272a1
+SHA1: 49d0a58513d0fc985b644c8896fe96797a250033
+SHA256: 535027b633b23a6438ffe1ed41453fa6d8b5f43c63c724d93bad78a0e20bf83c
+Section: Theos依赖
+Homepage: https://theemeraldisle.family
+Description: First made by iPadkid358 - then updated by myself. Change Flex 3 patches into Theos projects using simple terminal commands.
+  
+ - Use 'ftt -?' For a full list of options.
+Author: PoomSmart
+Depiction: https://Randy-420.GitHub.io/depic/ftt.html
+Name: Flex To Theos
+
+Package: cloud368.github.io
+Version: 1:3~Beta61
+Architecture: iphoneos-arm64 iphoneos-arm64e
+Maintainer: 桃花源
+Depends: mobilesubstrate, firmware (>= 9.0)
+Conflicts: Flexpackage, Flexpackagebeta, com.fuyuchi.flex, Flex2packagebeta, Flex2package,  com.fuyuchi.flex2, Flex2Blackpackagebeta, com.johncoates.Flex3, Flex3FeatureCatalog, byg.iosios.net.Flex3beta
+Replaces: Flexpackage, Flexpackagebeta, com.fuyuchi.flex, Flex2packagebeta, Flex2package,  com.fuyuchi.flex2, Flex2Blackpackagebeta, com.johncoates.Flex3, Flex3FeatureCatalog, Flex3ToolsOnly
+Filename: ./debs/Flex 3 Beta程序修改器-Rootless.deb
+Size: 16719036
+MD5sum: 131b18d0338a1c895b2b050ef32eccf0
+SHA1: d429ec3770b8b09cec72285125f10178cadfd23e
+SHA256: e6ff11d034a94bd0d03ead952378bf001a0bf969282ccf21e80b8ec6f1086581
+Section: Theos依赖
+Description: Develop your own tweaks and share them on the Flex Community Cloud作者今天刚维护更新的61beta-Rootless版本，兄弟们冲吧，如果打开闪退的话就进入系统设置里的显示与亮度，关闭粗体显示！免费账号每天可下载2个补丁，此账号可无限下载！sundasheng521@qq.com密码7758521a
+Author: PoomSmart
+Icon: https://chinesebuilding.club/pic/cydia.png
+Name: Flex 3 Beta程序修改器-Rootless
+Sponsor: 搬运工
+
+Package: cloud368.github.io
 Version: 2.3.9
 Architecture: iphoneos-arm64 iphoneos-arm64e
 Maintainer: 桃花源
@@ -115,6 +257,76 @@ Tag: role::hacker
 Author: PoomSmart
 Depiction: https://Randy-420.GitHub.io/depic/420Tools.html
 Name: 420 Tools
+
+Package: cloud368.github.io
+Version: 2024.05.26
+Architecture: iphoneos-arm64 iphoneos-arm64e
+Maintainer: 桃花源
+Installed-Size: 756
+Depends: mobilesubstrate
+Conflicts: com.cpdigitaldarkroom.evanesco, com.1conan.evanescoxi, com.randy420.evanescocc
+Filename: ./debs/Evanesco!_2024.05.26.deb
+Size: 109102
+MD5sum: f0c4cae04af3d1156506021e4a8d065d
+SHA1: fc4352bf114eb63e610605a209d80883266bc932
+SHA256: 323cabe3242bc1ba7301a47c58c9cfc62625192d94a311fdaea022aadd4b50ca
+Section: Theos依赖
+Description: Clear Your Homescreen After Inactivity
+Author: PoomSmart
+Depiction: https://Randy-420.GitHub.io/depic/evanesco.html
+Name: Evanesco!
+
+Package: cloud368.github.io
+Version: 2024.05.26
+Architecture: iphoneos-arm64 iphoneos-arm64e
+Maintainer: 桃花源
+Installed-Size: 664
+Depends: mobilesubstrate
+Conflicts: com.cpdigitaldarkroom.evanesco, com.1conan.evanescoxi, com.randy420.evanescocc
+Filename: ./debs/Evanesco!.deb
+Size: 108672
+MD5sum: 51e5762217c2c5034f965d5af585cf41
+SHA1: 574b452f15e6803345a6d524cce743e73512cf79
+SHA256: 3e12f06825186de1f560e426d4066ed3fdd241e6707c3d6b542a5e2e6560594b
+Section: Theos依赖
+Description: Clear Your Homescreen After Inactivity
+Author: PoomSmart
+Depiction: https://Randy-420.GitHub.io/depic/evanesco.html
+Name: Evanesco!
+
+Package: cloud368.github.io
+Version: 3.1
+Architecture: iphoneos-arm64 iphoneos-arm64e
+Maintainer: 桃花源
+Depends: mobilesubstrate, firmware (>= 9.0)
+Conflicts: Flexpackage, Flexpackagebeta, com.fuyuchi.flex, Flex2packagebeta, Flex2package,  com.fuyuchi.flex2, Flex2Blackpackagebeta, com.johncoates.Flex3, Flex3FeatureCatalog
+Replaces: Flexpackage, Flexpackagebeta, com.fuyuchi.flex, Flex2packagebeta, Flex2package,  com.fuyuchi.flex2, Flex2Blackpackagebeta, com.johncoates.Flex3, Flex3FeatureCatalog
+Filename: ./debs/Flex3 Beta可解析版-rootless.deb
+Size: 18514012
+MD5sum: 3b5f3b6db46003c9bdfacddf8ef9ee0e
+SHA1: b48eded05240d819ab544af66d03e82ff81a9de9
+SHA256: 671b638f8b6785cd9a11b2ba5d4b63654720d728f671b29f81d390fadfe3193a
+Section: Theos依赖
+Description: Develop your own tweaks and share them on the Flex Community Cloud. (dopamine 版本flex3可解析应用，不用兼容层，粗体会闪退,建议正在学习或者会做补丁者使用(已知点击应用补丁列表不可以，需要搜索)~~~单独装此包只对第三方应用生效，对系统生效需要装另外一个包，安装前卸载现有的，你配置都在)，0302:更新版本号，盗版源从我这拿东西版本整那么高作甚
+Author: PoomSmart
+Name: Flex3 Beta可解析版-rootless
+
+Package: cloud368.github.io
+Version: 4.2.5
+Architecture: iphoneos-arm64 iphoneos-arm64e
+Maintainer: 桃花源
+Installed-Size: 136
+Depends: mobilesubstrate, cydia.com.ipc.crackerxi | xyz.cypwn.crackerxi
+Filename: ./debs/CrackerXI+ Patch.deb
+Size: 5192
+MD5sum: c822a7478cea2275ee2fe14742e7462c
+SHA1: 3933fba8b6006eb9ecade8b5d9ddd2bbe61141a8
+SHA256: 08fcff2f7b9123ae3f45cda0654a122c842dd08bcd1d2ed1069884c0531bec0b
+Section: Theos依赖
+Description: ***Alphabetically order the applications. It's stupid this wasn't a thought in the first place.***
+Author: PoomSmart
+Depiction: https://Randy-420.GitHub.io/depic/CrackerXI.html
+Name: CrackerXI+ Patch
 
 Package: cn.llld.ftt
 Version: 0.1
