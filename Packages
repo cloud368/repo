@@ -5,7 +5,7 @@ Maintainer: CP Digital Darkroom <tweaks@cpdigitaldarkroom.support>
 Installed-Size: 756
 Depends: mobilesubstrate
 Conflicts: com.cpdigitaldarkroom.evanesco, com.1conan.evanescoxi, com.randy420.evanescocc
-Filename: ./debs/Evanesco!_2024.05.26.deb
+Filename: ./debs/evanesco_rootless.deb
 Size: 100280
 MD5sum: 4bb9d529d6ffec6749f088fc5bb5dfac
 SHA1: 57388a9be8081b5a436ba98bb18ba2c2b3c3e58c
@@ -23,7 +23,7 @@ Maintainer: CP Digital Darkroom <tweaks@cpdigitaldarkroom.support>
 Installed-Size: 664
 Depends: mobilesubstrate
 Conflicts: com.cpdigitaldarkroom.evanesco, com.1conan.evanescoxi, com.randy420.evanescocc
-Filename: ./debs/Evanesco!.deb
+Filename: ./debs/evanesco.deb
 Size: 99612
 MD5sum: 565eb0c7102f55b1da843155e8111350
 SHA1: b6a390214160e7467e080e37824f7f5644b39f22
@@ -61,7 +61,7 @@ Architecture: iphoneos-arm
 Maintainer: Randy420 <randy.skinner@hotmail.com>
 Installed-Size: 136
 Depends: mobilesubstrate, cydia.com.ipc.crackerxi | xyz.cypwn.crackerxi
-Filename: ./debs/CrackerXI+ Patch.deb
+Filename: ./debs/CrackerXI.deb
 Size: 4926
 MD5sum: 3df83c21bd5a416f1b035b8b8cf26f86
 SHA1: 7b03c7e2993b6fcbfa7edf0f437ecbf9f49408a1
@@ -96,7 +96,7 @@ Maintainer: Randy420 <randy.skinner@hotmail.com>
 Installed-Size: 476
 Depends: com.randy420.tools (>= 2.3), clang, curl, git, grep, perl, rsync, unzip, make, ldid, com.opa334.ccsupport, xar
 Conflicts: net.howett.theos
-Filename: ./debs/Theos Auto Installer.deb
+Filename: ./debs/tai.deb
 Size: 58572
 MD5sum: 264e35d2073c9d80d444557a75a24afa
 SHA1: 67fd601613f79a493cd853562277bca97d3d974e
@@ -122,7 +122,7 @@ Installed-Size: 0
 Depends: theos-dependencies, swift
 Conflicts: com.randy420.taidependsother, com.randy420.taidependslegacy
 Replaces: com.randy420.taidependsother, com.randy420.taidependslegacy
-Filename: ./debs/Theos Auto Installer Dependencies for Procursus based jailbreaks_0.6.deb
+Filename: ./debs/dependsCool.deb
 Size: 740
 MD5sum: 4c9ba63220a1b61c0fbf363e4f3ce040
 SHA1: 946b52c614f1807b1d2ddd480e5e2d063bd951f5
@@ -143,7 +143,7 @@ Installed-Size: 0
 Depends: theos-dependencies, swift
 Conflicts: com.randy420.taidependsother, com.randy420.taidependslegacy
 Replaces: com.randy420.taidependsother, com.randy420.taidependslegacy
-Filename: ./debs/Theos Auto Installer Dependencies for Procursus based jailbreaks.deb
+Filename: ./debs/dependsCool_rootless.deb
 Size: 742
 MD5sum: b2ffd785230431869138207a2b225b43
 SHA1: f4b4ce38fbd108f30b759d87e0a13561949f5b93
@@ -164,7 +164,7 @@ Installed-Size: 0
 Depends: org.theos.dependencies, firmware (<= 12.0)
 Conflicts: com.randy420.taidependscoolstar, com.randy420.taidependsother
 Replaces: com.randy420.taidependscoolstar, com.randy420.taidependsother
-Filename: ./debs/Theos Auto Installer Dependencies for Legacy Jailbreaks.deb
+Filename: ./debs/dependsLegacy.deb
 Size: 736
 MD5sum: f5a5ccca7204ab23e3c0c156eaf6e8a1
 SHA1: 2a9bb4e44011c5d97c08c04c85f918717bd1a67b
@@ -179,17 +179,17 @@ Name: Theos Auto Installer Dependencies for Legacy Jailbreaks
 
 Package: com.randy420.taidependsother
 Version: 0.6
-Architecture: iphoneos-arm
+Architecture: iphoneos-arm64
 Maintainer: Randy420 <randy.skinner@hotmail.com>
 Installed-Size: 0
 Depends: ca-certificates, clang, coreutils, curl, dpkg, git, grep, ldid, make, odcctools, perl, com.bingner.plutil, rsync, xz
 Conflicts: com.randy420.taidependscoolstar, com.randy420.taidependslegacy
 Replaces: com.randy420.taidependscoolstar, com.randy420.taidependslegacy
-Filename: ./debs/Theos Auto Installer Dependencies for All Other Jailbreaks.deb
-Size: 790
-MD5sum: 64b1649fc24de604805a8fbc7e24ae6e
-SHA1: 5bf7f9ef5676dc8d533a2f83e32d604b630615ff
-SHA256: 9f81ba801448be4fa58f14eb3f385d74abd0eac1d5e60002fc85eedadb957312
+Filename: ./debs/dependsOther_rootless.deb
+Size: 792
+MD5sum: a014de5d9fd960281e1b79ec0a0eae42
+SHA1: 921d7cd357f78bc4a14a7800cd0b44175f306250
+SHA256: ba18870898a489f0a696944c8ee763c0c106ca3501d0955862ac7092faa151c0
 Section: System
 Homepage: https://theemeraldisle.family
 Description: dependencies for all other jailbreaks
@@ -200,17 +200,17 @@ Name: Theos Auto Installer Dependencies for All Other Jailbreaks
 
 Package: com.randy420.taidependsother
 Version: 0.6
-Architecture: iphoneos-arm64
+Architecture: iphoneos-arm
 Maintainer: Randy420 <randy.skinner@hotmail.com>
 Installed-Size: 0
 Depends: ca-certificates, clang, coreutils, curl, dpkg, git, grep, ldid, make, odcctools, perl, com.bingner.plutil, rsync, xz
 Conflicts: com.randy420.taidependscoolstar, com.randy420.taidependslegacy
 Replaces: com.randy420.taidependscoolstar, com.randy420.taidependslegacy
-Filename: ./debs/Theos Auto Installer Dependencies for All Other Jailbreaks_0.6.deb
-Size: 792
-MD5sum: a014de5d9fd960281e1b79ec0a0eae42
-SHA1: 921d7cd357f78bc4a14a7800cd0b44175f306250
-SHA256: ba18870898a489f0a696944c8ee763c0c106ca3501d0955862ac7092faa151c0
+Filename: ./debs/dependsOther.deb
+Size: 790
+MD5sum: 64b1649fc24de604805a8fbc7e24ae6e
+SHA1: 5bf7f9ef5676dc8d533a2f83e32d604b630615ff
+SHA256: 9f81ba801448be4fa58f14eb3f385d74abd0eac1d5e60002fc85eedadb957312
 Section: System
 Homepage: https://theemeraldisle.family
 Description: dependencies for all other jailbreaks
@@ -226,7 +226,7 @@ Maintainer: Randy420 <randy.skinner@hotmail.com>
 Installed-Size: 2392
 Depends: firmware (<= 15.0) | cy+cpu.arm64v8 | oldabi-xina | oldabi
 Replaces: com.randy420.encrypt
-Filename: ./debs/420 Tools.deb
+Filename: ./debs/420Tools_rootless.deb
 Size: 550502
 MD5sum: 71d7c60809cc66a33bb317aa97e77653
 SHA1: 3408d916cc9bebcd9b77c3e4184a4165b067dc18
@@ -246,7 +246,7 @@ Maintainer: Randy420 <randy.skinner@hotmail.com>
 Installed-Size: 3148
 Depends: firmware (<= 15.0) | cy+cpu.arm64v8 | oldabi-xina | oldabi
 Replaces: com.randy420.encrypt
-Filename: ./debs/420 Tools_2.3.9.deb
+Filename: ./debs/420Tools.deb
 Size: 698766
 MD5sum: 543ee857ff0f6fc2f6c440db62d65ddd
 SHA1: 99ba9dde68519e10ba2f187a0db21ff2e7f4aeb5
@@ -284,7 +284,7 @@ Architecture: iphoneos-arm
 Maintainer: Randy420 <randy.skinner@hotmail.com>
 Installed-Size: 448
 Depends: mobilesubstrate, com.randy420.tools (>=2.3)
-Filename: ./debs/VolumeStep13_14.deb
+Filename: ./debs/volumeStep.deb
 Size: 39024
 MD5sum: a2cd75c00859062ec6b46c780e88ce85
 SHA1: f984968f2410a382158dd1ab5823fae310ad1a65
@@ -305,7 +305,7 @@ Maintainer: Randy420 <randy.skinner@hotmail.com>
 Installed-Size: 1300
 Depends: mobilesubstrate, com.randy420.tools (>=2.3.7)
 Replaces: com.ipadkid.ftt, com.azmilaila.ftt, com.ceadd.flextotheosbyipadkid358, com.randy420.ipadkid.ftt
-Filename: ./debs/Flex To Theos.deb
+Filename: ./debs/ftt_rootless.deb
 Size: 355682
 MD5sum: 6e19f3c351ac0e15390372337d2bf640
 SHA1: d2253738bb5a4bbfb223b63f23a8540699e596e7
@@ -326,7 +326,7 @@ Maintainer: Randy420 <randy.skinner@hotmail.com>
 Installed-Size: 1300
 Depends: mobilesubstrate, com.randy420.tools (>=2.3.7)
 Replaces: com.ipadkid.ftt, com.azmilaila.ftt, com.ceadd.flextotheosbyipadkid358, com.randy420.ipadkid.ftt
-Filename: ./debs/Flex To Theos_1.4.deb
+Filename: ./debs/ftt.deb
 Size: 355850
 MD5sum: 425c004727cbde53b8d18b619e805ff7
 SHA1: 37f82e54806879d143a59a9541edb0fc2d32d568
@@ -347,7 +347,7 @@ Maintainer: Randy420
 Installed-Size: 340
 Depends: mobilesubstrate, com.randy420.tools (>=2.2)
 Replaces: com.randy420.rr
-Filename: ./debs/Remove Russian Language.deb
+Filename: ./debs/rr.deb
 Size: 41088
 MD5sum: 0ee46706c46f33d4665dc20f8ea070eb
 SHA1: 8f2fc002192312a30e7f4296c464a15477fd3197
