@@ -1,4 +1,46 @@
 Package: cloud368.github.io
+Version: 0.6
+Architecture: iphoneos-arm64 iphoneos-arm64e
+Maintainer: 桃花源
+Installed-Size: 0
+Depends: theos-dependencies, swift
+Conflicts: com.randy420.taidependsother, com.randy420.taidependslegacy
+Replaces: com.randy420.taidependsother, com.randy420.taidependslegacy
+Filename: ./debs/Theos Auto Installer Dependencies for Procursus based jailbreaks_0.6.deb
+Size: 736
+MD5sum: 1d9421dbec3f828e6a4558b36edbb528
+SHA1: 9bfa37948496cde88dc5e6a7328f08f6332cd2b1
+SHA256: c4d495e9b412d806f310d191548f1e73cc53b7ae097cff9eda79eefeec4fe0c1
+Section: Theos依赖
+Homepage: https://theemeraldisle.family
+Description: Dependencies for Procursus based jailbreaks (known as coolstar jailbreaks)
+Tag: role::hacker
+Author: PoomSmart
+Depiction: https://Randy-420.GitHub.io/depic/taidependscoolstar.html
+Name: Theos Auto Installer Dependencies for Procursus based jailbreaks
+
+Package: cloud368.github.io
+Version: 0.6
+Architecture: iphoneos-arm64 iphoneos-arm64e
+Maintainer: 桃花源
+Installed-Size: 0
+Depends: theos-dependencies, swift
+Conflicts: com.randy420.taidependsother, com.randy420.taidependslegacy
+Replaces: com.randy420.taidependsother, com.randy420.taidependslegacy
+Filename: ./debs/Theos Auto Installer Dependencies for Procursus based jailbreaks.deb
+Size: 736
+MD5sum: 94a67e419b88ac8b73b6c2d473782ade
+SHA1: 618d2d71b6a5eb695fc5aa3ea7031b169cce36b8
+SHA256: a2a4c7a8dba68d39bfb50a3bd47100501154b8b3d0cc6673af18de023c0dd8e6
+Section: Theos依赖
+Homepage: https://theemeraldisle.family
+Description: Dependencies for Procursus based jailbreaks (known as coolstar jailbreaks)
+Tag: role::hacker
+Author: PoomSmart
+Depiction: https://Randy-420.GitHub.io/depic/taidependscoolstar.html
+Name: Theos Auto Installer Dependencies for Procursus based jailbreaks
+
+Package: cloud368.github.io
 Version: 0.8
 Architecture: iphoneos-arm64 iphoneos-arm64e
 Maintainer: 桃花源
