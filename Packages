@@ -15,6 +15,103 @@ Author: lzsxcl
 Icon: http://cdn.share.lzsxcl.cc/Tweak/a2.png
 Name: A2锁屏时间修改
 
+Package: cloud368.github.io
+Version: 0.0.1
+Architecture: iphoneos-arm64 iphoneos-arm64e
+Maintainer: 桃花源
+Installed-Size: 172
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/Flex3悬浮关键词-rootless.deb
+Size: 9536
+MD5sum: 3e22a2b70dcd9ed85807ad7f466259b4
+SHA1: cafc249d2b4da5f1405d569c4227e35b5629da7b
+SHA256: bb32e492ac3731da4f161b539a00da5f7e2f1ffddbf814ee5cfbb843bc0409f3
+Section: Theos依赖
+Description: Added (search keyword floating window) in Flex3 Bate, suitable for Flex3 users who are studying or have limited vocabulary……Flex3 Bate内添加(搜索关键词悬浮窗)，适合在学习或词汇有限的Flex3用户，这是初版，只放了一点点关键词，不同应用自动搜索生成关键词的还在构思
+Author: PoomSmart
+Name: Flex3悬浮关键词-rootless
+
+Package: cloud368.github.io
+Version: 0.0.2
+Architecture: iphoneos-arm64 iphoneos-arm64e
+Maintainer: 桃花源
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/Flex3汉化包-rootless_0.0.2.deb
+Size: 10486
+MD5sum: bcd4ecdbfbede90a3020875021e9d8c7
+SHA1: 206f086faabaa5e1deb0f1a1411eb62514659bfb
+SHA256: f821af5bd5ebaea39f69adac9426b69da59b4315bd76a554b7ec6cc55c32cbe8
+Section: Theos依赖
+Description: Flex3--(rootless专用)简体中文包
+Author: PoomSmart
+Name: Flex3汉化包-rootless
+
+Package: cloud368.github.io
+Version: 0.0.31
+Architecture: iphoneos-arm64 iphoneos-arm64e
+Maintainer: 桃花源
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/Flex3汉化包-rootless.deb
+Size: 13714
+MD5sum: 2fcd1a23c3136fc74811dc9ee812c180
+SHA1: cece297d522e63913d3e84b729e25e0a738fe2ca
+SHA256: db2a9be04c8ca13f964751cbadd8b1e9eda2a96f0f4e9fd25af52ee249d60343
+Section: Theos依赖
+Description: Flex3--(rootless专用)简体中文包
+Author: PoomSmart
+Name: Flex3汉化包-rootless
+
+Package: cloud368.github.io
+Version: 1.0
+Architecture: iphoneos-arm64 iphoneos-arm64e
+Maintainer: 桃花源
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/Flex3开启修改新增补丁-rootless.deb
+Size: 3906
+MD5sum: 924c3ad4db0a62e6ace1d1d822bf8b37
+SHA1: 7ac984b656ed48b54665c7c88873820466fceed4
+SHA256: dae6c48eaf68f8863d9557bd5e178241c7369bf89171d73c1f29cd66a1a0a4e3
+Section: Theos依赖
+Description: Flex3 Turn on the permission to modify the new patch。Flex3开启修改新增补丁的权限（不限于下载或他人分享的）
+Author: PoomSmart
+Name: Flex3开启修改新增补丁-rootless
+
+Package: cloud368.github.io
+Version: 1.0
+Architecture: iphoneos-arm64 iphoneos-arm64e
+Maintainer: 桃花源
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/Flex3Copy-rootless.deb
+Size: 4774
+MD5sum: 7b0c106f22cfc3912104200a96093b2a
+SHA1: b60bcbaf5f687d0b0d26557a9c0dcc2c671c396b
+SHA256: 5a59ed4d9b7575bc84d58f7533d9288728d295e26b2a1e2fc879459cb3c03989
+Section: Theos依赖
+Description: Specifically customized for Flex3, long press to copy the description or popup content, combined with translation tools or software, making it convenient for you to understand languages you don't know.（专门为Flex3定制，长按描述或者弹窗复制内容，配合翻译工具或者软件，方便你去了解不懂的语言）
+Author: PoomSmart
+Name: Flex3Copy-rootless
+
+Package: cloud368.github.io
+Version: 3.1
+Architecture: iphoneos-arm64 iphoneos-arm64e
+Maintainer: 桃花源
+Depends: mobilesubstrate, firmware (>= 9.0)
+Conflicts: Flexpackage, Flexpackagebeta, com.fuyuchi.flex, Flex2packagebeta, Flex2package,  com.fuyuchi.flex2, Flex2Blackpackagebeta, com.johncoates.Flex3, Flex3FeatureCatalog
+Replaces: Flexpackage, Flexpackagebeta, com.fuyuchi.flex, Flex2packagebeta, Flex2package,  com.fuyuchi.flex2, Flex2Blackpackagebeta, com.johncoates.Flex3, Flex3FeatureCatalog
+Filename: ./debs/Flex3 Beta可解析版-rootless.deb
+Size: 18514012
+MD5sum: 3b5f3b6db46003c9bdfacddf8ef9ee0e
+SHA1: b48eded05240d819ab544af66d03e82ff81a9de9
+SHA256: 671b638f8b6785cd9a11b2ba5d4b63654720d728f671b29f81d390fadfe3193a
+Section: Theos依赖
+Description: Develop your own tweaks and share them on the Flex Community Cloud. (dopamine 版本flex3可解析应用，不用兼容层，粗体会闪退,建议正在学习或者会做补丁者使用(已知点击应用补丁列表不可以，需要搜索)~~~单独装此包只对第三方应用生效，对系统生效需要装另外一个包，安装前卸载现有的，你配置都在)，0302:更新版本号，盗版源从我这拿东西版本整那么高作甚
+Author: PoomSmart
+Name: Flex3 Beta可解析版-rootless
+
 Package: com.deontw.7days-antirevoke
 Version: 1.0
 Architecture: iphoneos-arm64
