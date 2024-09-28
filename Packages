@@ -1,3 +1,20 @@
+Package: a2.rootless
+Version: 0.5
+Architecture: iphoneos-arm64
+Maintainer: lzsxcl
+Installed-Size: 384
+Depends: mobilesubstrate
+Filename: ./debs/A2锁屏时间修改.deb
+Size: 59860
+MD5sum: 9f06c4655fb31773165060cf3f82fdb0
+SHA1: 99743cfde153e58cb54b0d5bbf10a2857af14424
+SHA256: 55a4fbd0c25dee8775e7bbf87752fca72f576708645c92ab58b6c13711dfb9db
+Section: System
+Description: 让锁屏显示更晚的时间，潜意识地欺骗你已经到了时间点，本质上真实时间比你看到的更早，以避免错过约定的时间
+Author: lzsxcl
+Icon: http://cdn.share.lzsxcl.cc/Tweak/a2.png
+Name: A2锁屏时间修改
+
 Package: cloud368.github.io
 Version: 0.6
 Architecture: iphoneos-arm64 iphoneos-arm64e
