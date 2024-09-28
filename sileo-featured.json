@@ -4,13 +4,13 @@
  "itemCornerRadius": 10,
  "banners": [
   {
-   "url": "https://aptios.github.io/repo/images/Aptlogo.png",
+   "url": "https://cloud368.github.io/repo/images/Aptlogo.png",
    "title": "Local SSH",
    "package": "com.nan.localhostssh",
    "hideShadow": false
   },
   {
-   "url": "https://aptios.github.io/repo/images/iosgt.png",
+   "url": "https://cloud368.github.io/repo/images/iosgt.png",
    "title": "deb",
    "package": "com.nan.deb",
    "hideShadow": false
