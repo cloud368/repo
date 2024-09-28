@@ -1,20 +1,3 @@
-Package: a2.rootless
-Version: 0.5
-Architecture: iphoneos-arm64
-Maintainer: lzsxcl
-Installed-Size: 384
-Depends: mobilesubstrate
-Filename: ./debs/A2锁屏时间修改.deb
-Size: 59860
-MD5sum: 9f06c4655fb31773165060cf3f82fdb0
-SHA1: 99743cfde153e58cb54b0d5bbf10a2857af14424
-SHA256: 55a4fbd0c25dee8775e7bbf87752fca72f576708645c92ab58b6c13711dfb9db
-Section: System
-Description: 让锁屏显示更晚的时间，潜意识地欺骗你已经到了时间点，本质上真实时间比你看到的更早，以避免错过约定的时间
-Author: lzsxcl
-Icon: http://cdn.share.lzsxcl.cc/Tweak/a2.png
-Name: A2锁屏时间修改
-
 Package: cloud368.github.io
 Version: 0.6
 Architecture: iphoneos-arm64 iphoneos-arm64e
@@ -115,45 +98,4 @@ Tag: role::hacker
 Author: PoomSmart
 Depiction: https://Randy-420.GitHub.io/depic/420Tools.html
 Name: 420 Tools
-
-Package: com.deontw.7days-antirevoke
-Version: 1.0
-Architecture: iphoneos-arm64
-Maintainer: Deon
-Installed-Size: 152
-Depends: firmware (>= 11.0), mobilesubstrate
-Conflicts: apt.deonrepo.net.7days-antirevoke
-Replaces: apt.deonrepo.net.7days-antirevoke
-Provides: apt.deonrepo.net.7days-antirevoke
-Filename: ./debs/7Days-AntiRevoke.deb
-Size: 5050
-MD5sum: 94283d7420502872405750426bfb0b04
-SHA1: 3808383fcc605421e2ac8d7aef4a2774281c39c8
-SHA256: e87c80a25b728534fd76c80c259cef4ab4754c1f295fcb16686e186d7e9da7f3
-Section: Tweaks
-Description: No more revocations for enterprise certificate. 無視企業證書掉簽。
-Author: Deon
-Name: 7Days-AntiRevoke
-
-Package: com.twickd.john-sklikas.3dbadgeclear
-Version: 1.6.8
-Architecture: iphoneos-arm64
-Maintainer: isklikas
-Installed-Size: 192
-Depends: firmware (>= 13.0), mobilesubstrate
-Conflicts: com.isklikas.3dbadgeclear
-Replaces: com.isklikas.3dbadgeclear
-Provides: com.isklikas.3dbadgeclear
-Filename: ./debs/3DBadgeClear.deb
-Size: 17860
-MD5sum: 2e6aab09b1051b0f6d6c7822bf749de6
-SHA1: 66a02309299630f2927a100b6e0e2f4a5d5409c0
-SHA256: 7383016a023397cc32e17760bfc8f7121e97e55cea878fbdde043438cfc1fc91
-Section: Tweaks
-Description: Clear your badges from the Force Touch / 3D Touch Menu! Only appears on apps that have badges.
-Author: isklikas
-Depiction: https://p2kdev.github.io/repo/depictions/index.html?packageId=com.twickd.john-sklikas.3dbadgeclear
-Icon: https://p2kdev.github.io/repo/api/packageinfo/com.twickd.john-sklikas.3dbadgeclear/icon.png
-Name: 3DBadgeClear
-Sileodepiction: https://p2kdev.github.io/repo/depictions/native/com.twickd.john-sklikas.3dbadgeclear.json
 
