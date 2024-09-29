@@ -1,18 +1,3 @@
-Package: apt.llld.Flex3beta
-Version: 1.3~Beta98
-Architecture: iphoneos-arm64e
-Maintainer: 来了老弟
-Depends: mobilesubstrate, firmware (>=12.2) | org.swift.libswift (>=5.0), oldabi
-Filename: ./debs/Flex3-beta98-roothide.deb
-Size: 40452924
-MD5sum: 7bba9a4f453c8d88687e9b2f256b4270
-SHA1: cd17db99de747f8f9a75dc802225dba1146b8d24
-SHA256: ab7341b46bfe17a591c44ba53882d7696ceb038bec9034aec89acff450c3e104
-Section: roothide修复插件
-Description: A powerful app to remove ads and enhance system patches.一款强大的App去广告和系统补丁增强神器，需要安装Legacy arm64e Support_________仅测试用,有问题卸载
-Author: John Coates
-Name: Flex3程序修改器-roothide
-
 Package: com.cpdigitaldarkroom.itsevanesco
 Version: 2024.05.26
 Architecture: iphoneos-arm64
@@ -21,11 +6,11 @@ Installed-Size: 756
 Depends: mobilesubstrate
 Conflicts: com.cpdigitaldarkroom.evanesco, com.1conan.evanescoxi, com.randy420.evanescocc
 Filename: ./debs/Evanesco!_2024.05.26.deb
-Size: 109106
-MD5sum: c77a5f77733ce3f2d6a18314d1712927
-SHA1: 30cb04e8d149e7541f9ccf7b813273fde9ddce95
-SHA256: d47f7f25c9a040fb3e5bf3985588fdd3ca75ff9b06de9a9ad9f38ad2366a3525
-Section: Theos依赖
+Size: 109108
+MD5sum: 9be2abc2a75c354179d9af015a56f5f3
+SHA1: 17eb4b1055073aea767eadc06e280e375b764f58
+SHA256: 306069b3802a999d8b7ccaee8f3aec54ef6a312d1c00265173375ffb12f324a7
+Section: Tweaks
 Description: Clear Your Homescreen After Inactivity
 Author: CP Digital Darkroom <tweaks@cpdigitaldarkroom.support>
 Depiction: https://Randy-420.GitHub.io/depic/evanesco.html
@@ -39,11 +24,11 @@ Installed-Size: 664
 Depends: mobilesubstrate
 Conflicts: com.cpdigitaldarkroom.evanesco, com.1conan.evanescoxi, com.randy420.evanescocc
 Filename: ./debs/Evanesco!.deb
-Size: 108664
-MD5sum: 52f2cbcec526ffd8743c5b9ee6df3b5e
-SHA1: f2642bf78eb334b5e0a11918142c49e15bafbf32
-SHA256: 6522f11d87258c90a038184a204f1d1272335885b0c65f652ba10b206b1266d7
-Section: Theos依赖
+Size: 108674
+MD5sum: a0d9f7e643765fa93a6626ad5dfcb934
+SHA1: 4776d9c2fb14208ab8f68b67cb59622cba4e3409
+SHA256: 66444fe48c15a1191fd56975895fc8f33eb855adaa3814c27a17775b6e66de12
+Section: Tweaks
 Description: Clear Your Homescreen After Inactivity
 Author: CP Digital Darkroom <tweaks@cpdigitaldarkroom.support>
 Depiction: https://Randy-420.GitHub.io/depic/evanesco.html
@@ -57,11 +42,11 @@ Installed-Size: 268
 Depends: mobilesubstrate, com.randy420.tools (>=2.1)
 Replaces: com.randy420.fixcydia
 Filename: ./debs/aptFix.deb
-Size: 14030
-MD5sum: 5a32b403f5fe8bc3d0f81d30d4334e29
-SHA1: 1f1f73c3a993499a28b0e261209beb30172ff1de
-SHA256: 40aa3f8e721829edadcc4c9c5d9ff73920e142d1be1fb9e1c096a9f41710f90d
-Section: Theos依赖
+Size: 14002
+MD5sum: 09e5cff8c4b535a3b742d71a9c128dc9
+SHA1: 812ca88877c18df404219a0858a4780978defb4c
+SHA256: 7cd760178558c0c7e664b2ad5061d291c70646de9659647b8204a0461c1ce33e
+Section: Utilities
 Description: Sometimes, your package manager will kick back an error like "DPKG Locked" or 'apt locked' these errors aren't actually caused by Cydia or other package managers, rather caused by those subprocesses (apt, dpkg, cydo, etc).
   
  Clear these errors with one simple terminal command.
@@ -77,11 +62,11 @@ Maintainer: 桃花源
 Installed-Size: 136
 Depends: mobilesubstrate, cydia.com.ipc.crackerxi | xyz.cypwn.crackerxi
 Filename: ./debs/CrackerXI+ Patch.deb
-Size: 5188
-MD5sum: fee1e5f382247c57afe93347a47ef91b
-SHA1: beab793b1cab5bd3bd52c9cab03528190a392587
-SHA256: 0e55ecaa7f73446f73a615a2ee7906dfcaeff25c6254b490cf92697688b7c4b2
-Section: Theos依赖
+Size: 5172
+MD5sum: 3a12b65060d7dc84fc88832bc27fc548
+SHA1: 1ef760eb6cd069b5740885f25ec1ed2b5a1805fd
+SHA256: 8c69236669e382eb1779da7a4a828381862022496f73526e6a03713c5e10868d
+Section: Tweaks
 Description: ***Alphabetically order the applications. It's stupid this wasn't a thought in the first place.***
 Author: Randy420 <randy.skinner@hotmail.com>
 Depiction: https://Randy-420.GitHub.io/depic/CrackerXI.html
@@ -94,11 +79,11 @@ Maintainer: 桃花源
 Installed-Size: 184
 Depends: com.opa334.ccsupport, com.cpdigitaldarkroom.itsevanesco
 Filename: ./debs/evanescocc.deb
-Size: 21448
-MD5sum: 49a83a576938c4bef92aeed28ada9f2e
-SHA1: 897be69392c3e803a975facfe5b4fe5eff8afadc
-SHA256: 88a8d1c009ab934749df5176101d8603837c51321f4aca37724e472f3a005776
-Section: Theos依赖
+Size: 21442
+MD5sum: 96ecb90346eb544ef45e8fb47ea59e0f
+SHA1: 28a23e14758c51a5ca8b0e1f250dff43bda5276d
+SHA256: 68b7d873a5738e9168ab4f939751a0aee24ad7a6ee56125f2a2149a5440580cd
+Section: Control Center (Modules)
 Description: Control Center Modules for Evanesco
 Author: Randy420
 Depiction: https://Randy-420.GitHub.io/depic/evanescoCc.html
@@ -112,11 +97,11 @@ Installed-Size: 476
 Depends: com.randy420.tools (>= 2.3), clang, curl, git, grep, perl, rsync, unzip, make, ldid, com.opa334.ccsupport, xar
 Conflicts: net.howett.theos
 Filename: ./debs/Theos Auto Installer.deb
-Size: 68822
-MD5sum: 1a6b067f8843e29536eca39072997158
-SHA1: 29224f4d286f166cee2cb48300b5bef307f1704c
-SHA256: bf4e6d73c64f2993fb3c123d5f840d00d37019cea127b9968c47c46d37a4ba70
-Section: Theos依赖
+Size: 68808
+MD5sum: f2a9cffc91cca3103f44dbb7d73ef474
+SHA1: 1572e9483f23de275f250c4061ab523bdbd49055
+SHA256: 03cdbfe4283407df4afeb6e24abc1e36fd4a0ca067bfbf908ca4996bd2ce32b5
+Section: System
 Homepage: https://theemeraldisle.family
 Description: Install Theos from terminal using a simple terminal command (CONFIGURE FROM SETTINGS AND CONNECT TO WIFI)
  - tai
@@ -138,11 +123,11 @@ Depends: theos-dependencies, swift
 Conflicts: com.randy420.taidependsother, com.randy420.taidependslegacy
 Replaces: com.randy420.taidependsother, com.randy420.taidependslegacy
 Filename: ./debs/Theos Auto Installer Dependencies for Procursus based jailbreaks_0.6.deb
-Size: 742
-MD5sum: 8154ada5333661c593fc462e4e6da076
-SHA1: 8a97be6ec75ba164445703affc79cef4806c7513
-SHA256: 778c0b9535d219c73f59340f732a119be8fd521a63673a2044117ff116808b52
-Section: Theos依赖
+Size: 734
+MD5sum: 84c52b2feb078f7fc46056423f663583
+SHA1: 598254a3f20e4fb36186260d4d3116b345583a82
+SHA256: 34092883914047c8eb1079ec730325122c1c409ecdf306e929361270631428b9
+Section: System
 Homepage: https://theemeraldisle.family
 Description: Dependencies for Procursus based jailbreaks (known as coolstar jailbreaks)
 Tag: role::hacker
@@ -159,11 +144,11 @@ Depends: theos-dependencies, swift
 Conflicts: com.randy420.taidependsother, com.randy420.taidependslegacy
 Replaces: com.randy420.taidependsother, com.randy420.taidependslegacy
 Filename: ./debs/Theos Auto Installer Dependencies for Procursus based jailbreaks.deb
-Size: 740
-MD5sum: ea6a0f09e55eb41334a0e2fb2c1200a1
-SHA1: 5c972d0fc777c7707144cef43c5ae04ec2c5748b
-SHA256: eff5334a9273b3022353db004b4b2b8c2bad5c0a5c1cd625eaecec9524845d06
-Section: Theos依赖
+Size: 738
+MD5sum: addcd7b74020feaacd034e3b800b8bb7
+SHA1: 8b4e887649284dee6b051e1dba094a46c26fc243
+SHA256: 30573adba1a4bfea0fe3049a32c255c67aa28ddbe6db2ae43118f0680cb38784
+Section: System
 Homepage: https://theemeraldisle.family
 Description: Dependencies for Procursus based jailbreaks (known as coolstar jailbreaks)
 Tag: role::hacker
@@ -180,11 +165,11 @@ Depends: org.theos.dependencies, firmware (<= 12.0)
 Conflicts: com.randy420.taidependscoolstar, com.randy420.taidependsother
 Replaces: com.randy420.taidependscoolstar, com.randy420.taidependsother
 Filename: ./debs/Theos Auto Installer Dependencies for Legacy Jailbreaks.deb
-Size: 740
-MD5sum: f804c1dde63968dfc7821f44c3d9a2f9
-SHA1: 8c2d8e0ee37833007747b1be3aa4cd15e111896f
-SHA256: 9fb4c1e4d250a136412095fa677de6907e12e73a63f90300a5037f5a313ce411
-Section: Theos依赖
+Size: 728
+MD5sum: 0ac88deb817d3cf2d017666db8d1a9b0
+SHA1: f98b75f90653f70ed63acc1a4bbe84f6cafa5b76
+SHA256: 29bdcaa69dd05dd4b49e01429a6bc458d4f12a4eb235c370765702bcb055ac68
+Section: System
 Homepage: https://theemeraldisle.family
 Description: dependencies for legacy jailbreaks
 Tag: role::hacker
@@ -201,11 +186,11 @@ Depends: ca-certificates, clang, coreutils, curl, dpkg, git, grep, ldid, make, o
 Conflicts: com.randy420.taidependscoolstar, com.randy420.taidependslegacy
 Replaces: com.randy420.taidependscoolstar, com.randy420.taidependslegacy
 Filename: ./debs/Theos Auto Installer Dependencies for All Other Jailbreaks.deb
-Size: 794
-MD5sum: 891b012b554652eb2a910beaf9e8e605
-SHA1: 2624dd08d9e19ceed21f4ba26e3101a42e61b9bd
-SHA256: 96792275e0ccfb7519b10144c71575467cae7f17b1bbcabee68a3387e8cf55d9
-Section: Theos依赖
+Size: 776
+MD5sum: eb97292efbba419f8f1cbad65af86cc3
+SHA1: 069daffab53c2387c6850c346adc284b652cbb88
+SHA256: 3210b8738cc7641e5dd65fe54cfcc9188589d8981775a161b6a33c4ebdb6ef2f
+Section: System
 Homepage: https://theemeraldisle.family
 Description: dependencies for all other jailbreaks
 Tag: role::hacker
@@ -222,11 +207,11 @@ Depends: ca-certificates, clang, coreutils, curl, dpkg, git, grep, ldid, make, o
 Conflicts: com.randy420.taidependscoolstar, com.randy420.taidependslegacy
 Replaces: com.randy420.taidependscoolstar, com.randy420.taidependslegacy
 Filename: ./debs/Theos Auto Installer Dependencies for All Other Jailbreaks_0.6.deb
-Size: 796
-MD5sum: 87de23fd0cce3508bc11f1ef9ccb283c
-SHA1: 6a3c40a2ac1ed805d8dad8b1ba1e2361f5100ee6
-SHA256: aad626fac5687bdd18d643acfd9c8a2d431e4d35d4157a765d768b473c2dd1c1
-Section: Theos依赖
+Size: 786
+MD5sum: bb383994e0ec9804e902f58861d54866
+SHA1: 37e72cf47804ef1ed843f749b9e376817a4f67e8
+SHA256: ed2344fb348d63ae8ad32dc4edca17180e9fbb93ba2e865687f1ddb2d55ffaa2
+Section: System
 Homepage: https://theemeraldisle.family
 Description: dependencies for all other jailbreaks
 Tag: role::hacker
@@ -242,11 +227,11 @@ Installed-Size: 2392
 Depends: firmware (<= 15.0) | cy+cpu.arm64v8 | oldabi-xina | oldabi
 Replaces: com.randy420.encrypt
 Filename: ./debs/420 Tools.deb
-Size: 597084
-MD5sum: cdfcc39157f3863ed3965833c6514755
-SHA1: 91a284add015380770d9e67f11f4885226a63de7
-SHA256: 298bae7402af21bb3f0e8de36ad4e467c73e9ab68bedbeaac92b91365fc626da
-Section: Theos依赖
+Size: 597064
+MD5sum: bff8787f06f1b9f6086f8abf1c626982
+SHA1: 0589e1980193c63e924356cd292edb88eb72827b
+SHA256: 8bade1e58c941c9a86fd704697b4fc06145ec513c36b7e3b389ebf2d187a5bce
+Section: System
 Homepage: https://theemeraldisle.family
 Description: 420Tools holds the preferences for all my tweaks as well as shared files for my tweaks.
 Tag: role::hacker
@@ -263,10 +248,10 @@ Depends: firmware (<= 15.0) | cy+cpu.arm64v8 | oldabi-xina | oldabi
 Replaces: com.randy420.encrypt
 Filename: ./debs/420 Tools_2.3.9.deb
 Size: 772350
-MD5sum: 135424f24343ea4fbc351a055c6084c5
-SHA1: 61e19b83fac14b3eb44dacee688facf8984496a6
-SHA256: c5cd1b9c2c56ea476eb49869d149b468bbf7d143b1a6378607bb50ee5abc906f
-Section: Theos依赖
+MD5sum: fcf9d9cd9df3f3b39214fb4744f9a45f
+SHA1: c7b663697afbf8340f5398a8de1bb78881b37fa7
+SHA256: 6aab37a7366f506a31cb25bab4fa5acd37ceeeb179551c8f93506ac8bda8541f
+Section: System
 Homepage: https://theemeraldisle.family
 Description: 420Tools holds the preferences for all my tweaks as well as shared files for my tweaks.
 Tag: role::hacker
@@ -281,11 +266,11 @@ Maintainer: 桃花源
 Installed-Size: 12
 Depends: curl, jq, wget
 Filename: ./debs/appfetch.deb
-Size: 3890
-MD5sum: e9950d316ca56efd3ade7bc02b657d7e
-SHA1: a2cd556633ad711c2c3f8bae6fe52b90659cb069
-SHA256: a5c95f80954e3f45da434f8fad7056f606188770d8ba9fbdea28ff02236f5c88
-Section: Theos依赖
+Size: 3882
+MD5sum: 3cc7cd618bb2d3f5e6afc34ab7d2efc4
+SHA1: ea32f86673a74372da952db9b38d6b5fb9a65be0
+SHA256: c56fef324f599c71d40ddb614c85d1918ca6329ee2add17c57c024467c93f4c2
+Section: System
 Homepage: https://theemeraldisle.family
 Description: nscake+
 Tag: role::hacker
@@ -300,11 +285,11 @@ Maintainer: 桃花源
 Installed-Size: 448
 Depends: mobilesubstrate, com.randy420.tools (>=2.3)
 Filename: ./debs/VolumeStep13_14.deb
-Size: 40948
-MD5sum: c745caa96a4abcd6599dac6dc9e7fb75
-SHA1: 49a16f98ace0f01c325e61c1badb246c7fa21a51
-SHA256: b9680e0cb4cbfcaa266c8f98984b136196d646c0274ee0bba2ebf124caf9056a
-Section: Theos依赖
+Size: 40944
+MD5sum: 5ed5fce3fd2a4cc686fc864d3e55fb99
+SHA1: 1406e8313571558ecae95a5f6900508dbafde2ad
+SHA256: 6288201ce0c289a4bdf06ca94e61fbb9c9f838fc311929094d8996129e503d0c
+Section: Tweaks
 Description: The side volume buttons change the volume by 6.25 percent per click by default.
  VolumeStep13/14 allows you to customize that between 1 percent and 50 percent
  • includes CC Toggle
@@ -321,11 +306,11 @@ Conflicts: com.ex.substitute, org.coolstar.libhooker, science.xnu.substitute, mo
 Replaces: com.ex.libsubstitute, org.coolstar.libhooker, mobilesubstrate
 Provides: mobilesubstrate (= 99), org.coolstar.libhooker (= 1.6.9)
 Filename: ./debs/ElleKit.deb
-Size: 415758
-MD5sum: cc1afbb9335a7f8fcd863406981c9f09
-SHA1: 7b0cfe73be58f170845fb01e6fac10bb6180d9dc
-SHA256: 64f31ded8ffc96263aa6db6b8ce74781ebe8ea1f0dea67532c0f7b210f3efb8e
-Section: Theos依赖
+Size: 415760
+MD5sum: def10f093ea6c06f3020c578d0ecd9d9
+SHA1: 0b9cf92a7fe810d25e05527bb93478a857d4b937
+SHA256: a046aca6136e6d6a4efce711db3da6bbe8f485a991e2610bf4bb2c5f973f46a2
+Section: Tweak Injection
 Priority: optional
 Description: ElleKit tweak injection libraries and loader
 Author: Evelyn
@@ -339,11 +324,11 @@ Maintainer: 桃花源
 Installed-Size: 888
 Depends: libiosexec1 (>= 1.3.1), libssl3 (= 3.2.1)
 Filename: ./debs/openssl_3.2.1_iphoneos-arm.deb
-Size: 302702
-MD5sum: 8db85e3b3e1f7d6d9d081990c99be9c7
-SHA1: 0e1ddc83384919f2d14849f7bce214f6dc42b9f6
-SHA256: 03eff13ce64b3be439cb39226c8e1626dde24d59241e5dd1612b77202ddbd80c
-Section: Theos依赖
+Size: 302706
+MD5sum: 9a94dfd29bbe8808bf1051a58426c1bb
+SHA1: 928541827e20035fa3b65253a601e9d9cf17dbb1
+SHA256: 490285d09dde4f421423da1ead14993ac4c507f2aebeda7ea567db40cf83f52d
+Section: Security
 Priority: standard
 Description: Secure Sockets Layer toolkit - cryptographic utility
  This package is part of the OpenSSL project's implementation of the SSL
@@ -367,11 +352,11 @@ Installed-Size: 1300
 Depends: mobilesubstrate, com.randy420.tools (>=2.3.7)
 Replaces: com.ipadkid.ftt, com.azmilaila.ftt, com.ceadd.flextotheosbyipadkid358, com.randy420.ipadkid.ftt
 Filename: ./debs/Flex To Theos.deb
-Size: 370742
-MD5sum: 311c9ad07e343847efc8ca816a320261
-SHA1: 3ca1fe9ebf4c336b1d53fb616f1c100c57780b97
-SHA256: ed1c1e03d414eb0414b01e60ca00f624b67441c9613f2a855dffe5adbcefccfa
-Section: Theos依赖
+Size: 370736
+MD5sum: e493749d7d2a7f27069c5224363b35f7
+SHA1: ab5e6df2c34fcceb2ca261a4943d6890094be8ba
+SHA256: c3b9ee1f60849ba9a1d89d71f3c7b9047d5718d3edc2b9ec4e0be496c0e900bc
+Section: Utilities
 Homepage: https://theemeraldisle.family
 Description: First made by iPadkid358 - then updated by myself. Change Flex 3 patches into Theos projects using simple terminal commands.
   
@@ -388,11 +373,11 @@ Installed-Size: 1300
 Depends: mobilesubstrate, com.randy420.tools (>=2.3.7)
 Replaces: com.ipadkid.ftt, com.azmilaila.ftt, com.ceadd.flextotheosbyipadkid358, com.randy420.ipadkid.ftt
 Filename: ./debs/Flex To Theos_1.4.deb
-Size: 370754
-MD5sum: 974781676538b45096a3be7a2a447e90
-SHA1: 6053f02318a65f32e2e5899c844790c61048d0fe
-SHA256: 0071313df14ab811fccacab0297f50e2cf0ae79b37a397d512201ebd829f9e77
-Section: Theos依赖
+Size: 370750
+MD5sum: 2755ca666e9964b55de945d16f91ddb7
+SHA1: 2fbc0a2667e87ea9e52cb218e18ef7895dd87b31
+SHA256: d4ea297caac7ed8e9d9d041553e1408cb5c3a42232bae143c6ee6cceb3533696
+Section: Utilities
 Homepage: https://theemeraldisle.family
 Description: First made by iPadkid358 - then updated by myself. Change Flex 3 patches into Theos projects using simple terminal commands.
   
@@ -409,11 +394,11 @@ Installed-Size: 340
 Depends: mobilesubstrate, com.randy420.tools (>=2.2)
 Replaces: com.randy420.rr
 Filename: ./debs/Remove Russian Language.deb
-Size: 47032
-MD5sum: 78cf337f0d9c6dba0598a887413b761d
-SHA1: 7e7424c964d09b9309e7d69a29f62b95e7e5f3b7
-SHA256: 7ce48b92e2281c7fbbfe27a866d89fa9af200e643e192588eb7877fe485d93f0
-Section: Theos依赖
+Size: 47028
+MD5sum: 076eef069d6cfc757a76a41b334adb5b
+SHA1: bf1fdb02333aeba6da7dd7aaf4f825db3879ef9d
+SHA256: 2547d6fc29a7855b24c3d6bfba95ad7e134c7aef12d9f53aaf479ab1d9eb3dc2
+Section: Utilities
 Homepage: https://theemeraldisle.family
 Description: Remove Russian and or Turkish language project files from tweaks using terminal commands-
   rr
