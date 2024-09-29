@@ -1,3 +1,367 @@
+Package: cloud368.github.io
+Version: 0.0.6
+Architecture: iphoneos-arm
+Maintainer: 桃花源
+Installed-Size: 268
+Depends: mobilesubstrate, com.randy420.tools (>=2.1)
+Replaces: com.randy420.fixcydia
+Filename: ./debs/aptFix.deb
+Size: 14026
+MD5sum: 778e9e58f1e8b8c42d49b36ab987295f
+SHA1: 9e922d5f8959e5f2db9f834acd4283f555e70185
+SHA256: 7f6e438d184cabda0e4deecd64b5c080b8da37b27bedd1343686ea87a2b3ece0
+Section: Theos依赖
+Description: Sometimes, your package manager will kick back an error like "DPKG Locked" or 'apt locked' these errors aren't actually caused by Cydia or other package managers, rather caused by those subprocesses (apt, dpkg, cydo, etc).
+  
+ Clear these errors with one simple terminal command.
+ Run'aptFix' in terminal or press the conveniently placed button in the preference bundle!
+Author: PoomSmart
+Depiction: https://Randy-420.GitHub.io/depic/aptFix.html
+Name: aptFix
+
+Package: cloud368.github.io
+Version: 0.1
+Architecture: iphoneos-arm
+Maintainer: 桃花源
+Installed-Size: 0
+Depends: org.theos.dependencies, firmware (<= 12.0)
+Conflicts: com.randy420.taidependscoolstar, com.randy420.taidependsother
+Replaces: com.randy420.taidependscoolstar, com.randy420.taidependsother
+Filename: ./debs/Theos Auto Installer Dependencies for Legacy Jailbreaks.deb
+Size: 730
+MD5sum: 6fcfefa00587b8608a16d24d8d35edd7
+SHA1: 5c1267db170f77c85b019a026e121a9c5aa1dcc6
+SHA256: 9482efe57ae68528b05e192a6261bc0492eb100a6fcbadd9be131579f1753f3a
+Section: Theos依赖
+Homepage: https://theemeraldisle.family
+Description: dependencies for legacy jailbreaks
+Tag: role::hacker
+Author: PoomSmart
+Depiction: https://Randy-420.GitHub.io/depic/taidependslegacy.html
+Name: Theos Auto Installer Dependencies for Legacy Jailbreaks
+
+Package: cloud368.github.io
+Version: 0.1.8
+Architecture: iphoneos-arm
+Maintainer: 桃花源
+Installed-Size: 340
+Depends: mobilesubstrate, com.randy420.tools (>=2.2)
+Replaces: com.randy420.rr
+Filename: ./debs/Remove Russian Language.deb
+Size: 47020
+MD5sum: 9c9a80a39c811cf446f3347a946caba7
+SHA1: 687f6401b445fd2272125e07f7c3dde9e2dacbec
+SHA256: bf45233c1cfeb69ccf1a665b365d2bf5237fb2e72eadd5739688c3057a59b477
+Section: Theos依赖
+Homepage: https://theemeraldisle.family
+Description: Remove Russian and or Turkish language project files from tweaks using terminal commands-
+  rr
+ OR
+  rr -a
+Author: PoomSmart
+Depiction: https://Randy-420.GitHub.io/depic/rr.html
+Name: Remove Russian Language
+
+Package: cloud368.github.io
+Version: 0.6
+Architecture: iphoneos-arm
+Maintainer: 桃花源
+Installed-Size: 0
+Depends: ca-certificates, clang, coreutils, curl, dpkg, git, grep, ldid, make, odcctools, perl, com.bingner.plutil, rsync, xz
+Conflicts: com.randy420.taidependscoolstar, com.randy420.taidependslegacy
+Replaces: com.randy420.taidependscoolstar, com.randy420.taidependslegacy
+Filename: ./debs/Theos Auto Installer Dependencies for All Other Jailbreaks.deb
+Size: 780
+MD5sum: 859a7a8fa1be7bb3c2be2a47e03f109e
+SHA1: 2563355e191ba72353b52d06530a3817f816d8f0
+SHA256: be66d44cfbdac6d294196c59f63253411c1b4a4908c5c7393f050f529859a1e9
+Section: Theos依赖
+Homepage: https://theemeraldisle.family
+Description: dependencies for all other jailbreaks
+Tag: role::hacker
+Author: PoomSmart
+Depiction: https://Randy-420.GitHub.io/depic/taidependsother.html
+Name: Theos Auto Installer Dependencies for All Other Jailbreaks
+
+Package: cloud368.github.io
+Version: 0.6
+Architecture: iphoneos-arm
+Maintainer: 桃花源
+Installed-Size: 0
+Depends: theos-dependencies, swift
+Conflicts: com.randy420.taidependsother, com.randy420.taidependslegacy
+Replaces: com.randy420.taidependsother, com.randy420.taidependslegacy
+Filename: ./debs/Theos Auto Installer Dependencies for Procursus based jailbreaks_0.6.deb
+Size: 732
+MD5sum: 1d2ceeb87f0b1aaa600da71e7eff1f03
+SHA1: 261d412617a7192cbfb5822adcf74eac2a044b99
+SHA256: 99f7b3235d0947f31686904fab9a81fb863589d13862347d35a4ad9def374dce
+Section: Theos依赖
+Homepage: https://theemeraldisle.family
+Description: Dependencies for Procursus based jailbreaks (known as coolstar jailbreaks)
+Tag: role::hacker
+Author: PoomSmart
+Depiction: https://Randy-420.GitHub.io/depic/taidependscoolstar.html
+Name: Theos Auto Installer Dependencies for Procursus based jailbreaks
+
+Package: cloud368.github.io
+Version: 0.6
+Architecture: iphoneos-arm64
+Maintainer: 桃花源
+Installed-Size: 0
+Depends: ca-certificates, clang, coreutils, curl, dpkg, git, grep, ldid, make, odcctools, perl, com.bingner.plutil, rsync, xz
+Conflicts: com.randy420.taidependscoolstar, com.randy420.taidependslegacy
+Replaces: com.randy420.taidependscoolstar, com.randy420.taidependslegacy
+Filename: ./debs/Theos Auto Installer Dependencies for All Other Jailbreaks_0.6.deb
+Size: 782
+MD5sum: 12cb13c4b4cba3a0d1817da1b7141d87
+SHA1: 96b0c651e91d6d6cad8930a95ace37aa47ba6730
+SHA256: b7146f5486548f3998a4bf721d84ba4a0168cd0af8f40862b8b3fc252184364f
+Section: Theos依赖
+Homepage: https://theemeraldisle.family
+Description: dependencies for all other jailbreaks
+Tag: role::hacker
+Author: PoomSmart
+Depiction: https://Randy-420.GitHub.io/depic/taidependsother.html
+Name: Theos Auto Installer Dependencies for All Other Jailbreaks
+
+Package: cloud368.github.io
+Version: 0.6
+Architecture: iphoneos-arm64
+Maintainer: 桃花源
+Installed-Size: 0
+Depends: theos-dependencies, swift
+Conflicts: com.randy420.taidependsother, com.randy420.taidependslegacy
+Replaces: com.randy420.taidependsother, com.randy420.taidependslegacy
+Filename: ./debs/Theos Auto Installer Dependencies for Procursus based jailbreaks.deb
+Size: 738
+MD5sum: 6f86052bc0c15db27de33686f6f2231d
+SHA1: f6157b5d85df627e14714f052a6675de1c7b2d42
+SHA256: 8da27ca0a1261d8b33060a637853f0c66602b58fe987229511c0c60f5a1c6e5e
+Section: Theos依赖
+Homepage: https://theemeraldisle.family
+Description: Dependencies for Procursus based jailbreaks (known as coolstar jailbreaks)
+Tag: role::hacker
+Author: PoomSmart
+Depiction: https://Randy-420.GitHub.io/depic/taidependscoolstar.html
+Name: Theos Auto Installer Dependencies for Procursus based jailbreaks
+
+Package: cloud368.github.io
+Version: 0.8
+Architecture: iphoneos-arm
+Maintainer: 桃花源
+Installed-Size: 12
+Depends: curl, jq, wget
+Filename: ./debs/appfetch.deb
+Size: 3866
+MD5sum: 3a79a1cbbf0c1dfdb015750c9192c9e4
+SHA1: fe2d0f828f66d31395cde8e890cafd5c02f1bf72
+SHA256: 4df7bdd36434913fe26176804ac81df97039f8dc6ae3a731f0c735f1d5555c58
+Section: Theos依赖
+Homepage: https://theemeraldisle.family
+Description: nscake+
+Tag: role::hacker
+Author: PoomSmart
+Depiction: https://Randy-420.GitHub.io/depic/appfetch.html
+Name: appfetch
+
+Package: cloud368.github.io
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: 桃花源
+Installed-Size: 184
+Depends: com.opa334.ccsupport, com.cpdigitaldarkroom.itsevanesco
+Filename: ./debs/evanescocc.deb
+Size: 21452
+MD5sum: 3ec1d20066d037c60e4eae7cd8f2ad71
+SHA1: 70a60fab3ed02df3c6f9a4ff96e83467698cbb8a
+SHA256: 535e7efb7405a8111d2d42c48b0691a875d634324c73f3ef65be7dd7a96d7839
+Section: Theos依赖
+Description: Control Center Modules for Evanesco
+Author: PoomSmart
+Depiction: https://Randy-420.GitHub.io/depic/evanescoCc.html
+Name: evanescocc
+
+Package: cloud368.github.io
+Version: 1.4
+Architecture: iphoneos-arm64
+Maintainer: 桃花源
+Installed-Size: 1300
+Depends: mobilesubstrate, com.randy420.tools (>=2.3.7)
+Replaces: com.ipadkid.ftt, com.azmilaila.ftt, com.ceadd.flextotheosbyipadkid358, com.randy420.ipadkid.ftt
+Filename: ./debs/Flex To Theos.deb
+Size: 370730
+MD5sum: 61b15035cb0c97cab136adb6fa232fdd
+SHA1: 210cf957666f04c9063ebc87d3b0f87e79ece99c
+SHA256: ae1cfa3c376185a16bf59eacc2b3e17c91b4ddf41799ebb487ac5a43dd3dd0bc
+Section: Theos依赖
+Homepage: https://theemeraldisle.family
+Description: First made by iPadkid358 - then updated by myself. Change Flex 3 patches into Theos projects using simple terminal commands.
+  
+ - Use 'ftt -?' For a full list of options.
+Author: PoomSmart
+Depiction: https://Randy-420.GitHub.io/depic/ftt.html
+Name: Flex To Theos
+
+Package: cloud368.github.io
+Version: 1.4
+Architecture: iphoneos-arm
+Maintainer: 桃花源
+Installed-Size: 1300
+Depends: mobilesubstrate, com.randy420.tools (>=2.3.7)
+Replaces: com.ipadkid.ftt, com.azmilaila.ftt, com.ceadd.flextotheosbyipadkid358, com.randy420.ipadkid.ftt
+Filename: ./debs/Flex To Theos_1.4.deb
+Size: 370722
+MD5sum: 6430bc78504347d0847b1eb2191155f6
+SHA1: 94dbd60969cf50acb823534894315a64fede3581
+SHA256: 6c2f6075b4927e3a7aa5bfa928debba8e135202e44d9549e382602ef45800d1f
+Section: Theos依赖
+Homepage: https://theemeraldisle.family
+Description: First made by iPadkid358 - then updated by myself. Change Flex 3 patches into Theos projects using simple terminal commands.
+  
+ - Use 'ftt -?' For a full list of options.
+Author: PoomSmart
+Depiction: https://Randy-420.GitHub.io/depic/ftt.html
+Name: Flex To Theos
+
+Package: cloud368.github.io
+Version: 2.1
+Architecture: iphoneos-arm
+Maintainer: 桃花源
+Installed-Size: 448
+Depends: mobilesubstrate, com.randy420.tools (>=2.3)
+Filename: ./debs/VolumeStep13_14.deb
+Size: 40930
+MD5sum: 844ca73e326f85e503ab5be4973504a7
+SHA1: 74312c6629490a4abefff007e11cf238582f92b5
+SHA256: a05423672071d67c89b6a4dd7204999f46320904e136fc8a101380197149bca4
+Section: Theos依赖
+Description: The side volume buttons change the volume by 6.25 percent per click by default.
+ VolumeStep13/14 allows you to customize that between 1 percent and 50 percent
+ • includes CC Toggle
+ • add vibration response on volume key press
+Author: PoomSmart
+Depiction: https://Randy-420.GitHub.io/depic/volumeStep.html
+Name: VolumeStep13/14
+
+Package: cloud368.github.io
+Version: 2.3.9
+Architecture: iphoneos-arm64
+Maintainer: 桃花源
+Installed-Size: 2392
+Depends: firmware (<= 15.0) | cy+cpu.arm64v8 | oldabi-xina | oldabi
+Replaces: com.randy420.encrypt
+Filename: ./debs/420 Tools.deb
+Size: 597072
+MD5sum: 36feec430f31b0f495c6ae2c29e119ff
+SHA1: 4afdabc0b23aff12918da667deb35e58867e38de
+SHA256: 8c0d12e29551d72220761d0b25b393bc623a5b428738ee6a29e4669c25288b9b
+Section: Theos依赖
+Homepage: https://theemeraldisle.family
+Description: 420Tools holds the preferences for all my tweaks as well as shared files for my tweaks.
+Tag: role::hacker
+Author: PoomSmart
+Depiction: https://Randy-420.GitHub.io/depic/420Tools.html
+Name: 420 Tools
+
+Package: cloud368.github.io
+Version: 2.3.9
+Architecture: iphoneos-arm
+Maintainer: 桃花源
+Installed-Size: 3148
+Depends: firmware (<= 15.0) | cy+cpu.arm64v8 | oldabi-xina | oldabi
+Replaces: com.randy420.encrypt
+Filename: ./debs/420 Tools_2.3.9.deb
+Size: 772336
+MD5sum: de303de087b4ec1c1fc49ee2fded4d2f
+SHA1: 7ac6cbce81df2f1570483067e6d4db842fbbd8b8
+SHA256: 3259c7e5337e439417bc000aa857cca4995ba0e86f80586f64edac91f9b83b5d
+Section: Theos依赖
+Homepage: https://theemeraldisle.family
+Description: 420Tools holds the preferences for all my tweaks as well as shared files for my tweaks.
+Tag: role::hacker
+Author: PoomSmart
+Depiction: https://Randy-420.GitHub.io/depic/420Tools.html
+Name: 420 Tools
+
+Package: cloud368.github.io
+Version: 2024.05.26
+Architecture: iphoneos-arm64
+Maintainer: 桃花源
+Installed-Size: 756
+Depends: mobilesubstrate
+Conflicts: com.cpdigitaldarkroom.evanesco, com.1conan.evanescoxi, com.randy420.evanescocc
+Filename: ./debs/Evanesco!_2024.05.26.deb
+Size: 109080
+MD5sum: 095030a1bfe9f61464bc70cb9cae4c87
+SHA1: 578097e3caae7335e5135eb8eda7d25aeda8b32f
+SHA256: 5eeb59e063aae80580cce7ffab7c4559a3e34df5120963186bb6bc5dc0d08eec
+Section: Theos依赖
+Description: Clear Your Homescreen After Inactivity
+Author: PoomSmart
+Depiction: https://Randy-420.GitHub.io/depic/evanesco.html
+Name: Evanesco!
+
+Package: cloud368.github.io
+Version: 2024.05.26
+Architecture: iphoneos-arm
+Maintainer: 桃花源
+Installed-Size: 664
+Depends: mobilesubstrate
+Conflicts: com.cpdigitaldarkroom.evanesco, com.1conan.evanescoxi, com.randy420.evanescocc
+Filename: ./debs/Evanesco!.deb
+Size: 108644
+MD5sum: 89ea9b87717974d89073f277745f57a1
+SHA1: 8e9884cd0f5493000012a6f2c2b392a3a5c04ff8
+SHA256: 9c103b4ba513ed908c7ec666da403545bf2886063aae2a9f43759caf4660b911
+Section: Theos依赖
+Description: Clear Your Homescreen After Inactivity
+Author: PoomSmart
+Depiction: https://Randy-420.GitHub.io/depic/evanesco.html
+Name: Evanesco!
+
+Package: cloud368.github.io
+Version: 4.2.5
+Architecture: iphoneos-arm
+Maintainer: 桃花源
+Installed-Size: 136
+Depends: mobilesubstrate, cydia.com.ipc.crackerxi | xyz.cypwn.crackerxi
+Filename: ./debs/CrackerXI+ Patch.deb
+Size: 5158
+MD5sum: 500e3c6da69982186bd1c87ce9a1b99d
+SHA1: 42a2094dd42e5ee9f6414edf59d88a0e0c7983a5
+SHA256: 9e6aa65e4fccdef07ff8ce8f8aed16709013f4d38c4dbff8c979a18f944d4d12
+Section: Theos依赖
+Description: ***Alphabetically order the applications. It's stupid this wasn't a thought in the first place.***
+Author: PoomSmart
+Depiction: https://Randy-420.GitHub.io/depic/CrackerXI.html
+Name: CrackerXI+ Patch
+
+Package: cloud368.github.io
+Version: 5.2.2
+Architecture: iphoneos-arm
+Maintainer: 桃花源
+Installed-Size: 476
+Depends: com.randy420.tools (>= 2.3), clang, curl, git, grep, perl, rsync, unzip, make, ldid, com.opa334.ccsupport, xar
+Conflicts: net.howett.theos
+Filename: ./debs/Theos Auto Installer.deb
+Size: 68812
+MD5sum: 0cf0c7943791ed678c1e5bf9431c65e0
+SHA1: 844168cbdd7dc370c86f8b0909c43127959896e6
+SHA256: 2cc351a2305e17fd317ebb1107fc276133cce2cc12f1ac2ba3f761518810eb50
+Section: Theos依赖
+Homepage: https://theemeraldisle.family
+Description: Install Theos from terminal using a simple terminal command (CONFIGURE FROM SETTINGS AND CONNECT TO WIFI)
+ - tai
+ UNINSTALL THEOS
+ - tai -u
+ REINSTALL THEOS
+ - tai -r
+Tag: role::hacker
+Author: PoomSmart
+Depiction: https://Randy-420.GitHub.io/depic/tai.html
+Name: Theos Auto Installer
+
 Package: openssl
 Version: 3.2.1
 Architecture: iphoneos-arm
