@@ -1,20 +1,1314 @@
-Package: com.iosios.tools
-Version: 2.3.9
-Architecture: iphoneos-arm64
+Package: Flex3beta
+Version: 1:3~Beta98
+Architecture: iphoneos-arm
+Maintainer: John Coates
+Depends: mobilesubstrate, firmware (>=12.2) | org.swift.libswift (>=5.0), firmware (>= 9.0)
+Conflicts: Flexpackage, Flexpackagebeta, com.fuyuchi.flex, Flex2packagebeta, Flex2package,  com.fuyuchi.flex2, Flex2Blackpackagebeta, com.johncoates.Flex3, Flex3FeatureCatalog, Flex3ToolsOnly
+Replaces: Flexpackage, Flexpackagebeta, com.fuyuchi.flex, Flex2packagebeta, Flex2package,  com.fuyuchi.flex2, Flex2Blackpackagebeta, com.johncoates.Flex3, Flex3FeatureCatalog, Flex3ToolsOnly
+Filename: ./debs/Flex3beta_1_3~Beta98.deb
+Size: 9924784
+MD5sum: b7195fcde56658442dc1d6496b585804
+SHA1: 29b5122b841964f29bd490ff19a190ea33827d52
+SHA256: 457aa6bf4e67147b7df0d4d627ea52a0a8a12b10d54aa077077d523b58a1ae6b
+Section: Utilities
+Description: 开发您自己的补丁并在Flex社区Cloud上分享
+ • 添加汉化补丁
+ • 添加编辑补丁
+ • 添加复制补丁
+Author: John Coates
+Name: Flex 3 Beta
+Recommended: com.rpetrich.rocketbootstrap
+
+Package: com.apple.Preferences
+Version: 9.9.9
+Architecture: iphoneos-arm
+Maintainer: White <1410970825@qq.com>
+Depends: firmware (>= 7.0), mobilesubstrate
+Filename: ./debs/屏蔽设置配件提醒_9.9.9.deb
+Size: 4252
+MD5sum: 923df456b353ec93fed239f10fb25a28
+SHA1: 5aec97d870c2115526c5cae6d19081cd8e7c00f9
+SHA256: 534dcb91d713ac8504cf079d440935b6e428658d9d22025a2de036c08f813e27
+Section: Tweaks
+Description: 屏蔽更换第三方电池和其他配件会有烦人不断弹窗提醒
+Author: White <1410970825@qq.com>
+Dev: White
+Name: 屏蔽设置重要提醒
+
+Package: com.eliofeghali.souvenir
+Version: 1.25
+Architecture: iphoneos-arm
+Maintainer: Elio Feghali
+Installed-Size: 688
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/souvenir_1.25.deb
+Size: 3688488
+MD5sum: 70b7565d4c24db11726ff01115602112
+SHA1: 284801264cb759bfc3a9da95d66b99937d0fca9c
+SHA256: d04f265e5f6a65dc5ff0b71e5d9ff3893246f0d8f03777c92f0c9ba301260faf
+Section: Tweaks
+Description: 锁屏界面自定义调整！
+Author: Elio Feghali
+Name: Souvenir
+
+Package: com.myxxdev.samjet
+Version: 1.020722
+Architecture: iphoneos-arm
+Maintainer: MYXXdev™
+Installed-Size: 376
+Pre-Depends: dpkg
+Depends: firmware (>=14.0), firmware (<=15.0), mobilesubstrate, plutil, ws.hbang.common
+Conflicts: com.pheux.fixrandomresprings
+Replaces: com.pheux.fixrandomresprings
+Filename: ./debs/samjet_1.020722.deb
+Size: 64464
+MD5sum: 53b6ca89e5bd9fe6a0655ffdd226af1c
+SHA1: 34b50d1dde4b64973275787d5c8b04cc099c16ed
+SHA256: 313c930758d688abe638fc66f688f54235c14bc7a8578d54a4442a1b1b94ad54
+Section: System
+Description: 更稳定的iOS 14越狱环境！
+ • Description:
+ 此插件将提高有问题的jetsam条目值（仅适用于 iOS 14）
+ -
+ 您的jetsam文件将以当前状态（无论是原版还是自行修改后的）进行备份，并在卸载SamJet®后恢复该版本。两个不同的备份存储在 /usr/sbin/MYXXdev/SamJet/Backups 和 /var/mobile/Media/MYXXdev/SamJet/Backups
+ -
+ 不要删除这些文件/文件夹！
+ -
+ 在使用此插件之前，您对SamJet®中以外的条目所做的任何修改都将保持不变
+ -
+ 对以下jetsam条目进行了修改：
+ -
+ • CommCenter
+ • CommCenterMobileHelper
+ • CommCenterRootHelper
+ • DragUI.druid
+ • NetworkProcess
+ • SpringBoard
+ • accountsd
+ • aggregated
+ • apsd
+ • assetsd
+ • bulletindistributord
+ • cfnetwork.AuthBrokerAgent
+ • cfnetwork.cfnetworkagent
+ • cloudd
+ • configd
+ • coreduetd
+ • dasd
+ • duetexpertd
+ • healthd
+ • locationd
+ • mDNSResponder.reloaded
+ • mlmodelingd
+ • nanoprefsyncd.2
+ • navd
+ • networkd
+ • nsurlsessiond
+ • routined
+ • searchd
+ • sharingd
+ • splashboard
+ • symptomsd
+ • symptomsd.helper
+ • wifid
+ • keyboard.service
+ • share.services
+ -
+ --------------------------------------
+ 感谢您使用SamJet®！
+ ♥ MYXXdev™
+ --------------------------------------
+ • 更新日志：
+ --------------------------------------
+ -
+ ~ v1.020722
+ -
+ 添加了额外的修改条目
+ -
+ 压缩图像以节省空间
+ -
+ 修正了Root检查
+ -
+ 更新描述以列出修改项目
+ -
+ 更新偏好设置
+ -
+ --------------------------------------
+ -
+ ~ v1.020422
+ -
+ 初始发布
+ -
+Author: MYXXdev™
+Name: SamJet® (for iOS 14)
+
+Package: com.pheux.fixrandomresprings
+Version: 1.2.1
+Architecture: iphoneos-arm
+Maintainer: Pheux
+Depends: com.bingner.plutil, firmware (>= 12.0)
+Filename: ./debs/fixrandomresprings_1.2.1.deb
+Size: 1280
+MD5sum: c2688c8dd14e1a1e48fd9e29b7fc259a
+SHA1: 653cf06d2db9a6edbdf5de051e1910e265c163f0
+SHA256: 1af4ed85c5f856874d236c58de26f4eff1126c57e7f56c3abbc6ace163098bdb
+Section: System
+Description: 增加SpringBoard内存，以防止SpringBoard崩溃并停止随机注销重启。我找到了修复程序并告诉了最初编写此脚本的skitty。要恢复更改，只需卸载它即可
+Author: Pheux
+Name: Fix Random Resprings
+
+Package: com.white.appstoreplusplus
+Version: 0.10.1-5
+Architecture: iphoneos-arm
+Maintainer: CokePokes
+Depends: firmware (>= 11.0), mobilesubstrate
+Conflicts: com.unlimapps.uaupdatetools
+Filename: ./debs/appstore++_0.10.1-5.deb
+Size: 3209136
+MD5sum: d62337a1def3ccc3ac819bb5a70b5335
+SHA1: e4bd441010e5811dde4bf45eda776c41f811a87d
+SHA256: 68d4c6f9a4f0b75ff66c20e6fadd2e7055828571b534e87fe5683bfff2253e3b
+Section: Tweaks
+Priority: optional
+Description: 支持iOS 11-15在AppStore中降级/升级应用
+Author: CokePokes
+Depiction: https://cokepokes.github.io/depiction/appstoreplus.html
+Dev: CokePokes
+Icon: https://cokepokes.github.io/depiction/appstoreplus/icon.png
+Name: AppStore++汉化版
+
+Package: com.white.bankabc
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: White <1410970825@qq.com>
+Installed-Size: 149
+Depends: mobilesubstrate
+Filename: ./debs/Bankabc_1.0.deb
+Size: 5968
+MD5sum: f0a46e3e56ba2e46c55d5c1ef380021c
+SHA1: f280eb99e10e8e428e2b15ff11d46b504c0b77e4
+SHA256: e8b78cbc4808becc8c9cae007887f17a5b6cf77dce219395fec74c53d937158d
+Section: NoAds
+Description: 支持7.3.0-8.1.0去启动广告及更新弹窗，屏蔽越狱
+Author: White <1410970825@qq.com>
+Name: 中国农业银行屏蔽越狱
+
+Package: com.white.bilianime
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: White <1410970825@qq.com>
+Installed-Size: 165
+Depends: mobilesubstrate
+Filename: ./debs/bilianime_1.0.deb
+Size: 4764
+MD5sum: ad36c20f0802383d9fbc5f17694aea89
+SHA1: 95db2b96ca03b3f18be26e603d1a2b11e5a11c00
+SHA256: 09b57f344b1db631f68b9f01196a7aab7c65cb0cdc16b0d744b055f4a4395688
+Section: NoAds
+Description: 基于7.65.0制作，去部分广告及屏蔽越狱
+Author: White <1410970825@qq.com>
+Name: 哔哩哔哩去广告
+
+Package: com.white.cloud189
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: White <1410970825@qq.com>
+Installed-Size: 149
+Depends: mobilesubstrate
+Filename: ./debs/cloud189_1.0.deb
+Size: 4080
+MD5sum: 7b06e0ee97a14cd4d133f2832f609f3e
+SHA1: a20b18285e18c5c3e7aac0cbccab7c721d55e3b5
+SHA256: 583bc40d9322ad69b1e1d379cfd78ade254cb501c743ad596c2cffdff6576ff5
+Section: NoAds
+Description: 支持9.1.1去启动广告及更新弹窗，屏蔽越狱
+Author: White <1410970825@qq.com>
+Name: 天翼云盘去启动广告
+
+Package: com.white.crackerxi
+Version: 1.1.16
+Architecture: iphoneos-arm
+Maintainer: c0pyn1nja
+Depends: firmware (>= 11.0)
+Filename: ./debs/crackerxi_1.1.16.deb
+Size: 6069188
+MD5sum: 7d486983ff048853d2c4d2c94a8c128d
+SHA1: 95fbe3c9267ae079ff427ec2958d48851a47e8f5
+SHA256: 2359373cb89cbc881c20922757c3a204e3f4ff14ee15a9190a57c712e12f0eff
+Section: Utilities
+Description: 解密iOS砸壳应用，不支持牛磺酸
+Icon: file:///Applications/crackerxi.app/AppIcon.png
+Name: CrackerXI+
+Website: https://ipastore.me
+
+Package: com.white.cracktool4
+Version: 4.0~beta10b
+Architecture: iphoneos-arm
+Maintainer: Julio
+Depends: sed, shell-cmds, system-cmds, uikittools (>= 1.1.4), coreutils-bin, coreutils
+Filename: ./debs/cracktool4_4.0~beta10b.deb
+Size: 1955964
+MD5sum: ecd6fe0a982f7edff8119f435960d5a2
+SHA1: 800b58ef3f73fe3c3c56c712b8a0b73651c33374
+SHA256: f618d117b5aea0dd55fe77b913168d34ac99fed63b880d1e3fe5d0b579d0780f
+Section: Utilities
+Homepage: https://twitter.com/ijulioverne
+Description: 一键破解插件，完善汉化
+Author: julioverne
+Depiction: https://julio.hackyouriphone.org/description.html?id=com.julioverne.cracktool4
+Name: CrackTool4 (iOS 9 - 14)
+
+Package: com.white.cydown
+Version: 7.1.2-1
+Architecture: iphoneos-arm
+Maintainer: Julio
+Depends: coreutils-bin, coreutils, mobilesubstrate, preferenceloader
+Conflicts: com.julioverne.cydown, com.crack.cydown.cn, com.hk.cydown.all
+Filename: ./debs/cydown_7.1.2-1.deb
+Size: 2538888
+MD5sum: 804569b55b55fe8928bb00c7261bad1d
+SHA1: 29502c6d045256d0b5639a8060486f7c0e5f9aba
+SHA256: a3a008d0360af64d26fbcf17028c957c69f55b3da0375eace1e7c4393b31356d
+Section: Utilities
+Description: CyDown 7.1.2汉化版
+Author: julioverne <julioverne@me.com>
+Name: CyDown [7.1.2汉化版]
+
+Package: com.white.dleasy
+Version: 2.14.4k
+Architecture: iphoneos-arm
+Maintainer: CyPwn
+Depends: firmware (>= 12.0), mobilesubstrate, preferenceloader
+Filename: ./debs/dleasy_2.14.4k.deb
+Size: 5561644
+MD5sum: 078c852144b7a0fdf0bd6e676346cf6e
+SHA1: f53bdb971e2e4419d51877ddbd1dd6388085fff3
+SHA256: 4169fcdfd30c01a18471d78e933c30b7142fdfda2ee1df309e127864432a9bf0
+Section: Tweaks
+Description: 下载社交应用的媒体图片和视频
+Author: AhmedBafkir
+Depiction: https://repo.cypwn.xyz/depiction/2054
+Icon: https://media.havoc.app/62040a16cc1cde4bfe9aba43
+Name: DLEasy
+Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/2054
+
+Package: com.white.dumpdecrypter
+Version: 1.3-7
+Architecture: iphoneos-arm
+Maintainer: Netskao <bigboss@thebigboss.org>
+Installed-Size: 2428
+Depends: firmware (>= 11.0), mobilesubstrate
+Filename: ./debs/dumpdecrypter_1.3-7.deb
+Size: 529140
+MD5sum: c42c5db235352fc293ca34bfc12bf25d
+SHA1: 4ea4b867afe7eb3a4ee9a3273a38109cde0651dd
+SHA256: d152b6f0c8b10ff1d6479f687084696fa498cfe4726f655cf6b0e5ca087cfe05
+Section: Utilities
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=dumpdecrypterDp
+Description: DumpDecrypter是基于dumpdecrypted的修改封装，使用方式：打开桌面的DumpDecrypter应用程序选择需要解密的应用，解密的IPA会保存至：/var/mobile/Documents/DumpDecrypter
+ 选择应用后会自动杀掉应用进程重新打开，解密前加载所有Frameworks，解密前停止所有非解密线程，解密完成后自动恢复等(解密后的IPA如果要直接安装，建议重新签名，无论使用的签名证书是否有效，否则某些环境会出现闪退等问题)
+Tag: purpose::extension
+Author: Netskao <1410970825@qq.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=dumpdecrypterDp
+Dev: netskao
+Name: DumpDecrypter
+Sponsor: thebigboss.org <http://thebigboss.org>
+
+Package: com.white.ftt
+Version: 1.1
+Architecture: iphoneos-arm
 Maintainer: Randy420 <randy.skinner@hotmail.com>
-Installed-Size: 2392
-Depends: firmware (<= 15.0) | cy+cpu.arm64v8 | oldabi-xina | oldabi
-Replaces: com.randy420.encrypt
-Filename: ./debs/com.iosios.tools_2.3.9_iphoneos-arm64.deb
-Size: 546968
-MD5sum: 60ecf12efbe7db2f15712bb02c6fd271
-SHA1: f9b253121dc09e248270bc5f4edda2dbbbee85dd
-SHA256: 11e1aa69a041610ffdae79db52f156b18f855b954146e1d3d7bcbbad5776f54b
-Section: THEOS依赖
+Installed-Size: 484
+Depends: mobilesubstrate, com.white.tools (>=2.2)
+Replaces: com.ipadkid.ftt, com.azmilaila.ftt, com.ceadd.flextotheosbyipadkid358, com.randy420.ipadkid.ftt
+Filename: ./debs/ftt_1.1.deb
+Size: 82440
+MD5sum: f0ec2bfadad07b54323218aab9b11c1d
+SHA1: e50125d0d18ba1406c055eaf52c73efdac5b2f3e
+SHA256: 363310cae0ab255e405b435a876c5da11d5a1a5063298f710b668bf7478b1319
+Section: System
 Homepage: https://theemeraldisle.family
-Description: 420Tools holds the preferences for all my tweaks as well as shared files for my tweaks.
+Description: 原作者iPadkid358制作 - 然后由randy420更新。使用简单的终端命令将Flex 3补丁转换为Theos项目
+  
+ - 使用'ftt -?'查看选项完整列表
+Author: ipad_kid_Randy420 <ipadkid358@gmail.com, randy.skinner@hotmail.com>
+Depiction: https://Randy-420.GitHub.io/depic/ftt.html
+Name: Flex To Theos
+
+Package: com.white.fuckpay
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: 小果子
+Installed-Size: 152
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/fuckpay_0.0.1.deb
+Size: 3188
+MD5sum: 24805f74e617631ae5c6b4cdd65df6c9
+SHA1: f2d17b8fd878d585d9f4d2f6fd274fcab46a7938
+SHA256: a2848839e989731076b5b5608b99a97bc0958808652ec7e55f8917ca8d40bdaa
+Section: Tweaks
+Description: 本地内购插件，仅支持本地验证的应用内购，请不要尝试内购热门软件，支持免越狱注入，如果支持内购，点击购买后取消即为内购成功
+Author: 小果子
+Name: FuckPay
+
+Package: com.white.haptickeys
+Version: 4.4
+Architecture: iphoneos-arm
+Maintainer: ReJail <rejail@rejail.ru>
+Installed-Size: 362
+Depends: mobilesubstrate, preferenceloader, applist, ws.hbang.common, firmware (>= 10.0)
+Conflicts: com.cabralcole.haptickeyboard
+Filename: ./debs/haptickeys_4.4.deb
+Size: 33664
+MD5sum: 0b6ff8977991183a82ab4f73bf40e3b5
+SHA1: a1e43c11bf91721184eedd7c43600ebfd5ded63c
+SHA256: fa364819ea9d21ead7a206ce5df78d40e20d19db066c979451317b5284194c4a
+Section: Tweaks
+Description: 添加键盘和桌面图标的触觉反馈
+Author: colecabral
+Depiction: https://rejail.ru/depiction.php?file=haptickeys
+Icon: file:///Library/PreferenceBundles/HKSettings.bundle/HK@2x.png
+Name: HapticKeys Rus
+Sileodepiction: https://rejail.ru/sileo/depiction.php?file=haptickeys
+
+Package: com.white.iridium
+Version: 1.2.15
+Architecture: iphoneos-arm
+Maintainer: White <1410970825@qq.com>
+Installed-Size: 15312
+Depends: firmware (>= 13.5)
+Filename: ./debs/iridium_1.2.15.deb
+Size: 5427352
+MD5sum: 14a3a0b30386998ef6b82cffd58ce73e
+SHA1: b3c9edfbc083f8c20fd81568e1476ad0adf9b337
+SHA256: 2f1aa75e9679f77c23e4ec438e2f68108539b27ab829adffb2f92ef1594dcd3f
+Section: Utilities
+Priority: optional
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=iridiumDp
+Description: 一个可完美解密小组件的砸壳解密工具
+ 汉化by：威锋@Alicys，最佳使用系统：iOS13.5-14.3
+Tag: purpose::uikit
+Author: White <1410970825@qq.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=iridiumDp
+Dev: lakraream
+Name: 全权限砸壳工具汉化版
+Sponsor: thebigboss.org <http://thebigboss.org>
+
+Package: com.white.leap
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: 小果子
+Installed-Size: 720
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/leapcrack_0.0.1.deb
+Size: 289468
+MD5sum: 972bba61ecb54b0afbec9ed079e0eef1
+SHA1: fdf1990fb3e052f0d879f6641c5cbcf1c70a8802
+SHA256: b08f181d6344eeb621a0c5a3ebbb0e71e614dbb979fbb4e3010890ce536e9115
+Section: Tweaks
+Description: Lightricks软件包括Photoleap, Videoleap, Beatleap, Lightleap, 艺章(Artleap), Motionleap及Facetune Video, Facetune破解，解锁会员订阅
+Author: 小果子
+Name: Lightricks-leap通用破解
+
+Package: com.white.resentment
+Version: 1.0k
+Architecture: iphoneos-arm
+Maintainer: CyPwn
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common, firmware (>= 14.0), firmware (<< 16.0)
+Filename: ./debs/resentment_1.0k.deb
+Size: 80600
+MD5sum: f7ce375307058d2277f42dcf4dac6458
+SHA1: bb7db962a1f6559996ecae5886ad5e83a82e6c75
+SHA256: 7368fca7cf7c2c0a8ef65bedf1cdcd94367e450ee2d9bc53639254c4d9787d5f
+Section: Tweaks
+Description: 将iOS 16的音乐播放器引入旧版iOS，CBZ破解
+Author: uz.ra
+Depiction: https://repo.cypwn.xyz/depiction/1944
+Icon: https://media.havoc.app/65b9c2a8d798b2b3c1908016
+Name: Resentment
+Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/1944
+
+Package: com.white.tai
+Version: 5.2.2
+Architecture: iphoneos-arm
+Maintainer: Randy420 <randy.skinner@hotmail.com>
+Installed-Size: 476
+Depends: com.white.tools (>= 2.3), clang, curl, git, grep, perl, rsync, unzip, make, ldid, com.opa334.ccsupport, xar
+Conflicts: net.howett.theos
+Filename: ./debs/tai_5.2.2.deb
+Size: 58972
+MD5sum: d208ab9cfd6a1b61261592e1d9792165
+SHA1: 2f49eb61088380aab931d82a1f248496f7067f11
+SHA256: 500d23f7393ee40d0d3600d820f19408bc589f639caf2401d8ce37e748fae46a
+Section: System
+Homepage: https://theemeraldisle.family
+Description: 使用简单的命令从终端安装Theos(在设置里配置好并连接到WiFi)
+ - tai -u 卸载Theos
+ - tai -r 重装Theos
+Tag: role::hacker
+Author: Randy420 <randy.skinner@hotmail.com>
+Depiction: https://Randy-420.GitHub.io/depic/tai.html
+Name: Theos Auto Installer
+
+Package: com.white.taidependscoolstar
+Version: 0.4
+Architecture: iphoneos-arm
+Maintainer: Randy420 <randy.skinner@hotmail.com>
+Installed-Size: 0
+Depends: odcctools, lz4, swift, xz-utils, plutil | com.bingner.plutil
+Conflicts: com.randy420.taidependsother, org.theos.dependencies
+Replaces: com.randy420.taidependsother, org.theos.dependencies, theos-dependencies
+Filename: ./debs/dependsCool.deb
+Size: 952
+MD5sum: d8c4181e4b9d179d6cfd379f4e108aa4
+SHA1: 2a89b5510b2072d5740a982db5a78f266b0c3332
+SHA256: d5e1268593b127ff3dabf6b500ad54af4513f2b6e2f1ff616074f1b850f46c93
+Section: System
+Homepage: https://theemeraldisle.family
+Description: Dependencies for Procursus based jailbreaks (known as coolstar jailbreaks)
+Tag: role::hacker
+Author: Randy420 <randy.skinner@hotmail.com>
+Depiction: https://Randy-420.GitHub.io/depic/taidependscoolstar.html
+Name: Theos Auto Installer Dependencies for Procursus based jailbreaks
+
+Package: com.white.taidependscoolstar
+Version: 0.4
+Architecture: iphoneos-arm
+Maintainer: Randy420 <randy.skinner@hotmail.com>
+Installed-Size: 0
+Depends: odcctools, lz4, swift, xz-utils, plutil | com.bingner.plutil
+Conflicts: com.randy420.taidependsother, org.theos.dependencies
+Replaces: com.randy420.taidependsother, org.theos.dependencies, theos-dependencies
+Filename: ./debs/taidependscoolstar_0.4.deb
+Size: 992
+MD5sum: 6facccec0c633e94abf5f02439e1a061
+SHA1: 23f6aebca5ba0afe521ff835902d4ccc72344a8a
+SHA256: e36caba7c000bdffc888e4e5263e937d393cdbbdeee2717c7730b307a5240552
+Section: System
+Homepage: https://theemeraldisle.family
+Description: 使用酷星越狱工具的设备在安装Theos所需依赖
+Tag: role::hacker
+Author: Randy420 <randy.skinner@hotmail.com>
+Depiction: https://Randy-420.GitHub.io/depic/taidependscoolstar.html
+Name: Theos Auto Installer Dependencies for Procursus based jailbreaks
+
+Package: com.white.taobao
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: White <1410970825@qq.com>
+Depends: mobilesubstrate
+Filename: ./debs/taobao_1.0.deb
+Size: 6028
+MD5sum: 187ab8a6e6dd247b3528bab23c173332
+SHA1: fc2ff52ad2c3d6a94ed504835e98b984c1fa0ae0
+SHA256: 97e1cfe550d0f10e0159edb81e25cd5a717e7c3da150c0a1eaa052bd7b6c0060
+Section: NoAds
+Description: 屏蔽最新版淘宝越狱检查
+Author: White <1410970825@qq.com>
+Name: 淘宝屏蔽越狱
+
+Package: com.white.tools
+Version: 2.3.6
+Architecture: iphoneos-arm
+Maintainer: Randy420 <randy.skinner@hotmail.com>
+Installed-Size: 2288
+Depends: ws.hbang.common
+Replaces: com.randy420.encrypt
+Filename: ./debs/tools_2.3.6.deb
+Size: 799852
+MD5sum: a608955d5917e4b871b9e7fda095e18e
+SHA1: 1c92c90c89ea46d2625a721344cfe3e4c682c217
+SHA256: 4afbd6e7606a903e05bca323cdcec729a7bb73b00ec24c74fddda7dd79129d54
+Section: System
+Homepage: https://theemeraldisle.family
+Description: Theos自动安装程序
 Tag: role::hacker
 Author: Randy420 <randy.skinner@hotmail.com>
 Depiction: https://Randy-420.GitHub.io/depic/420Tools.html
 Name: 420 Tools
+
+Package: com.white.unidream
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: White <1410970825@qq.com>
+Depends: mobilesubstrate
+Filename: ./debs/unidream_1.0.deb
+Size: 5608
+MD5sum: dcdd441bf25755c87869a271bf4dd813
+SHA1: 26a981a4981bf54ea282ed91117af1180f0d22c4
+SHA256: d72ea5513594e39dfc0659053a149c36c2b391f248f19f6bd78959a498ac41a5
+Section: NoAds
+Description: 屏蔽最新版越狱和关键词检查
+Author: White <1410970825@qq.com>
+Name: Uni Dream屏蔽关键词检查
+
+Package: com.white.volumeflex
+Version: 0.0.5-1
+Architecture: iphoneos-arm
+Maintainer: Joshua Wheeler
+Installed-Size: 544
+Depends: mobilesubstrate (>= 0.9.5000), libflex
+Filename: ./debs/volumeflex_0.0.5-1.deb
+Size: 78668
+MD5sum: 10f7a5b8306606fd2c7c6a780927856a
+SHA1: 4dc1f7a46a50889340f22093b45035921865c91e
+SHA256: 189a0f80ad74fa99d2488abcd9a618c7795b1f745d92182d00146c73a84803d4
+Section: Tweaks
+Description: 世界不需要另一个FLEX工具，但手指粗的人需要
+Author: Joshua Wheeler
+Name: VolumeFLEX
+
+Package: com.white.vpnindicator
+Version: 1.1.5
+Architecture: iphoneos-arm
+Maintainer: udevs
+Installed-Size: 356
+Depends: mobilesubstrate (>= 0.9.5000), com.creaturesurvive.libcscolorpicker
+Filename: ./debs/vpnindicator_1.1.5.deb
+Size: 63872
+MD5sum: eb324054a8dbdfe254a62a083ef36cb8
+SHA1: 44558fceb8089bdfb3ab619669b495d9d4a49126
+SHA256: 8f16265eec9132dffdc306f9b13fbad80ea1558ddae13fbce526ed43b308db6d
+Section: Tweaks
+Description: 连接VPN后更改状态栏中的WiFi图标颜色
+Author: udevs
+Depiction: https://udevsharold.github.io/repo/depictions/?p=com.udevs.vpnindicator
+Icon: https://turannul.github.io/home/resources/vpnindicator.png
+Name: VPNIndicator
+
+Package: flexdecrypt
+Version: 1.1
+Architecture: iphoneos-arm
+Maintainer: John Coates
+Depends: firmware (>=12.2) | org.swift.libswift (>=5.0), firmware (>= 9.0)
+Filename: ./debs/flexdecrypt_1.1.deb
+Size: 517688
+MD5sum: 258532aafbcda0425bd21b40da87b069
+SHA1: 1366cd160c1afaaca1662c149f54b3d373808e0e
+SHA256: b739c6aaa67aceca6c6015bac19bcd8db7dc2cc30680eb8e6199a43f8b9e237c
+Section: Utilities
+Description: 用于解密iOS应用和Mach-O二进制文件的工具
+Author: John Coates
+Name: flexdecrypt
+
+Package: libactivator
+Version: 1.9.13~rc6
+Architecture: iphoneos-arm
+Maintainer: Ryan Petrich <rpetrich+activator@gmail.com>
+Installed-Size: 5060
+Depends: mobilesubstrate (>= 0.9.5101), preferenceloader (>= 2.2.2), com.a3tweaks.flipswitch (>= 1.0.16~rc3), com.rpetrich.rocketbootstrap (>= 1.0.9)
+Conflicts: com.booleanmagic.overboard (<= 1.1), com.ashman.lockinfo (<= 2.0.0-6), sbsettings (<= 3.0.6), com.fuyuchi.missionboardpro (<= 1.3), com.kindadev.nobetaalert, libhide (<< 2.4.1), com.fortysixandtwo.activ8rfix, net.tateu.actisearch, com.jakeashacks.activator, com.udevs.activatorhomebuttoncrashfix, eu.rio-doro.actithemefix
+Replaces: com.booleanmagic.overboard (<= 1.1), com.ashman.lockinfo (<= 2.0.0-6), com.fuyuchi.missionboardpro (<= 1.3), com.kindadev.nobetaalert, com.fortysixandtwo.activ8rfix, net.tateu.actisearch, com.jakeashacks.activator, com.udevs.activatorhomebuttoncrashfix, eu.rio-doro.actithemefix
+Filename: ./debs/libactivator_1.9.13~rc6.deb
+Size: 931692
+MD5sum: 8ee2d65ea43dfb4e01d30d98667b8f27
+SHA1: ff5370623d59278c3ef0de2f1c5a26abe607c198
+SHA256: 06adee2102213b76ac60a2fcdfdb971c725dc2b29a2c982be70c8c17ce2768a5
+Section: System
+Priority: optional
+Homepage: https://rpetri.ch/cydia/activator/beta/
+Description: iOS的整合手势、按钮和快捷方式管理
+Author: Ryan Petrich <rpetrich+activator@gmail.com>
+Depiction: https://rpetri.ch/cydia/activator/beta/
+Dev: rpetrich
+Icon: file:///Applications/Activator.app/Icon-Small-modern@2x.png
+Name: Activator
+Sponsor: thebigboss.org <http://thebigboss.org>
+依赖源：https: //rpetri.ch/cydia/
+
+Package: netskao.blblnoads
+Version: 1.1-2
+Architecture: iphoneos-arm
+Maintainer: Nets
+Installed-Size: 328
+Depends: firmware (>= 11.0), mobilesubstrate
+Filename: ./debs/blblnoads_1.1-2.deb
+Size: 73208
+MD5sum: ab914f056400ae65df5248ab0ed3fe1c
+SHA1: 57ffb155c4b414ed5295eaf240b5a58c3a27729f
+SHA256: fd478f2d3eebcdc7c1881ea69671140b838cb6191c090d7439e9b20fb835b638
+Section: NoAds
+Description: 哔哩哔哩去除启动广告, 去除青少年提示, 去除AppStore评分提示, 去除底部动态\发布\会员购按钮, 去除瀑布流中插入广告, 去除视频详情页面推荐视频中的创作推广, 去除评论区顶部会员推广, 我的页面推广等, 仅支持7.48.0及以上版本
+Author: Netskao
+Name: 哔哩哔哩 NoAds
+
+Package: netskao.dumpbinaryfiles
+Version: 1.1-8
+Architecture: iphoneos-arm
+Maintainer: White <1410970825@qq.com>
+Installed-Size: 268
+Depends: firmware (>= 13.0), mobilesubstrate
+Filename: ./debs/dumpbinaryfiles_1.1-8.deb
+Size: 37784
+MD5sum: c38acef513c49ac92132314a9ff84522
+SHA1: f96e4db48094873dfff60fc0a10994d5861f36ee
+SHA256: 6705e6f9a03a3031a90e658622f7301d6196514bfcf045056800345205dc8a5c
+Section: System
+Description: 提供二进制文件动态解密列表，方便逆向工程应用
+Author: White <1410970825@qq.com>
+Name: DumpBinaryFiles
+
+Package: netskao.pulloverpro
+Version: 2.1.4-1
+Architecture: iphoneos-arm
+Maintainer: Nets
+Installed-Size: 1480
+Depends: firmware (>= 10.0), mobilesubstrate, preferenceloader
+Conflicts: com.c1d3r.pulloverpro
+Filename: ./debs/pulloverpro_2.1.4-1.deb
+Size: 338600
+MD5sum: b5e968c43f08048d64d1a25e05b785d5
+SHA1: bae0ec0d77eb0e758f1b8d4bc5397fa0749f14ca
+SHA256: a0b49db6e3acefa29e0c4aa2f14ae6d342dd75ccae5239bb94fed512e597ad91
+Section: Tweaks
+Description: 多任务处理的更好方式！修复支持iOS14-iOS15
+Author: c1d3r
+Name: PullOver Pro
+
+Package: netskao.qqpurification
+Version: 1.1-2
+Architecture: iphoneos-arm
+Maintainer: Nets
+Installed-Size: 541
+Depends: mobilesubstrate, firmware (>= 9.0)
+Filename: ./debs/qqpurification_1.1-2.deb
+Size: 88816
+MD5sum: 4aaa2812a22f5e3979162ac2aa60a69b
+SHA1: fd3055caf4e77896ec77df3cac2108f33da83629
+SHA256: 13114a58722bec5557713d07053fdbe47988a83bbffc466ceffa80dce447dfb2
+Section: NoAds
+Description: QQ净化，还原聊天本质，干净的QQ给你，插件位于系统设置页面，仅支持8.2.6及以上版本
+Author: Netskao
+Name: QQ净化
+
+Package: netskao.qqpurification
+Version: 1.1-3
+Architecture: iphoneos-arm
+Maintainer: Nets
+Installed-Size: 914
+Depends: mobilesubstrate, firmware (>= 9.0)
+Filename: ./debs/qqpurification_1.1-3.deb
+Size: 161172
+MD5sum: a43054533ace12508426cdd6ca779843
+SHA1: 10f239a929406bc4f5bc45f838113ebb9545d2b1
+SHA256: eb41b01f87271038650bd386e504ef9055836e2497d423ff2553b42ae29c8be7
+Section: NoAds
+Description: QQ净化，还原聊天本质，干净的QQ给你
+Author: Netskao
+Name: QQ净化
+
+Package: netskao.qqpurification
+Version: 1.1-5
+Architecture: iphoneos-arm
+Maintainer: Nets
+Installed-Size: 906
+Depends: mobilesubstrate, firmware (>= 9.0)
+Filename: ./debs/qqpurification_1.1-5.deb
+Size: 161512
+MD5sum: 0b3f220aca8c2c6c54a6218cc746cf3b
+SHA1: e2b4dbaf5b45b44032729811641cb7c4dbcb4405
+SHA256: e6ad3299eb96ed6ab41b0abbc2d0b2c7160b6d4bb9f19641d60b685f14a7a344
+Section: NoAds
+Description: QQ净化，还原聊天本质，干净的QQ给你
+Author: Netskao
+Name: QQ净化
+
+Package: netskao.qqpurification
+Version: 1.2-4
+Architecture: iphoneos-arm
+Maintainer: Nets
+Installed-Size: 577
+Depends: mobilesubstrate, firmware (>= 9.0)
+Filename: ./debs/qqpurification_1.2-4.deb
+Size: 114124
+MD5sum: baa319cd06c6874e4c0e72896f265db0
+SHA1: ea5ea7c0782a223174af1eb65d66f0e51e83dabf
+SHA256: 7dabe26c2b76973aec6be02b85805865754130afc239ad84fd36d3eeae9c20e1
+Section: NoAds
+Description: QQ净化，还原聊天本质，干净的QQ给你，设置位于QQ-设置页面顶部
+Author: Netskao
+Name: QQ净化
+
+Package: netskao.qqpurification
+Version: 1.2-5
+Architecture: iphoneos-arm
+Maintainer: Nets
+Installed-Size: 607
+Depends: mobilesubstrate, firmware (>= 9.0)
+Filename: ./debs/qqpurification_1.2-5.deb
+Size: 119736
+MD5sum: fcbadb577adc6bdded6ac28f87686f42
+SHA1: 8cc984b2b555037b76f0b48312841958af04d557
+SHA256: 4cf88599ecddd8fd57fb805c64ab234095f6d029d489cdef6850d9f03b88a762
+Section: NoAds
+Description: QQ净化，还原聊天本质，干净的QQ给你，设置位于QQ-设置页面顶部
+Author: Netskao
+Name: QQ净化
+
+Package: netskao.qqpurification
+Version: 1.2-8
+Architecture: iphoneos-arm
+Maintainer: Nets
+Installed-Size: 631
+Depends: mobilesubstrate, firmware (>= 9.0)
+Filename: ./debs/qqpurification_1.2-8.deb
+Size: 125596
+MD5sum: 3149e655f7ae848f0487743b95e4fbbc
+SHA1: 85590c1e310dc1417a7a988c6d0807d605a96add
+SHA256: bbd3fcf2541e12318f97302df4c0c981a9db37644bc313823f06f77b4e1f6ff5
+Section: NoAds
+Description: QQ净化，还原聊天本质，干净的QQ给你，设置位于QQ-设置页面顶部
+Author: Netskao
+Name: QQ净化
+
+Package: netskao.qqpurification
+Version: 1.3-1
+Architecture: iphoneos-arm
+Maintainer: Nets
+Installed-Size: 1331
+Depends: mobilesubstrate, firmware (>= 9.0)
+Filename: ./debs/qqpurification_1.3-1.deb
+Size: 243604
+MD5sum: 6167050c77a8667f40c198068841b673
+SHA1: 6c92998b0ede8abd8f0e9c85aa0d46ac3c9eed49
+SHA256: 9e0acbb9cd9f550c31eabd74ad8e507aa6e7448c7f8cc14ca1506a04ff22d87d
+Section: NoAds
+Description: QQ净化，还原聊天本质，干净的QQ给你，设置位于QQ-设置页面顶部
+Author: Netskao
+Name: QQ净化
+
+Package: netskao.qqpurification
+Version: 1.4-1
+Architecture: iphoneos-arm
+Maintainer: Nets
+Installed-Size: 1231
+Depends: mobilesubstrate, firmware (>= 9.0)
+Filename: ./debs/qqpurification_1.4-1.deb
+Size: 249308
+MD5sum: a3c4b4d500dae9c7192cb655651de0f8
+SHA1: cea77ff7b3cef21a04342092761f50eeb7fd2166
+SHA256: 90b0b4a3b4c5fcca80e1fd29711952d939350eba946282341188130c07468032
+Section: NoAds
+Description: QQ净化，还原聊天本质，干净的QQ给你，设置位于QQ-设置页面顶部
+Author: Netskao
+Name: QQ净化
+
+Package: netskao.qqpurification
+Version: 1.4-3
+Architecture: iphoneos-arm
+Maintainer: Nets
+Installed-Size: 1312
+Depends: mobilesubstrate, firmware (>= 9.0)
+Filename: ./debs/qqpurification_1.4-3.deb
+Size: 257492
+MD5sum: f0d8cd05946bb0273170532091da7318
+SHA1: 85d1a06a68bf7fdb9f746db736050ecccc156113
+SHA256: a07390213a69e37f61cdc3171302a53b1e23d8ded7de3c040d7bc5df0e190784
+Section: NoAds
+Description: QQ净化，还原聊天本质，干净的QQ给你，设置位于QQ-设置页面顶部
+Author: Netskao
+Name: QQ净化
+
+Package: netskao.qqpurification
+Version: 1.4-5
+Architecture: iphoneos-arm
+Maintainer: Nets
+Installed-Size: 464
+Depends: mobilesubstrate, firmware (>= 9.0)
+Filename: ./debs/qqpurification_1.4-5.deb
+Size: 126204
+MD5sum: a2415b2d03194ebc6f8765ecc0281f3e
+SHA1: 48ed5758346ac4dcd3b8759e97a34cf3eb2b57f6
+SHA256: cecb0fcb44ac8d72e3a6cde2c476e26c36ffa1519223cfc170f73da340fd0659
+Section: NoAds
+Description: QQ净化，还原聊天本质，干净的QQ给你，设置位于QQ-设置页面顶部
+Author: Netskao
+Name: QQ净化
+
+Package: netskao.qqpurification
+Version: 1.4-9
+Architecture: iphoneos-arm
+Maintainer: Nets
+Installed-Size: 464
+Depends: mobilesubstrate, firmware (>= 9.0)
+Filename: ./debs/qqpurification_1.4-9.deb
+Size: 129648
+MD5sum: bdcfc3d4c3f30ff8acf9582e533e8bf0
+SHA1: 386c0042a1e31e5dfb1308cfeee746d52c727842
+SHA256: cf47f4179b21cf5d41f77d69c411ef7fc51411b3b078d304a8a453df04e5fbc7
+Section: NoAds
+Description: QQ净化，还原聊天本质，干净的QQ给你，设置位于QQ-设置页面顶部
+Author: Netskao
+Name: QQ净化
+
+Package: netskao.qqpurification
+Version: 1.5-9
+Architecture: iphoneos-arm
+Maintainer: Nets
+Installed-Size: 490
+Depends: mobilesubstrate, firmware (>= 9.0)
+Filename: ./debs/qqpurification_1.5-9.deb
+Size: 131960
+MD5sum: a7bd3605c4a876535f44e6d1aa5de746
+SHA1: 2b400ea8bc651351355d41ffc7c4437f76d3aab4
+SHA256: cb40da76660436673a19fd7c6ffe5bc9f3d9819e95612a8214eade14964991e5
+Section: NoAds
+Description: QQ净化，还原聊天本质，干净的QQ给你，设置位于QQ-设置页面顶部，仅支持8.7.5及以上版本
+Author: Netskao
+Name: QQ净化
+
+Package: netskao.qqpurification
+Version: 1.6-4
+Architecture: iphoneos-arm
+Maintainer: Nets
+Installed-Size: 535
+Depends: mobilesubstrate, firmware (>= 9.0)
+Filename: ./debs/qqpurification_1.6-4.deb
+Size: 138068
+MD5sum: 710d005735dce2dfd4407b95ce075944
+SHA1: fe98a9f81f32cb525b60b33d598f9f18bfa5f2c3
+SHA256: 7b95a1520acfafb2c1669143de1a7ba4c8726613c3f07e05d0261e279ff69261
+Section: NoAds
+Description: QQ净化，还原聊天本质，干净的QQ给你，设置位于QQ-设置页面顶部
+Author: Netskao
+Name: QQ净化
+
+Package: netskao.qqpurification
+Version: 1.7-1
+Architecture: iphoneos-arm
+Maintainer: Nets
+Installed-Size: 520
+Depends: mobilesubstrate, firmware (>= 9.0)
+Filename: ./debs/qqpurification_1.7-1.deb
+Size: 138868
+MD5sum: a557dc7326b1108cfad2403e4ca67487
+SHA1: ecedd6ee0411a614efcfc8abfaad5f037676cc80
+SHA256: 67c1c2c40014eb0bd6248062d165d5a28206c8916ddd56aef256b0302aeb4391
+Section: NoAds
+Description: QQ净化，还原聊天本质，干净的QQ给你，设置位于QQ-设置页面顶部
+Author: Netskao
+Name: QQ净化
+
+Package: netskao.qqpurification
+Version: 1.7-2
+Architecture: iphoneos-arm
+Maintainer: Nets
+Installed-Size: 515
+Depends: mobilesubstrate, firmware (>= 9.0)
+Filename: ./debs/qqpurification_1.7-2.deb
+Size: 140104
+MD5sum: 9a785deea84f920bb3036639ea1d4269
+SHA1: ed53ea54544d1ff39ad79154e492dfd4b684bc02
+SHA256: 2564d2492218beaf8b63e3c23c376b45a2db0ec6f9e753fd962b40d6009f85ab
+Section: NoAds
+Description: QQ净化，还原聊天本质，干净的QQ给你，设置位于QQ-设置页面顶部
+Author: Netskao
+Name: QQ净化
+
+Package: netskao.qqpurification
+Version: 1.7-6
+Architecture: iphoneos-arm
+Maintainer: Nets
+Installed-Size: 532
+Depends: mobilesubstrate, firmware (>= 9.0)
+Filename: ./debs/qqpurification_1.7-6.deb
+Size: 142644
+MD5sum: 7d2c8e2528d518195837b469b3f8fbba
+SHA1: 773af1d854dd4c72564244d10913584a377403f5
+SHA256: c4870f147309d6d658ebf0e8dd82776553f97bc8f1fbaddbeb70198729f9c572
+Section: NoAds
+Description: QQ净化，还原聊天本质，干净的QQ给你，设置位于QQ-设置页面顶部
+Author: Netskao
+Name: QQ净化
+
+Package: netskao.qqpurification
+Version: 1.7-8
+Architecture: iphoneos-arm
+Maintainer: Nets
+Installed-Size: 539
+Depends: mobilesubstrate, firmware (>= 9.0)
+Filename: ./debs/qqpurification_1.7-8.deb
+Size: 148228
+MD5sum: 099a9f20cf56d28aa8b320adea14c3a6
+SHA1: 80e8cc11a452756c76030a70226e990006612f98
+SHA256: aef004a5a4a822feeb236d297fab66127bf2f25421013edf75755cac8f729660
+Section: NoAds
+Description: QQ净化，还原聊天本质，干净的QQ给你，设置位于QQ-设置页面顶部
+Author: Netskao
+Name: QQ净化
+
+Package: netskao.qqpurification
+Version: 1.8-8.2
+Architecture: iphoneos-arm
+Maintainer: Nets
+Installed-Size: 566
+Depends: mobilesubstrate, firmware (>= 9.0)
+Filename: ./debs/qqpurification_1.8-8.2.deb
+Size: 156380
+MD5sum: 9b6978e510593fdece54bd19d2efc051
+SHA1: c2cf7a8e096b5ea9d4792398726d8f55573fe60b
+SHA256: c84aa9880e9e5b67d00f03416313c7a0dff21bde94e5ae6d484873148134e5b2
+Section: NoAds
+Description: QQ净化，还原聊天本质，干净的QQ给你，设置位于QQ-设置页面顶部，仅支持8.7.5及以上版本
+Author: Netskao
+Name: QQ净化
+
+Package: netskao.qqpurification
+Version: 1.8-9
+Architecture: iphoneos-arm
+Maintainer: Nets
+Installed-Size: 572
+Depends: mobilesubstrate, firmware (>= 9.0)
+Filename: ./debs/qqpurification_1.8-9.deb
+Size: 157576
+MD5sum: 3026e9bf85907145848d3942a61b718e
+SHA1: ac9135e4ae35350f6167c43bb8e841be0f32ff93
+SHA256: dfa61ce3f1d8b213fe447cde9e19233950926c26e6d48ecf071c7c9e13afdf39
+Section: NoAds
+Description: QQ净化，还原聊天本质，干净的QQ给你，设置位于QQ-设置页面顶部，仅支持8.7.5及以上版本
+Author: Netskao
+Name: QQ净化
+
+Package: netskao.qqpurification
+Version: 1.9-3.1
+Architecture: iphoneos-arm
+Maintainer: Nets
+Installed-Size: 463
+Depends: mobilesubstrate, firmware (>= 9.0)
+Filename: ./debs/qqpurification_1.9-3.1.deb
+Size: 130504
+MD5sum: 7a4d2e890e7adcbbfb70e4a349e25d16
+SHA1: 28649ba556f406653bf602e096207f60588860a3
+SHA256: 58b426c1f37454ae7ae00ec06f13a0e6118ccfcb5c7a970aec659ed702916573
+Section: NoAds
+Description: QQ净化，还原聊天本质，干净的QQ给你，设置位于QQ-设置页面顶部，仅支持8.7.5及以上版本
+Author: Netskao
+Name: QQ净化
+
+Package: netskao.qqpurification
+Version: 1.9-3.2
+Architecture: iphoneos-arm
+Maintainer: Nets
+Installed-Size: 445
+Depends: mobilesubstrate, firmware (>= 9.0)
+Filename: ./debs/qqpurification_1.9-3.2.deb
+Size: 127880
+MD5sum: 063a96ad6b4c8157eec6b15adf3627f9
+SHA1: 6721257da00489433aa9aec12e2fc3aaa48b9d85
+SHA256: 9339fa4d1173896cdd4e34d6fc0e59105908a78ec1f62485e4dd99cf4425dd39
+Section: NoAds
+Description: QQ净化，还原聊天本质，干净的QQ给你，设置位于QQ-设置页面顶部，仅支持8.7.5及以上版本
+Author: Netskao
+Name: QQ净化
+
+Package: netskao.qqpurification
+Version: 1.9-3.8
+Architecture: iphoneos-arm
+Maintainer: Nets
+Installed-Size: 468
+Depends: mobilesubstrate, firmware (>= 9.0)
+Filename: ./debs/qqpurification_1.9-3.8.deb
+Size: 132976
+MD5sum: dcd07e81e2bce5ce4897beb10935eca5
+SHA1: 337e5c7404072389c278a573970b6fc53a836b12
+SHA256: 39a2094c65dace78a5f5a7b0fd24fefaf4d7c6c4364c5d5d129bd0ce05673c40
+Section: NoAds
+Description: QQ净化，还原聊天本质，干净的QQ给你，设置位于QQ-设置页面顶部，仅支持8.7.5及以上版本
+Author: Netskao
+Name: QQ净化
+
+Package: netskao.qqpurification
+Version: 1.9-4.1
+Architecture: iphoneos-arm
+Maintainer: Nets
+Installed-Size: 530
+Depends: mobilesubstrate, firmware (>= 9.0)
+Filename: ./debs/qqpurification_1.9-4.1.deb
+Size: 151916
+MD5sum: 76b126f71b5c470afbf5ae357ac4c6fd
+SHA1: 2e5f4f7a29a1f110356615d56cc4a24bbbe9982f
+SHA256: 493eb5a9ceea872b0033234675c21315f090e5fd12cd1b06cd71b8d3a1ce215b
+Section: NoAds
+Description: QQ净化，还原聊天本质，干净的QQ给你，设置位于QQ-设置页面顶部，仅支持8.7.5及以上版本
+Author: Netskao
+Name: QQ净化
+
+Package: netskao.qqpurification
+Version: 1.9-7
+Architecture: iphoneos-arm
+Maintainer: Nets
+Installed-Size: 535
+Depends: mobilesubstrate, firmware (>= 9.0)
+Filename: ./debs/qqpurification_1.9-7.deb
+Size: 158108
+MD5sum: e1dd33cf48328ad23d7015e4ab0a5c04
+SHA1: c250b4d5151cf5fd29b7f434fbc9ae5d3543fee7
+SHA256: 62685f1e934b19398bc48a78019eb2d1451baa925f2a3b0681ec8a8661c07f2b
+Section: NoAds
+Description: QQ净化，还原聊天本质，干净的QQ给你，设置位于QQ-设置页面顶部，仅支持8.7.5及以上版本
+Author: Netskao
+Name: QQ净化
+
+Package: netskao.qqpurification
+Version: 1.9-9
+Architecture: iphoneos-arm
+Maintainer: Nets
+Installed-Size: 568
+Depends: mobilesubstrate, firmware (>= 9.0)
+Filename: ./debs/qqpurification_1.9-9.deb
+Size: 163960
+MD5sum: 39ad9d976b6d8858de37ea37783b29d6
+SHA1: 96f8e7c1d275ed3fbfd9179f616a67c9b3f89914
+SHA256: 438a77273509399bbca12398f1b5fc87c63c4a768418a57728e2bf9c74440006
+Section: NoAds
+Description: QQ净化，还原聊天本质，干净的QQ给你，设置位于QQ-设置页面顶部，仅支持8.7.5及以上版本
+Author: Netskao
+Name: QQ净化
+
+Package: netskao.qqpurification
+Version: 1.9-9.1
+Architecture: iphoneos-arm
+Maintainer: Nets
+Installed-Size: 569
+Depends: mobilesubstrate, firmware (>= 9.0)
+Filename: ./debs/qqpurification_1.9-9.1.deb
+Size: 171312
+MD5sum: 2ef2257a39d601afa0063b6d9fa9ef26
+SHA1: adcdd7d7a76e6ec676831d99822de4da65bc114a
+SHA256: 706560e94ebd1f29d556fe4f935c3bd337d2afb626cac972e83da1fae8cea446
+Section: NoAds
+Description: QQ净化，还原聊天本质，干净的QQ给你，设置位于QQ-设置页面顶部，仅支持8.7.5及以上版本
+Author: Netskao
+Name: QQ净化
+
+Package: netskao.qqpurification
+Version: 1.9-9.3
+Architecture: iphoneos-arm
+Maintainer: Nets
+Installed-Size: 469
+Depends: mobilesubstrate, firmware (>= 9.0)
+Filename: ./debs/qqpurification_1.9-9.3.deb
+Size: 131784
+MD5sum: 15a71060092b82de6968ab6ec885594e
+SHA1: 4b6d4537c7da93220dbc4c4e720568d1783646d9
+SHA256: f6775c9ff164ed225fcb8f97fee90a90fe7908ff2c5c3a0f136aacef46cb3606
+Section: NoAds
+Description: QQ净化，还原聊天本质，干净的QQ给你，设置位于QQ-设置页面顶部，仅支持8.8.0及以上版本
+Author: Netskao
+Name: QQ净化
+
+Package: netskao.qqpurification
+Version: 1.9-9.8
+Architecture: iphoneos-arm
+Maintainer: Nets
+Installed-Size: 478
+Depends: mobilesubstrate, firmware (>= 9.0)
+Filename: ./debs/qqpurification_1.9-9.8.deb
+Size: 142996
+MD5sum: 64544cbea398e90537526c693eec0722
+SHA1: 0886891305fc99706a3a9f825087a832ee214b82
+SHA256: 46b7aa504b078eb83a6f927423b07df971bdbeb87530b876df23dbff0ea5d99e
+Section: NoAds
+Description: QQ净化，还原聊天本质，干净的QQ给你，设置位于QQ-设置页面顶部，仅支持8.8.0及以上版本
+Author: Netskao
+Name: QQ净化
+
+Package: netskao.qqpurification
+Version: 1.9-9.9
+Architecture: iphoneos-arm
+Maintainer: Nets
+Installed-Size: 899
+Depends: mobilesubstrate, firmware (>= 9.0)
+Filename: ./debs/qqpurification_1.9-9.9.deb
+Size: 243616
+MD5sum: d307d63f257762a068ec883e9d7c92e2
+SHA1: 11d0492321d5e387648174e4169a7f76700fc657
+SHA256: e9de11dbc0825147473724cd042925f596cb55e00b736e7bf01693dca6279403
+Section: NoAds
+Description: QQ净化，还原聊天本质，干净的QQ给你，设置位于QQ-设置页面顶部，仅支持8.8.0及以上版本
+Author: Netskao
+Name: QQ净化
+
+Package: netskao.qqpurification
+Version: 2.0-2
+Architecture: iphoneos-arm
+Maintainer: Nets
+Installed-Size: 806
+Depends: mobilesubstrate, firmware (>= 9.0)
+Filename: ./debs/qqpurification_2.0-2.deb
+Size: 244872
+MD5sum: 0e998bbcb49f3f125b8286c3f671139a
+SHA1: ced58e433216913860bc3303596955c2a352b1f0
+SHA256: 0e29c2b3b25e6c4af27c59c5c3d30a8e6a9b4cc19a1457264bd35eaf5bfad559
+Section: NoAds
+Description: QQ净化，还原聊天本质，干净的QQ给你，设置位于QQ-设置页面顶部，仅支持8.8.0及以上版本
+Author: Netskao
+Name: QQ净化
+
+Package: netskao.qqpurification
+Version: 2.0-2.3
+Architecture: iphoneos-arm
+Maintainer: Nets
+Installed-Size: 936
+Depends: mobilesubstrate, firmware (>= 9.0)
+Filename: ./debs/qqpurification_2.0-2.3.deb
+Size: 251884
+MD5sum: 8819af3ea69247ce3b003a8a1a52c032
+SHA1: a8d11fc72ab2f95e29e6028e6c1ee17b8930ea1f
+SHA256: bcd703db58d465179e35cacb3a910995ed753d6e763aa49ec63524542b6c84f9
+Section: NoAds
+Description: QQ净化，还原聊天本质，干净的QQ给你，设置位于QQ-设置页面顶部，仅支持8.8.0及以上版本
+Author: Netskao
+Name: QQ净化
+
+Package: netskao.qqpurification
+Version: 2.0-2.3-1
+Architecture: iphoneos-arm
+Maintainer: Nets
+Installed-Size: 938
+Depends: mobilesubstrate, firmware (>= 9.0)
+Filename: ./debs/qqpurification_2.0-2.3-1.deb
+Size: 256368
+MD5sum: aff5b7c6a2b11ea648b15913cafa4370
+SHA1: b981bbfe047675615e155e9ec18c027112ac3beb
+SHA256: bcbd62f58d5e570c3dca2c4822a08b91fd8cf89c01ee27ab38ede83d1cee61b0
+Section: NoAds
+Description: QQ净化，还原聊天本质，干净的QQ给你，设置位于QQ-设置页面顶部，仅支持8.8.0及以上版本
+Author: Netskao
+Name: QQ净化
+
+Package: netskao.qqpurification
+Version: 2.1-1
+Architecture: iphoneos-arm
+Maintainer: Nets
+Installed-Size: 896
+Depends: mobilesubstrate, firmware (>= 9.0)
+Filename: ./debs/qqpurification_2.1-1.deb
+Size: 252608
+MD5sum: 0345619ae5c34b188d558d4ae4233a00
+SHA1: 95592c8c84033008afad404af75eb4593237d2d6
+SHA256: 2228e4e004aada73431213949f7002042bec15098e223473840265de28f4a278
+Section: NoAds
+Description: QQ净化，还原聊天本质，干净的QQ给你，设置位于QQ-设置页面顶部，仅支持8.8.88及以上版本
+Author: Netskao
+Name: QQ净化
+
+Package: netskao.qqpurification
+Version: 2.1-2
+Architecture: iphoneos-arm
+Maintainer: Nets
+Installed-Size: 964
+Depends: mobilesubstrate, firmware (>= 9.0)
+Filename: ./debs/qqpurification_2.1-2.deb
+Size: 266620
+MD5sum: 6924cdabc5677737548fbdbcad0e9e45
+SHA1: 2480b076c2df4337b0432b369dced0ab795e8375
+SHA256: 12bd078ef2efa73d57d3016dc1d69cee489a73c0e24298c5b5445a580b7b4572
+Section: NoAds
+Description: QQ净化，还原聊天本质，干净的QQ给你，设置位于QQ-设置页面顶部，仅支持8.8.88及以上版本
+Author: Netskao
+Name: QQ净化
+
+Package: netskao.qqpurification
+Version: 2.2-5
+Architecture: iphoneos-arm
+Maintainer: Nets
+Installed-Size: 1934
+Depends: mobilesubstrate, firmware (>= 12.2)
+Filename: ./debs/qqpurification_2.2-5.deb
+Size: 995796
+MD5sum: b285b252dfa561771e473e17ee33ea26
+SHA1: 69d455cbc4c6e0ac9d0a8693a1b925ad5fc1b283
+SHA256: bc1d91f42f73a911a3965abfe1dc5478e848dce2d49de40901f51bc22a256dd3
+Section: NoAds
+Description: QQ净化，还原聊天本质，干净的QQ给你，设置位于QQ-设置页面顶部，仅支持8.9.0及以上版本
+Author: Netskao
+Name: QQ净化
+
+Package: netskao.qqpurification
+Version: 2.3-3
+Architecture: iphoneos-arm
+Maintainer: Nets
+Installed-Size: 1900
+Depends: mobilesubstrate, firmware (>= 12.2)
+Filename: ./debs/qqpurification_2.3-3.deb
+Size: 1007048
+MD5sum: 7111cfd73ed7946cfbce8468c27deb22
+SHA1: db16c299bc524ce5b65f08746cf217aac3e4aef4
+SHA256: b7c2c757a881b33eb2262a832f30a462753316ba32e6954b554c4a0aa9c4a404
+Section: NoAds
+Description: QQ净化，还原聊天本质，干净的QQ给你，设置位于QQ-设置页面顶部，仅支持8.9.0及以上版本
+Author: Netskao
+Name: QQ净化
+
+Package: netskao.ysfnoads
+Version: 1.1-2
+Architecture: iphoneos-arm
+Maintainer: Nets
+Installed-Size: 356
+Depends: firmware (>= 9.0), mobilesubstrate
+Filename: ./debs/ysfnoads_1.1.2.deb
+Size: 83696
+MD5sum: 1c9b3300e0cbc1d78075f31b3b3a8dfa
+SHA1: 636a0306657b4c07bbc5d537386a8cb26cbe65a0
+SHA256: b10d45614ac0df5d3bbc75725e881f06bda5e28386a598e8fa5005b6d6602f39
+Section: NoAds
+Description: 云闪付去除启动广告，去除首页信息流杂七杂八的版块，去除生活页爆品抢购，去除消息页优惠资讯，去除金融页面杂七杂八版块，去除我的页面合作共赢和精选服务和借款选项等
+Author: Netskao
+Name: 云闪付去广告
+
+Package: ru.rejail.betterccxi
+Version: 1.6.0
+Architecture: iphoneos-arm
+Maintainer: ReJail <rejail@rejail.ru>
+Installed-Size: 770
+Depends: mobilesubstrate, com.opa334.ccsupport, preferenceloader
+Filename: ./debs/ru.rejail.betterccxi_1.6.0.deb
+Size: 67656
+MD5sum: add6ba8b6e16375d762251d1d21f0265
+SHA1: 028a6270ac3234cf2ad6d690c12af622a8470706
+SHA256: 80afc3c2043968848dace893feb4fd1307d27910a4aca96852eb705607ba0d93
+Section: Tweaks
+Description: 修改控制中心模块
+Author: ATWiiks
+Depiction: https://rejail.ru/depiction.php?file=betterccxi
+Name: BetterCCXI Rus
+Sileodepiction: https://rejail.ru/sileo/depiction.php?file=betterccxi
+
+Package: ru.rejail.filza
+Version: 4.0.1-4
+Architecture: iphoneos-arm
+Maintainer: ReJail <rejail@rejail.ru>
+Installed-Size: 19388
+Conflicts: com.tigisoftware.filza, com.tigisoftware.filza39
+Filename: ./debs/ru.rejail.filza_4.0.1-4_iphoneos-arm.deb
+Size: 6998020
+MD5sum: 657c80e604ad5e541d3de11d06550be4
+SHA1: de74eb7f7beaeeb9b21e45c0d5f679ecc3a0cdb3
+SHA256: 7dd1aeabf09437494d92a3d4ebc00a2ca76a04734e12beb3e5e4f77438ce03df
+Section: Utilities
+Description: 强大的iOS文件管理器
+Author: TIGI Software
+Depiction: https://rejail.ru/depiction.php?file=filza
+Name: Filza File Manager
+Sileodepiction: https://rejail.ru/sileo/depiction.php?file=filza
+
+Package: ru.rejail.grupi
+Version: 2.1
+Architecture: iphoneos-arm
+Maintainer: ReJail <rejail@rejail.ru>
+Installed-Size: 531
+Depends: mobilesubstrate, ws.hbang.common (>= 1.11), firmware (>= 11.0)
+Conflicts: io.ominousness.stackxi, com.thomasfinch.priorityhub, com.ioscreatix.intelixbeta, com.ioscreatix.intelix, com.spiritoflogic.ncunify, com.spiritoflogic.unifyx, com.hidan.nclink10, org.coolstar.ventana-modern, org.coolstar.ventana, org.s1ris.spinxi
+Filename: ./debs/ru.rejail.grupi_2.1.deb
+Size: 142328
+MD5sum: 489e649e98d2adb72297cb422be3f053
+SHA1: 21bcbe06aeb150b6eb521d0f13a473bbd497b2a2
+SHA256: 0fb75551952659c8b2832efeb945c262a04b861dcc47e9abc7fbc31421760bf7
+Section: Tweaks
+Description: 通知聚合
+Author: Soongyu Kwon & Timeloop
+Depiction: https://rejail.ru/depiction.php?file=grupi
+Name: Grupi Rus
+Sileodepiction: https://rejail.ru/sileo/depiction.php?file=grupi
 
