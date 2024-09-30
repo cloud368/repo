@@ -502,6 +502,22 @@ Description: 由ThemePro团队开发,用于加载微信美化主题,安装完成
 Author: MustangYM
 Name: ThemePro-3.1.0-Rootless
 
+Package: a2
+Version: 0.3
+Architecture: iphoneos-arm
+Maintainer: lzsxcl
+Installed-Size: 552
+Depends: mobilesubstrate, xc.lzsxcl.lib2 (>= 0.1.5)
+Filename: ./debs/History/iphoneos-arm/a2_0.3_iphoneos-arm.deb
+Size: 130928
+MD5sum: a5ac5b0c594fdc4dc1e52a6518853ef9
+SHA1: e0adfc5393060cb8e8d0dbc732734c55cf82aac1
+SHA256: 713416ea4e04ffeebeb7237fdbf8abfdafbb323399f0be5541ef8de12590d8ae
+Section: System
+Description: 让锁屏显示更晚的时间，潜意识地欺骗你已经到了时间点，本质上真实时间比你看到的更早，以避免错过约定的时间
+Author: lzsxcl
+Icon: http://cdn.share.lzsxcl.cc/Tweak/a2.png
+
 Package: a2.rootless
 Version: 0.5
 Architecture: iphoneos-arm64
@@ -509,6 +525,23 @@ Maintainer: lzsxcl
 Installed-Size: 384
 Depends: mobilesubstrate
 Filename: ./debs/iphone-arm64/A2锁屏时间修改.deb
+Size: 59860
+MD5sum: 9f06c4655fb31773165060cf3f82fdb0
+SHA1: 99743cfde153e58cb54b0d5bbf10a2857af14424
+SHA256: 55a4fbd0c25dee8775e7bbf87752fca72f576708645c92ab58b6c13711dfb9db
+Section: System
+Description: 让锁屏显示更晚的时间，潜意识地欺骗你已经到了时间点，本质上真实时间比你看到的更早，以避免错过约定的时间
+Author: lzsxcl
+Icon: http://cdn.share.lzsxcl.cc/Tweak/a2.png
+Name: A2锁屏时间修改
+
+Package: a2.rootless
+Version: 0.5
+Architecture: iphoneos-arm64
+Maintainer: lzsxcl
+Installed-Size: 384
+Depends: mobilesubstrate
+Filename: ./debs/History/iphoneos-arm64/A2锁屏时间修改.deb
 Size: 59860
 MD5sum: 9f06c4655fb31773165060cf3f82fdb0
 SHA1: 99743cfde153e58cb54b0d5bbf10a2857af14424
@@ -872,6 +905,24 @@ Icon: https://chinesebuilding.club/pic/cydia.png
 Name: Choicy屏蔽越狱汉化插件-Rootless
 Sponsor: 桃花源
 
+Package: byg.iosios.net.choicy.zh-hans
+Version: 0.1.1
+Architecture: iphoneos-arm64
+Maintainer: 桃花源
+Depends: com.opa334.choicy
+Replaces: com.opa334.choicy
+Filename: ./debs/History/iphoneos-arm64/Choicy屏蔽越狱汉化插件-Rootless.deb
+Size: 3732
+MD5sum: 04a83da06245f8166e8b51f79e7c8bb0
+SHA1: 1e4f7f6884c3d1f80e1fcdef853426055bc6578f
+SHA256: 66fdb0a41f533a2e1cd2c26444a195c82762a2670a643bd11604d459c2855142
+Section: 插件依赖
+Description: 为软件屏蔽越狱检测Choicy 提供简体中文，基本上各个版本的choicy都可汉化、通用，放心使用！无法更新choicy请先更新完插件之后再安装汉化插件！
+Author: zhaonan
+Icon: https://chinesebuilding.club/pic/cydia.png
+Name: Choicy屏蔽越狱汉化插件-Rootless
+Sponsor: 桃花源
+
 Package: byg.iosios.net.hideserialnumber
 Version: 0.0.3
 Architecture: iphoneos-arm64
@@ -942,6 +993,23 @@ Icon: https://chinesebuilding.club/pic/cydia.png
 Name: TrollStore巨魔安装器
 Sponsor: 桃花源
 
+Package: byg.iosios.net.trollstorehelper
+Version: 2.0.15
+Architecture: iphoneos-arm64
+Maintainer: 桃花源
+Installed-Size: 4300
+Filename: ./debs/History/iphoneos-arm64/TrollStore巨魔安装器.deb
+Size: 1875172
+MD5sum: 47983f16df079632c5b4038d9860ac5b
+SHA1: 2214f534de49b56fc3a4f86e6a9c72ca0f91f8b2
+SHA256: ad79e2afdc31e7bc9d68e1e08d797185fd8ddc09a222e300d0c35d441ef216c0
+Section: 软件开发
+Description: Helper utility to install and manage TrollStore!正常情况是先装巨魔再越狱，但也有少数人先越狱了没巨魔，或者不小心删了巨魔，本插件的作用就是在越狱环境下安装巨魔，这样你的巨魔就又回来了，无法安装请切换网络环境，或者使用梯子，因为巨魔在国外网站，你得先连上才行！
+Author: opa334
+Icon: https://chinesebuilding.club/pic/cydia.png
+Name: TrollStore巨魔安装器
+Sponsor: 桃花源
+
 Package: byg.iosios.net.zetsu.cn.rl
 Version: 1.6.2
 Architecture: iphoneos-arm64
@@ -967,6 +1035,24 @@ Maintainer: 桃花源
 Depends: jp.dcsyhi.zetsu
 Conflicts: byg.iosios.ney.zetsurootless15
 Filename: ./debs/iphone-arm64/Zetsu 分屏中文汉化插件-Rootless.deb
+Size: 12780
+MD5sum: 2438ac8b546845e96736ed8f9ae15cde
+SHA1: 9f1d007c222cec6e400c7f8d80f6fc012d8afb88
+SHA256: 433052ac05715fe62ff2d571d19b8ab50232ba8572512444be3efdb0606ce17d
+Section: 插件依赖
+Description: Zetsu 分屏简体中文包(rootless)。安装之后，会使你的Zetsu插件变成中文显示！自动唤醒安装zetsu分屏，半越狱请手动安装chariz源里的zetsu！不喜欢1.6版本的可以长按更改降级1.5版本！
+Author: 妖刀
+Icon: https://chinesebuilding.club/pic/cydia.png
+Name: Zetsu 分屏中文汉化插件-Rootless
+Sponsor: 桃花源
+
+Package: byg.iosios.net.zetsu.cn.rl
+Version: 1.6.2
+Architecture: iphoneos-arm64
+Maintainer: 桃花源
+Depends: jp.dcsyhi.zetsu
+Conflicts: byg.iosios.ney.zetsurootless15
+Filename: ./debs/History/iphoneos-arm64/Zetsu 分屏中文汉化插件-Rootless.deb
 Size: 12780
 MD5sum: 2438ac8b546845e96736ed8f9ae15cde
 SHA1: 9f1d007c222cec6e400c7f8d80f6fc012d8afb88
@@ -8549,6 +8635,35 @@ Sileodepiction: https://DirtyBeans.github.io/depictions/native/com.dirtybeans.cs
 Sponsor: Dirty Beans
 Support: https://csources2.wordpress.com/update-history/
 
+Package: com.dirtybeans.csources2
+Version: 933.1641-0
+Architecture: iphoneos-arm
+Maintainer: DirtyBeans <DirtyBeans@ca.rr.com>
+Installed-Size: 18722
+Pre-Depends: firmware (>= 9.3.3), firmware (<= 16.4.1)
+Recommends: com.dirtybeans.icon
+Suggests: com.dirtybeans.icon
+Conflicts: org.thebigboss.csources
+Replaces: org.thebigboss.csources
+Filename: ./debs/History/iphoneos-arm/com.dirtybeans.csources2_933.1641-0_iphoneos-arm.deb
+Size: 19206056
+MD5sum: e41591bb4acedccd5a097b46c1ee3218
+SHA1: 265b0e4a0b52ea28774acf7b05133b310255876e
+SHA256: d351f0c72d08eb4aff2a60a019eb4dc2b5e04fb8e52c49a7a9a61527a65ba27c
+Section: DirtyBeans.Utilities
+Priority: extra
+Homepage: https://DirtyBeans.github.io/
+Description: CSources2.app
+Tag: purpose::uikit, compatible_min::ios9, compatible_max::ios16
+Author: DirtyBeans@ <DirtyBeans@ca.rr.com>
+Depiction: https://DirtyBeans.github.io/depictions/web/?p=[com.dirtybeans.csources2]
+Dev: dirtybeans
+Icon: https://dirtybeans.github.io/depictions/csources2/images/CSources2.png
+Name: CSources2
+Sileodepiction: https://DirtyBeans.github.io/depictions/native/com.dirtybeans.csources2/depiction.json
+Sponsor: Dirty Beans
+Support: https://csources2.wordpress.com/update-history/
+
 Package: com.dirtybeans.csources2-usericons
 Version: 1.0
 Architecture: iphoneos-arm64
@@ -11913,6 +12028,24 @@ Name: mount_bindfs (Dopamine)
 Sileodepiction: https://invalidunit.github.io/sileodepiction/com.nan.bindfs/js.json
 
 Package: com.nan.bindfs
+Version: 0.3.6
+Architecture: iphoneos-arm64e
+Maintainer: 无尽伤痛都锁进黑夜 & zhaonan
+Depends: coreutils, sed, plutil, firmware (>> 14.0), firmware (<< 16.0)
+Conflicts: mobilesubstrate (= 999)
+Filename: ./debs/History/iphoneos-arm64e/com.nan.bindfs_0.3.6_iphoneos-arm64e.deb
+Size: 8908
+MD5sum: 596deee91c70a5ba595f97c48fa4af5e
+SHA1: e9b6fab41a83efdf1e69bc7626b60a07e15c4ea1
+SHA256: cb5a39a7b09c67b12f524c4f79efad7d9719b549d22968eb451093ddc778fb7a
+Section: Terminal_Support
+Description: 以 bindfs 挂载文件夹的 cli 工具
+Author: 无尽伤痛都锁进黑夜 & zhaonan
+Icon: https://invalidunit.github.io/sileodepiction/Default/image_terminal.png
+Name: mount_bindfs (Dopamine)
+Sileodepiction: https://invalidunit.github.io/sileodepiction/com.nan.bindfs/js.json
+
+Package: com.nan.bindfs
 Version: 0.4.1
 Architecture: iphoneos-arm64
 Maintainer: 无尽伤痛都锁进黑夜 & zhaonan
@@ -11949,6 +12082,24 @@ Name: mount_bindfs (Dopamine)
 Sileodepiction: https://invalidunit.github.io/sileodepiction/com.nan.bindfs/js.json
 
 Package: com.nan.bindfs
+Version: 0.4.1
+Architecture: iphoneos-arm64e
+Maintainer: 无尽伤痛都锁进黑夜 & zhaonan
+Depends: coreutils, sed, plutil, firmware (>> 14.0)
+Conflicts: mobilesubstrate (= 999)
+Filename: ./debs/History/iphoneos-arm64e/com.nan.bindfs_0.4.1_iphoneos-arm64e.deb
+Size: 6492
+MD5sum: 87f422a1cd31bb14b631ecc75f4373f6
+SHA1: 449621d1494da4047e6afa3af44914b956fd6cd1
+SHA256: f4b45aed51cb3ad551303ccbc215376c11898c9b19f774bf0166c1dcc5f6c0ca
+Section: Terminal_Support
+Description: 以 bindfs 挂载文件夹的 cli 工具
+Author: 无尽伤痛都锁进黑夜 & zhaonan
+Icon: https://invalidunit.github.io/sileodepiction/Default/image_terminal.png
+Name: mount_bindfs (Dopamine)
+Sileodepiction: https://invalidunit.github.io/sileodepiction/com.nan.bindfs/js.json
+
+Package: com.nan.bindfs
 Version: 0.5.1
 Architecture: iphoneos-arm64
 Maintainer: 无尽伤痛都锁进黑夜 & zhaonan
@@ -11967,6 +12118,24 @@ Name: mount_bindfs (Dopamine)
 Sileodepiction: https://invalidunit.github.io/sileodepiction/com.nan.bindfs/js.json
 
 Package: com.nan.bindfs
+Version: 0.5.1
+Architecture: iphoneos-arm64e
+Maintainer: 无尽伤痛都锁进黑夜 & zhaonan
+Depends: coreutils, sed, plutil, firmware (>> 14.0)
+Conflicts: mobilesubstrate (= 999)
+Filename: ./debs/History/iphoneos-arm64e/com.nan.bindfs_0.5.1_iphoneos-arm64e.deb
+Size: 12392
+MD5sum: 70779add060efe545244a4a8702088a2
+SHA1: 93e22aa8cfeca5a834c54cad44d9c1f484b584d7
+SHA256: e96b67748f1e6b9c2728e3bf73ac82ad619bdf0b6d8985618ad9b75255ab3357
+Section: Terminal_Support
+Description: 以 bindfs 挂载文件夹的 cli 工具
+Author: 无尽伤痛都锁进黑夜 & zhaonan
+Icon: https://invalidunit.github.io/sileodepiction/Default/image_terminal.png
+Name: mount_bindfs (Dopamine)
+Sileodepiction: https://invalidunit.github.io/sileodepiction/com.nan.bindfs/js.json
+
+Package: com.nan.bindfs
 Version: 0.5.2
 Architecture: iphoneos-arm64
 Maintainer: 无尽伤痛都锁进黑夜 & zhaonan
@@ -11977,6 +12146,24 @@ Size: 13028
 MD5sum: 3ec94f90c70cddca2980c1759f13e4c7
 SHA1: c8aab030341de6f975aa5ef669b91a9772295930
 SHA256: d1a7c4ea97df6834ecd4507de7b0a2b90fabfe7dcc766dd1e66a8d19037b1d2b
+Section: Terminal_Support
+Description: 以 bindfs 挂载文件夹的 cli 工具
+Author: 无尽伤痛都锁进黑夜 & zhaonan
+Icon: https://invalidunit.github.io/sileodepiction/Default/image_terminal.png
+Name: mount_bindfs (Dopamine)
+Sileodepiction: https://invalidunit.github.io/sileodepiction/com.nan.bindfs/js.json
+
+Package: com.nan.bindfs
+Version: 0.5.2
+Architecture: iphoneos-arm64e
+Maintainer: 无尽伤痛都锁进黑夜 & zhaonan
+Depends: coreutils, sed, plutil, firmware (>> 14.0)
+Conflicts: mobilesubstrate (= 999)
+Filename: ./debs/History/iphoneos-arm64e/com.nan.bindfs_0.5.2_iphoneos-arm64e.deb
+Size: 13008
+MD5sum: 4cf20a270ee9f786bf9db8faff785107
+SHA1: e9e2e2ea29b87423bc17988e451b40650542933e
+SHA256: d32fc194b84090f80855713dc622cfbff795116e7317ad242e03431836511801
 Section: Terminal_Support
 Description: 以 bindfs 挂载文件夹的 cli 工具
 Author: 无尽伤痛都锁进黑夜 & zhaonan
@@ -12378,6 +12565,26 @@ Name: Enable known networks
 Sileodepiction: https://invalidunit.github.io/sileodepiction/com.nan.enableknownnetworks/js.json
 
 Package: com.nan.ft
+Version: 0.4.8
+Architecture: iphoneos-arm
+Maintainer: zhaonan
+Pre-Depends: com.nan.apfs-snapshot | snaputil | com.bingner.snappy
+Depends: firmware (>=10.3), rsync, diskdev-cmds
+Conflicts: com.nan.lecho (<< 0.2.0)
+Filename: ./debs/History/iphoneos-arm/com.nan.ft_0.4.8_iphoneos-arm.deb
+Size: 3780
+MD5sum: 420dd5304f1c0c95d2e39f473cb7dc61
+SHA1: af334fe58e2b724039389f946c1fccc4e3429f84
+SHA256: 4d1e931dcac920bfac83b86447a6956c0ea007e06d04e7d92fdfe2f050e37741
+Section: Terminal_Support
+Description: 一个从设备首张快照提取字体的脚本
+Tag: role::hacker
+Author: zhaonan <Invalidunit@icloud.com>
+Icon: https://invalidunit.github.io/sileodepiction/Default/image_terminal.png
+Name: ft
+Sileodepiction: https://invalidunit.github.io/sileodepiction/com.nan.ft/js.json
+
+Package: com.nan.ft
 Version: 0.5.0
 Architecture: iphoneos-arm64
 Maintainer: zhaonan
@@ -12421,6 +12628,38 @@ Size: 2028
 MD5sum: f45c1ac79791bc5efb1fa6c593285c05
 SHA1: 33b0d48c8c8d273c49dd5fd6f072cdd1c09112f8
 SHA256: 3dd7d4346924beed56f2516066f2baa81a57bdaabe1187f90c1f0cd7271db05d
+Section: Addons
+Description: 尝试保存 apt 缓存目录下所有 deb
+Author: zhaonan <invalidunit@icloud.com>
+Icon: https://invalidunit.github.io/sileodepiction/Default/image_fix.png
+Name: Give me deb
+Sileodepiction: https://invalidunit.github.io/sileodepiction/com.nan.givemedeb/js.json
+
+Package: com.nan.givemedeb
+Version: 0.1.4
+Architecture: iphoneos-arm
+Maintainer: zhaonan
+Filename: ./debs/History/iphoneos-arm/com.nan.givemedeb_0.1.4_iphoneos-arm.deb
+Size: 2028
+MD5sum: 35f17ba6a0676497254daa7cd13caff0
+SHA1: b4a17db6eb2fc3ddbf9c4753e33772215e9047c5
+SHA256: 8336abc5ad1a7db028d0d84558d06c8278401349812e8f6db2eb69ab8ae576bf
+Section: Addons
+Description: 尝试保存 apt 缓存目录下所有 deb
+Author: zhaonan <invalidunit@icloud.com>
+Icon: https://invalidunit.github.io/sileodepiction/Default/image_fix.png
+Name: Give me deb
+Sileodepiction: https://invalidunit.github.io/sileodepiction/com.nan.givemedeb/js.json
+
+Package: com.nan.givemedeb
+Version: 0.1.4
+Architecture: iphoneos-arm64e
+Maintainer: zhaonan
+Filename: ./debs/History/iphoneos-arm64e/com.nan.givemedeb_0.1.4_iphoneos-arm64e.deb
+Size: 2036
+MD5sum: 6174f64784a2aef2dbbc4a1814a3d5f3
+SHA1: 3a6854fac33241170b81b1f0e8d9543305addfa6
+SHA256: ee179a5ec15702164da4c530b55ad66546d56c55999138b586be572ec155a752
 Section: Addons
 Description: 尝试保存 apt 缓存目录下所有 deb
 Author: zhaonan <invalidunit@icloud.com>
@@ -12758,6 +12997,25 @@ Author: zhaonan
 Icon: https://invalidunit.github.io/sileodepiction/com.nan.zh-hans/com.eliofeghali.souvenir/image.png
 Name: zh-Hans for Souvenir
 Sileodepiction: https://invalidunit.github.io/sileodepiction/com.nan.zh-hans/com.eliofeghali.souvenir/js.json
+
+Package: com.nan.titu
+Version: 0.1.5
+Architecture: iphoneos-arm
+Maintainer: zhaonan
+Depends: firmware (>> 13.0), firmware (<< 15.0)
+Conflicts: taurine-permanent, com.nan.tit
+Replaces: uikittools
+Filename: ./debs/History/iphoneos-arm/com.nan.titu_0.1.5_iphoneos-arm.deb
+Size: 30193548
+MD5sum: 8c6d41025e77c203156868507ae25b74
+SHA1: 12e15e8fa58443baf532051301d0c3f9cd33af1e
+SHA256: bb0b67dd4b7b5a77602ac6927f6fe9a7b44c9f798d1ec0ac5943edfcaf1a6456
+Section: Applications
+Description: Tips 的外壳，Taurine 的内在
+Author: zhaonan <invalidunit@icloud.com>
+Icon: https://invalidunit.github.io/sileodepiction/com.nan.tit/image.png
+Name: Taurine in Tips for unc0ver
+Sileodepiction: https://invalidunit.github.io/sileodepiction/com.nan.tit/js_u.json
 
 Package: com.nan.uitrasound
 Version: 1.2.13
@@ -18429,6 +18687,25 @@ Depiction: https://chariz.com/get/zetsu
 Icon: https://img.chariz.cloud/icon/zetsu/icon@3x.png
 Name: Zetsu
 
+Package: jp.dcsyhi.zetsu
+Version: 1.6.2
+Architecture: iphoneos-arm
+Maintainer: Dcsyhi <dcsyhi1998@gmail.com>
+Installed-Size: 11997
+Depends: mobilesubstrate,firmware (>=15.0),preferenceloader,com.opa334.ccsupport
+Filename: ./debs/History/iphoneos-arm64/Zetsu分屏.deb
+Size: 10165432
+MD5sum: d5e7ddc526ecb250f1844978d8d32b33
+SHA1: d75428c060a39ab50cca0911aa933b4cbdb400ac
+SHA256: 57cf9c19a25b96b36664a6aef209a2fa233c5aea837ad7dd079fd2b0c598e4fc
+Section: Tweaks
+Description: Multitasking on iOS15 - iOS16.
+Tag: compatible_min::ios15.0
+Author: Dcsyhi <dcsyhi1998@gmail.com>
+Depiction: https://chariz.com/get/zetsu
+Icon: https://img.chariz.cloud/icon/zetsu/icon@3x.png
+Name: Zetsu分屏
+
 Package: jp.dcsyhi.zetsurootless15
 Version: 1.2
 Architecture: iphoneos-arm64
@@ -18503,6 +18780,25 @@ Maintainer: alias20
 Installed-Size: 532
 Depends: firmware (>= 15.0), firmware (<< 17.0), com.opa334.ccsupport, libkrw0-dopamine (>= 2.0)
 Filename: ./debs/iphone-arm64/Vnodebypass屏蔽弹窗.deb
+Size: 67508
+MD5sum: 7444cefd8a3f3f8208150bd943ae3f30
+SHA1: ac8fbf571b3135f6656840e2ad5c4dbc8e64b524
+SHA256: 52c706bd39b8a9ffda25cefb544c43dd04cee922635f28556922da1304009f9f
+Section: System
+Description: 一键开启Disable弹窗屏蔽功能. (支持iOS 15-17 系统 Dopamine2)
+Tag: role::hacker, compatible::ios15, compatible::ios16
+Author: XsF1re, ichitaso, level3tjg
+Depiction: https://cydia.ichitaso.com/depiction/vnodebypass.html
+Icon: https://raw.githubusercontent.com/ichitaso/vnodebypass_theme/main/layout/Library/Themes/vnodebypass.theme/Icon.png
+Name: Vnodebypass屏蔽弹窗
+
+Package: kr.xsf1re.vnodebypass
+Version: 0.4.2
+Architecture: iphoneos-arm64
+Maintainer: alias20
+Installed-Size: 532
+Depends: firmware (>= 15.0), firmware (<< 17.0), com.opa334.ccsupport, libkrw0-dopamine (>= 2.0)
+Filename: ./debs/History/iphoneos-arm64/Vnodebypass屏蔽弹窗.deb
 Size: 67508
 MD5sum: 7444cefd8a3f3f8208150bd943ae3f30
 SHA1: ac8fbf571b3135f6656840e2ad5c4dbc8e64b524
@@ -20284,6 +20580,26 @@ Description: 通知优先级集线器调整。（已汉化）
 Author: Xyaman & b4db1r3
 Icon: https://repo.xyaman.xyz/depictions/tako/assets/icon.png
 Name: Tako ( iOS 15-16 )
+
+Package: theos-dependencies
+Version: 0-1
+Architecture: all
+Maintainer: Procursus Team <support@procurs.us>
+Installed-Size: 0
+Depends: clang, odcctools, curl, git, grep, perl, rsync, unzip, xz-utils, make, ldid
+Recommends: plutil, swift
+Conflicts: org.theos.dependencies
+Replaces: org.theos.dependencies
+Provides: org.theos.dependencies
+Filename: ./debs/History/iphoneos-arm64/Theos依赖.deb
+Size: 856
+MD5sum: 9bd9351270282106ad2f07c3d62f219c
+SHA1: 92f4a1354337cd84ff923c2975ff33258b2e5f16
+SHA256: e2fc9fbfd0a19e4bac4a0b4705f15409347e805bf5ffcc5c0c3d1e8c3dccdbb1
+Section: 插件开发
+Priority: optional
+Description: What Theos needs.
+Name: Theos依赖
 
 Package: trollleds
 Version: 1.3.1
