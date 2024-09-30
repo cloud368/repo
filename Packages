@@ -368,6 +368,22 @@ Author: 来了老弟 h_h_x_t
 Name: 仅开启CallKit-rootless
 
 Package: cn.llld.cocoatop
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: 来了老弟
+Installed-Size: 200
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/rootful/CocoaTop汉化-rootful.deb
+Size: 17462
+MD5sum: 4f4d95454018aa5dda0e1357684a13e1
+SHA1: d86a3b14cc65b2dfa2e031cd6362df4bb45863ab
+SHA256: 1d2be68f8959e978dbe5adacde065047a60cedf256c5a67df731067397fa3bb3
+Section: rootful汉化补丁
+Description: CocoaTop简易汉化
+Author: 来了老弟
+Name: CocoaTop汉化-rootful
+
+Package: cn.llld.cocoatop
 Version: 0.0.1-1
 Architecture: iphoneos-arm64
 Maintainer: 来了老弟
@@ -481,6 +497,22 @@ Name: CoolCC Reborn-roothide
 
 Package: cn.llld.copy1
 Version: 1.4.4
+Architecture: iphoneos-arm
+Maintainer: 来了老弟
+Installed-Size: 172
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/rootful/Copy-text-rootful_1.4.4-arm.deb
+Size: 8900
+MD5sum: e61292add733451332bd0b66c4a94de7
+SHA1: 19f303cbb0591f960746c703c25b3d57c57f2f5c
+SHA256: acbdb0853c630813b5407c2cfd4e51267c16ba795d075f28151bc95300bec158
+Section: rootful插件
+Description: Short-click to copy the text content.***使用方法：短按复制文本内容***，现处于测试阶段等后续更新支持更多,支持应用就不一一列举了，设置，电话，短信，appstore，QQ，贴吧，trollstore等,此版本不支持roothide
+Author: 来了老弟 h_h_x_t
+Name: Copy-text-rootful
+
+Package: cn.llld.copy1
+Version: 1.4.4
 Architecture: iphoneos-arm64e
 Maintainer: 来了老弟
 Installed-Size: 172
@@ -510,6 +542,37 @@ Section: rootless插件
 Description: Short-click to copy the text content.***使用方法：短按复制文本内容***，现处于测试阶段等后续更新支持更多,支持应用就不一一列举了，设置，电话，短信，appstore，QQ，trollstore等,此版本不支持roothide，0507:自行choicy手动禁用对于抖音的注入，若还有窗口点击的应用问题也禁用
 Author: 来了老弟 h_h_x_t
 Name: Copy-text-rootless
+
+Package: cn.llld.customizeccrootful
+Version: 1.2
+Maintainer: 来了老弟
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/rootful/CustomizeCC汉化-rootful_1.2_.deb
+Size: 12170
+MD5sum: ac3e9631a41cfa632210c24f15166a0b
+SHA1: 455650fca703607238da625eea6e0735ef98b0de
+SHA256: d94bf330f9cc26305a5c28b08a305271aa4bed2db9057f3188b98efd62ef204a
+Section: rootful汉化补丁
+Description: CustomizeCC汉化-rootful
+Author: 来了老弟
+Name: CustomizeCC汉化-rootful
+
+Package: cn.llld.customizeccrootful
+Version: 1.21
+Architecture: iphoneos-arm
+Maintainer: 来了老弟
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/rootful/CustomizeCC汉化-rootful_1.21_iphoneos-arm.deb
+Size: 12134
+MD5sum: 4ab4cc3cb961c579ad0130d8838de007
+SHA1: ae1a42f2582507853dd26b0179d7f1933c3f3278
+SHA256: 2bc7cc0b8b4f2abe0d4270612b61816e6340b4bed8d541a84f4dd4c66883fd66
+Section: rootful汉化补丁
+Description: CustomizeCC汉化-rootful
+Author: 来了老弟
+Name: CustomizeCC汉化-rootful
 
 Package: cn.llld.customizeccroothide
 Version: 1.21
@@ -622,6 +685,22 @@ Author: 来了老弟
 Name: Dock5个图标-roothide
 
 Package: cn.llld.dyst
+Version: 1.1
+Architecture: iphoneos-arm
+Maintainer: 来了老弟 h_h_x_t
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/rootful/DY抖音图层透明-rootful_1.1_iphoneos-arm.deb
+Size: 3216
+MD5sum: c9dc05880eeaa5799cd34a768a180c00
+SHA1: 2fc17b4c4615c404b48e576965a557adf4831aae
+SHA256: 7445646890c7eedba33086a9410c858d56969e274b855edad25daa0ef7987b3a
+Section: rootful插件
+Description: 透明(爱心,评论,收藏,分享)的图层，保留原先文字数量及点击功能，让观赏视频的视野更开阔，支持抖音极速版
+Author: 来了老弟 h_h_x_t
+Name: DY抖音图层透明-rootful
+
+Package: cn.llld.dyst
 Version: 1.4
 Architecture: iphoneos-arm64
 Maintainer: 来了老弟 h_h_x_t
@@ -686,6 +765,23 @@ Section: rootless插件
 Description: tweak exception error crash log filter, settings to see instructions，插件异常错误崩溃日志过滤器，在设置看说明。
 Author: 来了老弟
 Icon: file:///var/jb/Library/PreferenceBundles/errorllldprefs.bundle/icons-llld/Errorfilter.png
+Name: 插件异常崩溃日志过滤XD
+
+Package: cn.llld.errorfilter
+Version: 1.0.1
+Architecture: iphoneos-arm
+Maintainer: 来了老弟
+Installed-Size: 952
+Depends: mobilesubstrate
+Filename: ./debs/rootful/插件异常崩溃日志过滤XD_1.0.1_-arm.deb
+Size: 612916
+MD5sum: e79d7d2c99238c86ae4db0a2b30bda4c
+SHA1: ec38945c3595bd9e6240f4099754971600048fbe
+SHA256: 4b206cd31a66fc5b08c8a45471f0e64b5625e7f8ba2e04baf447d92de741b2f5
+Section: rootful插件
+Description: tweak exception error crash log filter, settings to see instructions，插件异常错误崩溃日志过滤器，在设置看说明。
+Author: 来了老弟
+Icon: file:///Library/PreferenceBundles/errorllldprefs.bundle/icons-llld/Errorfilter.png
 Name: 插件异常崩溃日志过滤XD
 
 Package: cn.llld.fivecolumnscc
@@ -753,6 +849,22 @@ Name: phonefix-rootless
 
 Package: cn.llld.fixdh1
 Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: 来了老弟
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/rootful/改分辨率后电话移位处理,高度2800+(rootful).deb
+Size: 4010
+MD5sum: 198b10070f283efcf1b0d2b3c159f9a2
+SHA1: 4ef7fa37a4db5cdab67a9948bf7f1388db5a6590
+SHA256: 0761e849e688609e76058ffaa7904eba10c3740a09f823f304f370a1b1d1178d
+Section: rootful插件
+Description: 解决更改很大分辨率后键盘缩小和移位的问题（适用于分辨率高度2800-3050）
+Author: 来了老弟
+Name: phonefix
+
+Package: cn.llld.fixdh1
+Version: 0.0.1
 Architecture: iphoneos-arm64e
 Maintainer: 来了老弟
 Installed-Size: 168
@@ -814,6 +926,22 @@ Section: rootless插件
 Description: Flex3 Turn on the permission to modify the new patch。Flex3开启修改新增补丁的权限（不限于下载或他人分享的）
 Author: 来了老弟 h_h_x_t
 Name: Flex3开启修改新增补丁-rootless
+
+Package: cn.llld.flexcopy
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: 来了老弟
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/rootful/flexcopy-rootful.deb
+Size: 4572
+MD5sum: f37422e792c6aee643cf6a6ee7b308a8
+SHA1: 6a9e7d50ff5cb859a4c3d6b8b772a10e78554bd5
+SHA256: 4c8bc42dfc0a2f59d8d3f1904e44dd04f787cce80dd2a4f1f89a6fc3449f21ab
+Section: rootful插件
+Description: Specifically customized for Flex3, long press to copy the description or popup content, combined with translation tools or software, making it convenient for you to understand languages you don't know.（专门为flex3定制，长按描述或者弹窗复制内容，配合翻译工具或者软件，方便你去了解不懂的语言）
+Author: 来了老弟
+Name: flexcopy-rootful
 
 Package: cn.llld.flexcopy
 Version: 1.0
@@ -896,6 +1024,22 @@ Description: Customize your folders with the most feature-rich folder tweak。�
 Author: Thomz and burrit0z
 Name: Folded文件夹增强-rootless
 Sileodepiction: https://laileld.github.io/repo/sileodepiction/cn.llld.folded/folded.json
+
+Package: cn.llld.fsqsy
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: 来了老弟 X：h_h_x_t
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/rootful/FaceSwapper去水印_0.0.1_iphoneos-arm.deb
+Size: 5840
+MD5sum: 8dbd9e6a66930bdeac97f6ea5b731604
+SHA1: 78b99309c22dae4c7af89297ff683d245e2152f8
+SHA256: b93a899493920a69557aa0e08380392864cb0b0173c478e7afa0dd02a195b4af
+Section: rootful应用会员
+Description: FaceSwapper去除预览水印和导出水印，网上有开心版。
+Author: 来了老弟 X：h_h_x_t
+Name: FaceSwapper
 
 Package: cn.llld.fsqsy
 Version: 0.0.1
@@ -1035,6 +1179,22 @@ Name: 隐藏桌面翻页点-rootless
 
 Package: cn.llld.htmh
 Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: 来了老弟 h_h_x_t
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/rootful/切换后台app模糊-rootful_1.0_iphoneos-arm.deb
+Size: 3244
+MD5sum: 01dd3dc9a441ccd542ef13cc2c7af6c1
+SHA1: 014abd9e9298b8edd5acca2547e58453d5981903
+SHA256: a8c2b92096ca1425ec8f552fb1964410216a399ce0df1ab9686493d00ea8781b
+Section: rootful插件
+Description: Switch the background blur effect.切换后台模糊效果,非高斯模糊，没找到好的写法，要么只能五颜六色，先发个版本（低斯模糊）凑合下，有针对所有后台应用时再更新
+Author: 来了老弟 h_h_x_t
+Name: 切换后台app模糊-rootful
+
+Package: cn.llld.htmh
+Version: 1.0
 Architecture: iphoneos-arm64e
 Maintainer: 来了老弟 h_h_x_t
 Installed-Size: 168
@@ -1067,6 +1227,22 @@ Name: 切换后台app模糊-rootless
 
 Package: cn.llld.igg
 Version: 0.0.2
+Architecture: iphoneos-arm
+Maintainer: 来了老弟
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/rootful/igg汉化-rootful_0.0.2_iphoneos-arm.deb
+Size: 8192
+MD5sum: 120142a60518c7c82122d03d9f6c0bc6
+SHA1: 016077a9f33f52735ec9b2a0bdb08cc8860d83bd
+SHA256: fadc42de6f2ddf65f5b8bcdc7d2ca2480090aa0720039744a46076723f1f2810
+Section: rootful汉化补丁
+Description: igg汉化，iGameGod汉化，神秘靓仔定制汉化-rootful
+Author: 来了老弟
+Name: igg汉化-rootful
+
+Package: cn.llld.igg
+Version: 0.0.2
 Architecture: iphoneos-arm64
 Maintainer: 来了老弟
 Installed-Size: 88
@@ -1080,6 +1256,22 @@ Section: rootless汉化补丁
 Description: igg汉化，iGameGod汉化，神秘靓仔定制汉化-rootless
 Author: 来了老弟
 Name: igg汉化-rootless
+
+Package: cn.llld.iyzico
+Version: 0.0.1
+Architecture: iphoneos-arm64
+Maintainer: 来了老弟
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/rootful/iyzico过越狱检测-rootless_0.0.1_iphoneos-arm64.deb
+Size: 3106
+MD5sum: c690e8c12956553a30b95fc44ccc93d3
+SHA1: 54c52536e25cd29a72a5cddae18517ca6c530d39
+SHA256: e6a36442fd284206c63f87039a8283f8faf8d22499533a926811119b944b4cfa
+Section: rootless插件
+Description: Skip jailbreak detection(iyzico跳过越狱检测)-rootless
+Author: 来了老弟
+Name: iyzico过越狱检测-rootless
 
 Package: cn.llld.iyzico
 Version: 0.0.1
@@ -1147,6 +1339,23 @@ Name: 禁用主屏幕下拉搜索-rootless
 
 Package: cn.llld.kbtool
 Version: 1.1.0-1
+Architecture: iphoneos-arm
+Maintainer: 来了老弟
+Installed-Size: 7804
+Depends: mobilesubstrate
+Filename: ./debs/rootful/PanelTools面板键盘增强1.1-rootful-arm.deb.deb
+Size: 3283030
+MD5sum: f24eab7e46ce00624f7fb818d5572b41
+SHA1: bcd64b6e77118b0b2455409c6a84f966482f9504
+SHA256: ea738692abde71e5d33dfc267daacf8271e7235c478058b9a1ef2ac30bbe943f
+Section: rootless插件
+Description: Convenient tools on the keyboard (Used for keyboard enhancement)。键盘上的便捷工具（用于键盘增强）---传统的复制,粘贴,全选,换行,左移,右移,关闭键盘,清空文本,替换文本,统计字符，注释内容，便签等功能都有，自定义高度宽度按钮，文字大小，文生图文字颜色等。更多待新增功能补充。
+Author: 来了老弟
+Icon: file:///Library/PreferenceBundles/Kbllldprefs.bundle/icons-llld/KbTool.png
+Name: Panel-Tools(keyboard)
+
+Package: cn.llld.kbtool
+Version: 1.1.0-1
 Architecture: iphoneos-arm64
 Maintainer: 来了老弟
 Installed-Size: 7836
@@ -1161,6 +1370,113 @@ Description: Convenient tools on the keyboard (Used for keyboard enhancement)。
 Author: 来了老弟
 Icon: file:///var/jb/Library/PreferenceBundles/Kbllldprefs.bundle/icons-llld/KbTool.png
 Name: Panel-Tools(keyboard)
+
+Package: cn.llld.kbtool
+Version: 1.1.2-1
+Architecture: iphoneos-arm
+Maintainer: 来了老弟
+Installed-Size: 8752
+Depends: mobilesubstrate
+Filename: ./debs/rootful/Panel-Tools(keyboard)1.1.2-1_rootful-arm.deb
+Size: 3525000
+MD5sum: f98dc23d011fc8432e81e607c489b69d
+SHA1: 8c4193478ab3f3d6481e83b44623d03811fc4c09
+SHA256: f30abd8581a92e8a0dff095fb35d94d881cd989c8dbdb53b1de0cb211e1173e5
+Section: rootless插件
+Description: Convenient tools on the keyboard (Used for keyboard enhancement)。键盘上的便捷工具（用于键盘增强）---传统的复制,粘贴,全选,换行,左移,右移,关闭键盘,清空文本,替换文本,统计字符，注释内容，便签等功能都有，自定义高度宽度，按钮文字大小，圆角，边框值，文生图，视图文字颜色，接入快捷指令等。上滑全选切换双行和单行功能，呼出kayoko或Copyvault，更多待新增功能补充。
+Author: 来了老弟
+Icon: file:///Library/PreferenceBundles/Kbllldprefs.bundle/icons-llld/KbTool.png
+Name: Panel-Tools(keyboard)
+
+Package: cn.llld.kbtool
+Version: 1.2.0-2
+Architecture: iphoneos-arm
+Maintainer: 来了老弟
+Installed-Size: 9216
+Depends: mobilesubstrate
+Filename: ./debs/rootful/Panel Tools_1.2.0-2-rootful-arm.deb
+Size: 3640192
+MD5sum: 0aa9866147a69f6ba6ee8c9520f221fc
+SHA1: 6e223cf8164d0f492bfaeff4633d125f8cc6016d
+SHA256: be57dcd621a0858f8c267115fe1e394b215cf528c93a1b448634a24fb9fcb4f5
+Section: rootful插件
+Description: Convenient tools on the keyboard (Used for keyboard enhancement)。键盘上的便捷工具（用于键盘增强）---传统的复制,粘贴,全选,换行,左移,右移,关闭键盘,清空文本,替换文本,统计字符，注释内容，便签等功能都有，自定义高度宽度按钮，文字大小，文生图文字颜色等。更多待新增功能补充。
+Author: 来了老弟
+Icon: file:///Library/PreferenceBundles/Kbllldprefs.bundle/icons-llld/KbTool.png
+Name: Panel-Tools(keyboard)
+Sileodepiction: https://laileld.github.io/repo/sileodepiction/cn.llld.kbtool/kbtool.json
+
+Package: cn.llld.kbtool
+Version: 1.3.0-1
+Architecture: iphoneos-arm
+Maintainer: 来了老弟
+Installed-Size: 8080
+Depends: mobilesubstrate
+Filename: ./debs/rootful/Panel Tools_1.3-rootful-arm.deb
+Size: 3473356
+MD5sum: e1c5929337f3cf843b32af5f7515ba09
+SHA1: 786ea165e0a799178378283b67a339bc25bfd7b8
+SHA256: aabd38dbae2c756af76e9582661f9772f5e00e47e991a91fcb0f7651bf64d79c
+Section: rootless应用插件
+Description: Convenient tools on the keyboard (Used for keyboard enhancement)。键盘上的便捷工具（用于键盘增强）---传统的复制,粘贴,全选,换行,左移,右移,关闭键盘,清空文本,替换文本,统计字符，注释内容，便签等功能都有，自定义高度宽度按钮，文字大小，文生图文字颜色,高度自定义等。粘贴下滑呼出Copyvault和kayoko粘贴板，复制或上下滑snapper2和ft悬浮交互，更多待新增功能补充。
+Author: 来了老弟
+Icon: file:///Library/PreferenceBundles/Kbllldprefs.bundle/icons-llld/KbTool.png
+Name: Panel-Tools(keyboard)
+Sileodepiction: https://laileld.github.io/repo/sileodepiction/cn.llld.kbtool/kbtool.json
+
+Package: cn.llld.kbtool
+Version: 1.4.0-1
+Architecture: iphoneos-arm
+Maintainer: 来了老弟
+Installed-Size: 14624
+Depends: mobilesubstrate
+Filename: ./debs/rootful/Panel Tools键盘之上工具栏-1.4-rootful-arm.deb
+Size: 3736432
+MD5sum: e89676903208ed68fd1961ee79feb827
+SHA1: b1bd04374a45aced1174155a72b613ced0736ef0
+SHA256: 802fc897a0fc1a6cb50d4b4ecf154a05d2e95a5837cd526c46c597e34a9325e7
+Section: rootful应用插件
+Description: Convenient tools on the keyboard (Used for keyboard enhancement)。键盘上的便捷工具（用于键盘增强）---传统的复制,粘贴,全选,换行,左移,右移,关闭键盘,清空文本,替换文本,统计字符，注释内容，便签等功能都有，自定义高度宽度按钮，文字大小，文生图文字颜色,高度自定义等。粘贴下滑呼出Copyvault和kayoko粘贴板，复制或上下滑snapper2和ft悬浮交互，更多待新增功能补充。
+Author: 来了老弟
+Icon: file:///Library/PreferenceBundles/Kbllldprefs.bundle/icons-llld/KbTool.png
+Name: Panel-Tools(keyboard)
+Sileodepiction: https://laileld.github.io/repo/sileodepiction/cn.llld.kbtool/kbtool.json
+
+Package: cn.llld.kbtool
+Version: 1.6.0-1
+Architecture: iphoneos-arm
+Maintainer: 来了老弟
+Installed-Size: 12868
+Depends: mobilesubstrate
+Filename: ./debs/rootful/PT键盘增强1.6-Rootful-arm.deb
+Size: 3470352
+MD5sum: 845f5017ff6560ecea9bc6818f59a3e5
+SHA1: 24e9bebd0d1c295ffc457b2b0e3dda6433f7a19b
+SHA256: 73a00912517ada68e31247e4ded5b5b4e1787818ad0e09ad1c09e18a661867da
+Section: rootful应用插件
+Description: Convenient tools on the keyboard (Used for keyboard enhancement)。键盘上的便捷工具（用于键盘增强）---传统的复制,粘贴,全选,换行,左移,右移,关闭键盘,清空文本,替换文本,统计字符，注释内容，便签等功能都有，自定义高度宽度按钮，文字大小，文生图文字颜色,高度自定义，自定义API等。粘贴下滑呼出Copyvault和kayoko粘贴板，复制或上下滑snapper2和ft悬浮交互，3.5和4.0GPT辅助，更多待新增功能补充。
+Author: 来了老弟
+Icon: file:///Library/PreferenceBundles/Kbllldprefs.bundle/icons-llld/KbTool.png
+Name: Panel-Tools(keyboard)
+Sileodepiction: https://laileld.github.io/repo/sileodepiction/cn.llld.kbtool/kbtool.json
+
+Package: cn.llld.kbtool
+Version: 1.6.0-2
+Architecture: iphoneos-arm
+Maintainer: 来了老弟
+Installed-Size: 11232
+Depends: mobilesubstrate
+Filename: ./debs/rootful/PT面版键盘增强1.6.0-2有根rootful-arm.deb
+Size: 3325548
+MD5sum: e8d0b9da6f72b8ea5f5ac51ff4c5bd1a
+SHA1: db7cf359c8e8b41ca2c63057d6fcf31a7dae71af
+SHA256: 5869978efce11eff33adcc40ccce59f32684dc37a938d601bb50993f7bbb3d81
+Section: rootful应用插件
+Description: Convenient tools on the keyboard (Used for keyboard enhancement)。键盘上的便捷工具（用于键盘增强）---传统的复制,粘贴,全选,换行,左移,右移,关闭键盘,清空文本,替换文本,统计字符，注释内容，便签等功能都有，自定义高度宽度按钮，文字大小，文生图文字颜色,高度自定义，自定义API使用等。同时加了4.0和3.5的GPT(辅助功能)，默认4.0容易挂，建议开GPT切换(3.5)，粘贴下滑呼出Copyvault和kayoko粘贴板，复制或上下滑snapper2和ft悬浮交互，更多待新增功能补充。
+Author: 来了老弟
+Icon: file:///Library/PreferenceBundles/Kbllldprefs.bundle/icons-llld/KbTool.png
+Name: Panel-Tools(keyboard)
+Sileodepiction: https://laileld.github.io/repo/sileodepiction/cn.llld.kbtool/kbtool.json
 
 Package: cn.llld.kbtool
 Version: 2.3.4-2
@@ -1199,6 +1515,42 @@ Name: PTools(keyboard)
 Sileodepiction: https://laileld.github.io/repo/sileodepiction/cn.llld.kbtool/kbtool.json
 
 Package: cn.llld.kbtool
+Version: 2.3.5-2
+Architecture: iphoneos-arm
+Maintainer: 来了老弟
+Installed-Size: 13276
+Depends: mobilesubstrate
+Filename: ./debs/rootful/cn.llld.kbtool_2.3.5-2_iphoneos-arm.deb
+Size: 3524752
+MD5sum: 1bd71513431447b931e2275064031027
+SHA1: 6a4a73837fe19528051967b122d63b5a8473bb4b
+SHA256: 266015c85e1cf9fcb5a8bd91f90ee89300f88616f0836a7485c013de8992d255
+Section: rootless应用插件
+Description: Convenient tools on the keyboard (Used for keyboard enhancement)。键盘上的便捷工具（用于键盘增强）---传统的复制,粘贴,全选,换行,左移,右移,关闭键盘,清空文本,替换文本,统计字符，注释内容，便签等功能都有，自定义高度宽度按钮，文字大小，文生图文字颜色,高度自定义等。粘贴下滑呼出Copyvault和kayoko粘贴板，复制或上下滑snapper2和ft悬浮交互，更多待新增功能补充。
+Author: 来了老弟
+Icon: file:///Library/PreferenceBundles/Kbllldprefs.bundle/icons-llld/KbTool.png
+Name: PTools(keyboard)
+Sileodepiction: https://laileld.github.io/repo/sileodepiction/cn.llld.kbtool/kbtool.json
+
+Package: cn.llld.kbtool
+Version: 2.3.5-3
+Architecture: iphoneos-arm
+Maintainer: 来了老弟
+Installed-Size: 7640
+Depends: mobilesubstrate
+Filename: ./debs/rootful/cn.llld.kbtool_2.3.5-3_iphoneos-arm.deb
+Size: 3122246
+MD5sum: fc15dfaee970e901fa598d11abd6f4c3
+SHA1: d378ba47ae381b6816d8b30c76ce5af03757051e
+SHA256: 0fa3fa7f7c21af85ba09d100a57a5abf06fd0907a43dddb442d25a05b857171a
+Section: rootless应用插件
+Description: Convenient tools on the keyboard (Used for keyboard enhancement)。键盘上的便捷工具（用于键盘增强）---传统的复制,粘贴,全选,换行,左移,右移,关闭键盘,清空文本,替换文本,统计字符，注释内容，便签等功能都有，自定义高度宽度按钮，文字大小，文生图文字颜色,高度自定义等。粘贴下滑呼出Copyvault和kayoko粘贴板，复制或上下滑snapper2和ft悬浮交互，更多待新增功能补充。
+Author: 来了老弟
+Icon: file:///Library/PreferenceBundles/Kbllldprefs.bundle/icons-llld/KbTool.png
+Name: PTools(keyboard)
+Sileodepiction: https://laileld.github.io/repo/sileodepiction/cn.llld.kbtool/kbtool.json
+
+Package: cn.llld.kbtool
 Version: 2.3.5-3
 Architecture: iphoneos-arm64
 Maintainer: 来了老弟
@@ -1218,6 +1570,24 @@ Sileodepiction: https://laileld.github.io/repo/sileodepiction/cn.llld.kbtool/kbt
 
 Package: cn.llld.kbtool
 Version: 2.4.0-2
+Architecture: iphoneos-arm
+Maintainer: 来了老弟
+Installed-Size: 11592
+Depends: mobilesubstrate
+Filename: ./debs/rootful/cn.llld.kbtool_2.4.0-2_iphoneos-arm.deb
+Size: 3364538
+MD5sum: 4f1078f7be00dfa0ed7f345698e10f9d
+SHA1: 84f388fc0a387cd33598dcbf3e56a8b8bdf85ac5
+SHA256: 5be032675c4e1df550235dac175dad63207173951fda9b835bbd80b66a9d9e48
+Section: rootless应用插件
+Description: Convenient tools on the keyboard (Used for keyboard enhancement)。键盘上的便捷工具（用于键盘增强）---传统的复制,粘贴,全选,换行,左移,右移,关闭键盘,清空文本,替换文本,统计字符，注释内容，便签等功能都有，自定义高度宽度按钮，文字大小，文生图文字颜色,高度自定义等。粘贴下滑呼出Copyvault和kayoko粘贴板，复制或上下滑snapper2和ft悬浮交互，更多待新增功能补充。
+Author: 来了老弟
+Icon: file:///Library/PreferenceBundles/Kbllldprefs.bundle/icons-llld/KbTool.png
+Name: PTools(keyboard)
+Sileodepiction: https://laileld.github.io/repo/sileodepiction/cn.llld.kbtool/kbtool.json
+
+Package: cn.llld.kbtool
+Version: 2.4.0-2
 Architecture: iphoneos-arm64
 Maintainer: 来了老弟
 Installed-Size: 11144
@@ -1231,6 +1601,24 @@ Section: rootless应用插件
 Description: Convenient tools on the keyboard (Used for keyboard enhancement)。键盘上的便捷工具（用于键盘增强）---传统的复制,粘贴,全选,换行,左移,右移,关闭键盘,清空文本,替换文本,统计字符，注释内容，便签等功能都有，自定义高度宽度按钮，文字大小，文生图文字颜色,高度自定义等。粘贴下滑呼出Copyvault和kayoko粘贴板，复制或上下滑snapper2和ft悬浮交互，更多待新增功能补充。
 Author: 来了老弟
 Icon: file:///var/jb/Library/PreferenceBundles/Kbllldprefs.bundle/icons-llld/KbTool.png
+Name: PTools(keyboard)
+Sileodepiction: https://laileld.github.io/repo/sileodepiction/cn.llld.kbtool/kbtool.json
+
+Package: cn.llld.kbtool
+Version: 2.4.0-3
+Architecture: iphoneos-arm
+Maintainer: 来了老弟
+Installed-Size: 11252
+Depends: mobilesubstrate
+Filename: ./debs/rootful/cn.llld.kbtool_2.4.0-3_iphoneos-arm.deb
+Size: 3378800
+MD5sum: 783bd1183a757983a43f7962f4259aca
+SHA1: 02174eea96cbbb4e6d14c059567e572f796e6b98
+SHA256: 2789a08dfaa4168fd86fe7257cf432d1b3ddb54a06cb547cc9a6a0f33eb693d0
+Section: rootful应用插件
+Description: Convenient tools on the keyboard (Used for keyboard enhancement)。键盘上的便捷工具（用于键盘增强）---传统的复制,粘贴,全选,换行,左移,右移,关闭键盘,清空文本,替换文本,统计字符，注释内容，便签等功能都有，自定义高度宽度按钮，文字大小，文生图文字颜色,高度自定义等。粘贴下滑呼出Copyvault和kayoko粘贴板，复制或上下滑snapper2和ft悬浮交互，更多待新增功能补充。
+Author: 来了老弟
+Icon: file:///Library/PreferenceBundles/Kbllldprefs.bundle/icons-llld/KbTool.png
 Name: PTools(keyboard)
 Sileodepiction: https://laileld.github.io/repo/sileodepiction/cn.llld.kbtool/kbtool.json
 
@@ -1496,6 +1884,22 @@ Description: Notiblock通知过滤--(rootless)简体中文包
 Author: 来了老弟 X: h_h_x_t
 Name: notiblock通知过滤汉化-rootless
 
+Package: cn.llld.notirootful
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: 来了老弟
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/rootful/notiblock通知过滤汉化-rootful_0.0.1_iphoneos-arm.deb
+Size: 7136
+MD5sum: 1f0f8a083ed7fe191898f982b9fe0415
+SHA1: 31b6eb53142bcbc3fa41dae8bc6b6e4b11a313bc
+SHA256: 2b1392a00c8ed10b6706294769bccb9be41d53a680682002c799784a825df8b7
+Section: rootful汉化补丁
+Description: Notiblock通知过滤--(rootful)简体中文包
+Author: 来了老弟 X: h_h_x_t
+Name: notiblock通知过滤汉化-rootful
+
 Package: cn.llld.panic
 Version: 1.1.2
 Architecture: iphoneos-arm64
@@ -1529,6 +1933,22 @@ Name: PictureModule自定义控制中心
 
 Package: cn.llld.pixactpro
 Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: 来了老弟 X：h_h_x_t
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/rootful/Pixact-Pro_0.0.1_iphoneos-arm.deb
+Size: 5296
+MD5sum: 61cb5122c4c2f23201cf56414771d3c4
+SHA1: 58cf532e2ea255c460f8541291126b803a012c1c
+SHA256: 8e33bae3a96fa2b91e1a51cb736ee73b4e867056db4bfe66acabd02bab543b66
+Section: rootful应用会员
+Description: Pixact专业版
+Author: 来了老弟 X：h_h_x_t
+Name: Pixact-Pro
+
+Package: cn.llld.pixactpro
+Version: 0.0.1
 Architecture: iphoneos-arm64
 Maintainer: 来了老弟 X：h_h_x_t
 Installed-Size: 168
@@ -1542,6 +1962,23 @@ Section: rootless应用会员
 Description: Pixact专业版
 Author: 来了老弟 X：h_h_x_t
 Name: Pixact-Pro
+
+Package: cn.llld.playerbj
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: 来了老弟 h_h_x_t
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/rootful/隐藏播放器通知背景-rootful_1.0_iphoneos-arm.deb
+Size: 3548
+MD5sum: b002ecfc3eb52dc74b86b2fa1783ce80
+SHA1: 0d65eb45695dc49bdc6907f3e4d666322a74f8f4
+SHA256: 4722db221559cdf6c3d79ae6f03a3f43a3c54cfea7b2a865068fe363d6f4cc3c
+Section: rootful插件
+Description: Hide player Notification background。全透版本，隐藏播放器通知背景-rootful
+Author: 来了老弟 h_h_x_t
+Name: 隐藏播放器通知背景-rootful
+Sileodepiction: https://laileld.github.io/repo/sileodepiction/cn.llld.playerbj/playerbj-rootful.json
 
 Package: cn.llld.playerbj
 Version: 1.0
@@ -1613,6 +2050,23 @@ Sileodepiction: https://laileld.github.io/repo/sileodepiction/cn.llld.ppgxll/ppg
 
 Package: cn.llld.pts
 Version: 0.1
+Architecture: iphoneos-arm
+Maintainer: 来了老弟
+Installed-Size: 172
+Depends: mobilesubstrate
+Filename: ./debs/rootful/PTs_0.1_可注入可越狱-免费rootful-arm.deb
+Size: 10782
+MD5sum: cbe53fbcefdddbcdda383f605e01b75c
+SHA1: e8d466862dc02d35c8adedb49f0a9055d3ea221d
+SHA256: c8c007c583c10769608fa7d161c09d089d9da4bcfea06bd7b5f63a6bde814801
+Section: rootless应用插件
+Description: 可注入可越狱使用，免费。补充iOS原生的不足，给多个网页类型的应用（比如：各种浏览器，Copilot等），在原工具栏的基础上增加功能按钮(撤销，重做，全选，复制，粘贴，剪切板，换行)，顺便也解决我个人插件PT没有对这方面的行为处理.
+Author: 来了老弟
+Name: PTs
+Sileodepiction: https://laileld.github.io/repo/sileodepiction/cn.llld.pts/pts.json
+
+Package: cn.llld.pts
+Version: 0.1
 Architecture: iphoneos-arm64
 Maintainer: 来了老弟
 Installed-Size: 172
@@ -1624,6 +2078,23 @@ SHA1: 9cbf7b82bc9c84c256f92c1cb3c8ea82e34b35e0
 SHA256: 30f4213f7b09abbc39efc629f64ca36209f6f55aa135964e74c07fa5bbd65e4a
 Section: rootless应用插件
 Description: 可注入可越狱使用，免费。补充iOS原生的不足，给多个网页类型的应用（比如：各种浏览器，Copilot等），在原工具栏的基础上增加功能按钮(撤销，重做，全选，复制，粘贴，剪切板，换行)，顺便也解决我个人插件PT没有对这方面的行为处理.
+Author: 来了老弟
+Name: PTs
+Sileodepiction: https://laileld.github.io/repo/sileodepiction/cn.llld.pts/pts.json
+
+Package: cn.llld.pts
+Version: 0.2
+Architecture: iphoneos-arm
+Maintainer: 来了老弟
+Installed-Size: 172
+Depends: mobilesubstrate
+Filename: ./debs/rootful/PTs_0.2_iphoneos-arm.deb
+Size: 10896
+MD5sum: 2338e9e12d4525ffb666e1a8013507ce
+SHA1: 7c57ad9585fd2fa9dfeb1187453176450a1454d2
+SHA256: ee0c0ba287fe8b57872641a7e080d4631d0726f929f1e246326eb36c1236fc81
+Section: rootful应用插件
+Description: 可注入可越狱使用，免费。补充iOS原生的不足，给多个网页类型的应用或场景（比如：各种浏览器Safari，或Ai工具Copilot，拼多多评价区，QQ我的收藏编辑框等），在原工具栏的基础上增加功能按钮(撤销，重做，全选，复制，粘贴，剪切板，换行)，顺便也解决我个人插件PT没有对这方面的行为处理.240915:修正粘贴问题
 Author: 来了老弟
 Name: PTs
 Sileodepiction: https://laileld.github.io/repo/sileodepiction/cn.llld.pts/pts.json
@@ -1683,6 +2154,24 @@ Sileodepiction: https://laileld.github.io/repo/sileodepiction/cn.llld.qqdsq/qqds
 
 Package: cn.llld.qqdsq
 Version: 1.3.3
+Architecture: iphoneos-arm
+Maintainer: 来了老弟 X：h_h_x_t
+Installed-Size: 592
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/rootful/芭比Q-rootful_1.3.3_iphoneos-arm.deb
+Size: 104070
+MD5sum: ba024eef1a470058b325ec9575b55298
+SHA1: 9c08694eaff28a212e626084fa47fa5c297812ac
+SHA256: 6cedaf15325e52e625bb2bf206cc81663dc9ae33f6a739eabea37b4a075a8a7a
+Section: rootful插件
+Description: 给QQ加点小功能，有空就更，功能在手机"系统设置"。调试版本号：v8.9.58和v9.0以上，别的版本需自测。
+Author: 来了老弟 X：h_h_x_t
+Icon: file:///Library/PreferenceBundles/qqdsqprefs.bundle/icons-llld/tubiao1.png
+Name: 芭比Q-rootful
+Sileodepiction: https://laileld.github.io/repo/sileodepiction/cn.llld.qqdsq/qqdsq-rootless.json
+
+Package: cn.llld.qqdsq
+Version: 1.3.3
 Architecture: iphoneos-arm64e
 Maintainer: 来了老弟 X：h_h_x_t
 Installed-Size: 592
@@ -1735,6 +2224,22 @@ Icon: file:///var/jb/Library/PreferenceBundles/qqdsqprefs.bundle/icons-llld/tubi
 Name: 芭比QQ精简版-rootless
 
 Package: cn.llld.qsyy
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: 来了老弟
+Installed-Size: 304
+Depends: mobilesubstrate
+Filename: ./debs/rootful/悬浮翻译汉化工具-rootful_1.0-arm.deb
+Size: 37122
+MD5sum: 4f62fb85985efe4f1cf19c0a53a69b48
+SHA1: 9c7a1ebec020f8b4c8aec6b4d4b930da15a3a5fa
+SHA256: 01844cecbdca7ae4a962b65acce99f0b3d38645eb2846f494fac8139a26b0c7f
+Section: rootful插件
+Description: ***Long press any 'tweak title' in the settings to pop up the settings, function: translate the tweak language, effective in real time。长按设置中任意'标题'弹出设置，功能：翻译插件语言，实时生效，用于汉化或者别的语言翻译，，，，配合截图识字，发AI翻译效率更高，翻译普通插件几分钟，大型插件也用不了多久，240329大更新，此次版本加入了reddit和小扫把，还有电话，支持电话修改联系人，修改时间，修改通话记录，支持强迫症改小扫把里边那些别的语言，强烈建议升级，之前代码是垃圾，一切以最新版为准***
+Author: 来了老弟
+Name: 悬浮翻译汉化工具-rootful
+
+Package: cn.llld.qsyy
 Version: 1.2
 Architecture: iphoneos-arm64
 Maintainer: 来了老弟
@@ -1752,6 +2257,60 @@ Icon: file:///var/jb/Library/PreferenceBundles/fyllldprefs.bundle/icons-llld/fyx
 Name: FloatingReplacement悬浮替换翻译汉化
 
 Package: cn.llld.qsyy
+Version: 2.2.0-12
+Architecture: iphoneos-arm
+Maintainer: 来了老弟
+Installed-Size: 5392
+Depends: mobilesubstrate (>= 0.9.5000) , firmware (>= 14.0), preferenceloader, com.opa334.altlist
+Filename: ./debs/rootful/cn.llld.qsyy_2.2.0-12_arm.deb
+Size: 1929424
+MD5sum: 9a054fabb2d1c3edf9a7375950bff0a7
+SHA1: 1ff9dc58a3cb96f2f9a21932d46454a4910134c1
+SHA256: 57df7edfbd3e9b630e98868c23cb13ee065117e15b1271548ee0756d5892e267
+Section: rootless应用插件
+Description: A floating window tool that supports batch text replacement, this version adds reddit and iCleaner Pro, as well as phone, support Text replacement in settings, support phone modification of contact, modification of time, modification of call record，Custom text replacement, custom text size, custom text view width, height, custom text view horizontal and vertical coordinates, custom text color, custom text font, custom text transparency etc.,More uses waiting for you to discover, it is strongly recommended to upgrade.***一款支持批量替换文本的悬浮窗工具***，使用说明：悬浮窗内填写：文本替换前===文本替换后，===是替换符。使用场景：分屏，自动翻译修改通话时间，修改联系人，修改通话记录，翻译替换文本，自定义文字替换，自定义文字大小，自定义文字视图宽度，高度，自定义文字视图横向纵向的坐标，自定义文字颜色，自定义文字字体，自定义文字透明度，隐藏设备实际信息，靓仔装逼等(非所有文字，个别函数需要等我适配)。之前代码是垃圾，一切以最新版为准，提示：装了非真皮120或全局篡改插件的设备，不要装此插件，这只是应用类插件，不会影响到系统全局或桌面。
+Author: 来了老弟
+Icon: file:///var/jb/Library/PreferenceBundles/fyllldprefs.bundle/icons-llld/fyxf.png
+Name: FT Plus
+Sileodepiction: https://laileld.github.io/repo/sileodepiction/cn.llld.qsyy/fy.json
+
+Package: cn.llld.qsyy
+Version: 2.2.0-13
+Architecture: iphoneos-arm
+Maintainer: 来了老弟
+Installed-Size: 5392
+Depends: mobilesubstrate (>= 0.9.5000) , firmware (>= 14.0), preferenceloader, com.opa334.altlist
+Filename: ./debs/rootful/cn.llld.qsyy_2.2.0-13_iphoneos-arm.deb
+Size: 1931606
+MD5sum: 4db1731e147cc031b7618888f15e6bf7
+SHA1: 6f0406c10e0ec3315dab46e73b2a39d78510bc58
+SHA256: 5ca163f5c67793f73228d11d544cf33cdf530d5207d76dcbf673a0b613392ae5
+Section: rootless应用插件
+Description: A floating window tool that supports batch text replacement, this version adds reddit and iCleaner Pro, as well as phone, support Text replacement in settings, support phone modification of contact, modification of time, modification of call record，Custom text replacement, custom text size, custom text view width, height, custom text view horizontal and vertical coordinates, custom text color, custom text font, custom text transparency etc.,More uses waiting for you to discover, it is strongly recommended to upgrade.***一款支持批量替换文本的悬浮窗工具***，使用说明：悬浮窗内填写：文本替换前===文本替换后，===是替换符。使用场景：分屏，自动翻译修改通话时间，修改联系人，修改通话记录，翻译替换文本，自定义文字替换，自定义文字大小，自定义文字视图宽度，高度，自定义文字视图横向纵向的坐标，自定义文字颜色，自定义文字字体，自定义文字透明度，隐藏设备实际信息，靓仔装逼等(非所有文字，个别函数需要等我适配)。之前代码是垃圾，一切以最新版为准，提示：装了非真皮120或全局篡改插件的设备，不要装此插件，这只是应用类插件，不会影响到系统全局或桌面。
+Author: 来了老弟
+Icon: file:///var/jb/Library/PreferenceBundles/fyllldprefs.bundle/icons-llld/fyxf.png
+Name: FT Plus
+Sileodepiction: https://laileld.github.io/repo/sileodepiction/cn.llld.qsyy/fy.json
+
+Package: cn.llld.qsyy
+Version: 2.2.2-2
+Architecture: iphoneos-arm
+Maintainer: 来了老弟
+Installed-Size: 5584
+Depends: mobilesubstrate (>= 0.9.5000) , firmware (>= 14.0), preferenceloader, com.opa334.altlist
+Filename: ./debs/rootful/cn.llld.qsyy_2.2.2-2_iphoneos-arm.deb
+Size: 2032144
+MD5sum: 50c3f21a1d700c2dfd67434fdce2f4a0
+SHA1: a5336e13c8a5daeea0740020d428e87ae626c1b1
+SHA256: 9d950824acadd11e12d07eb1fd362c4c0ae8c02421a6e72021d476737538be0b
+Section: rootless应用插件
+Description: A floating window tool that supports batch text replacement, this version adds reddit and iCleaner Pro, as well as phone, support Text replacement in settings, support phone modification of contact, modification of time, modification of call record，Custom text replacement, custom text size, custom text view width, height, custom text view horizontal and vertical coordinates, custom text color, custom text font, custom text transparency etc.,More uses waiting for you to discover, it is strongly recommended to upgrade.***一款支持批量替换文本的悬浮窗工具***，使用说明：悬浮窗内填写：文本替换前===文本替换后，===是替换符。使用场景：分屏，自动翻译修改通话时间，修改联系人，修改通话记录，翻译替换文本，自定义文字替换，自定义文字大小，自定义文字视图宽度，高度，自定义文字视图横向纵向的坐标，自定义文字颜色，自定义文字字体，自定义文字透明度，隐藏设备实际信息，靓仔装逼等(非所有文字，个别函数需要等我适配)。之前代码是垃圾，一切以最新版为准，提示：装了非真皮120或全局篡改插件的设备，不要装此插件，这只是应用类插件，不会影响到系统全局或桌面。
+Author: 来了老弟
+Icon: file:///var/jb/Library/PreferenceBundles/fyllldprefs.bundle/icons-llld/fyxf.png
+Name: FT Plus
+Sileodepiction: https://laileld.github.io/repo/sileodepiction/cn.llld.qsyy/fy.json
+
+Package: cn.llld.qsyy
 Version: 2.2.2-2
 Architecture: iphoneos-arm64
 Maintainer: 来了老弟
@@ -1767,6 +2326,24 @@ Description: A floating window tool that supports batch text replacement, this v
 Author: 来了老弟
 Icon: file:///var/jb/Library/PreferenceBundles/fyllldprefs.bundle/icons-llld/fyxf.png
 Name: FT悬浮文本增强替换翻译汉化
+Sileodepiction: https://laileld.github.io/repo/sileodepiction/cn.llld.qsyy/fy.json
+
+Package: cn.llld.qsyy
+Version: 2.2.2-5
+Architecture: iphoneos-arm
+Maintainer: 来了老弟
+Installed-Size: 5696
+Depends: mobilesubstrate (>= 0.9.5000) , firmware (>= 14.0), preferenceloader, com.opa334.altlist
+Filename: ./debs/rootful/cn.llld.qsyy_2.2.2-5_iphoneos-arm.deb
+Size: 2091376
+MD5sum: 36e3d152c066d6c285a0e5e990806106
+SHA1: 880f23306453574bfb68e3b7a894afb9082dae6a
+SHA256: 655f081b012e1ad108c232fea21bae7c7f41b2c116cf08b02d16a82483a54f8c
+Section: rootful应用插件
+Description: A floating window tool that supports batch text replacement, this version adds reddit and iCleaner Pro, as well as phone, support Text replacement in settings, support phone modification of contact, modification of time, modification of call record，Custom text replacement, custom text size, custom text view width, height, custom text view horizontal and vertical coordinates, custom text color, custom text font, custom text transparency etc.,More uses waiting for you to discover, it is strongly recommended to upgrade.***一款支持批量替换文本的悬浮窗工具***，使用说明：悬浮窗内填写：文本替换前===文本替换后，===是替换符。使用场景：分屏，自动翻译修改通话时间，修改联系人，修改通话记录，翻译替换文本，自定义文字替换，自定义文字大小，自定义文字视图宽度，高度，自定义文字视图横向纵向的坐标，自定义文字颜色，自定义文字字体，自定义文字透明度，隐藏设备实际信息，靓仔装逼等(非所有文字，个别函数需要等我适配)。之前代码是垃圾，一切以最新版为准，提示：装了非真皮120或全局篡改插件的设备，不要装此插件，这只是应用类插件，不会影响到系统全局或桌面。
+Author: 来了老弟
+Icon: file:///Library/PreferenceBundles/fyllldprefs.bundle/icons-llld/fyxf.png
+Name: FT Plus
 Sileodepiction: https://laileld.github.io/repo/sileodepiction/cn.llld.qsyy/fy.json
 
 Package: cn.llld.qsyy
@@ -1963,6 +2540,22 @@ Name: SettingsUDID-roothide
 
 Package: cn.llld.shelly
 Version: 0.0.2
+Architecture: iphoneos-arm
+Maintainer: 来了老弟
+Installed-Size: 200
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/rootful/shelly汉化-rootful_0.0.2_iphoneos-arm.deb
+Size: 14350
+MD5sum: 5d338862a5477368fa29d46047d02ed5
+SHA1: 7ca4b90715439d517e53b7983cac7e355f0669f3
+SHA256: d0a47dfa3fd43813c1ee5999bf07b7862d3ca68b0f676ebb91f510a599610302
+Section: rootful汉化补丁
+Description: Shelly--(rootful)简体中文包
+Author: 来了老弟 h_h_x_t
+Name: shelly汉化-rootful
+
+Package: cn.llld.shelly
+Version: 0.0.2
 Architecture: iphoneos-arm64e
 Maintainer: 来了老弟
 Installed-Size: 200
@@ -2088,6 +2681,22 @@ Name: SmartLight快捷手电-rootless
 
 Package: cn.llld.smartnotifications
 Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: 来了老弟
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/rootful/SmartNotifications2汉化-rootful.deb
+Size: 10538
+MD5sum: 61223d5697297539a2bd43e1f69f4430
+SHA1: 8eba98721dd25e693ec4a69b18438fdb09eebf57
+SHA256: ddcebcc4e5030207297a69292eb904c6128889710ac9224feef866b45c27e49a
+Section: rootful汉化补丁
+Description: SmartNotifications2汉化
+Author: 来了老弟
+Name: SmartNotifications2汉化-rootful
+
+Package: cn.llld.smartnotifications
+Version: 0.0.1
 Architecture: iphoneos-arm64e
 Maintainer: 来了老弟
 Installed-Size: 168
@@ -2151,6 +2760,24 @@ Section: rootless应用插件
 Description: ---对于应用软件的图片，（无水印拿图，直接分享，复制到剪切板，图片分割，文字水印，涂鸦，截图，保存到相册，圆角处理，直接马赛克等功能，特意支持telegram,nicegram,swiftgram等应用，禁止截图或私密群组的图片保存到粘贴板和相册）。***(商店应用有百万千万级，非100%应用或场景支持，不可能挨个应用测试)***
 Author: 来了老弟
 Icon: file:///var/jb/Library/PreferenceBundles/SnapshotToolprefs.bundle/icons-llld/SnapshotTool.png
+Name: STTool
+Sileodepiction: https://laileld.github.io/repo/sileodepiction/cn.llld.snapshottool/snapshottool.json
+
+Package: cn.llld.snapshottool
+Version: 1.1.0-2
+Architecture: iphoneos-arm
+Maintainer: 来了老弟
+Installed-Size: 2140
+Depends: mobilesubstrate
+Filename: ./debs/rootful/snapshottool_1.1.0-2_iphoneos-arm.deb
+Size: 601136
+MD5sum: 4ea519f9dde5222c74c4b7ea7cdc9499
+SHA1: 26263aa4b9e18347b5e43647ac10e2c62c437feb
+SHA256: 90c6bfd0f0bb4f2fe90592f3c76c7132f1634ad6dc77bf6398dffb10607722dc
+Section: rootless应用插件
+Description: ---对于应用软件的图片，（无水印拿图，直接分享，复制到剪切板，图片分割，文字水印，涂鸦，截图，保存到相册，圆角处理，直接马赛克等功能，特意支持telegram,nicegram,swiftgram等应用，禁止截图或私密群组的图片保存到粘贴板和相册）。***(商店应用有百万千万级，非100%应用或场景支持，不可能挨个应用测试)***
+Author: 来了老弟
+Icon: file:///Library/PreferenceBundles/SnapshotToolprefs.bundle/icons-llld/SnapshotTool.png
 Name: STTool
 Sileodepiction: https://laileld.github.io/repo/sileodepiction/cn.llld.snapshottool/snapshottool.json
 
@@ -2616,6 +3243,22 @@ Name: HideFolderBackground-rootless
 
 Package: cn.llld.ycwjjmh
 Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: 来了老弟 h_h_x_t
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/rootful/隐藏文件夹模糊-rootful_0.0.1_iphoneos-arm.deb
+Size: 2958
+MD5sum: d3d8f7fc13789d8e68d52a2656b3f624
+SHA1: 3b927c8474f38b3f28a8a382a1601149b75d3c83
+SHA256: d223d6e3c70c8bcad7dc97d4f8e958916c18844850cce011bdf3ef9d90334a41
+Section: rootful隐藏专区
+Description: Hide folder blur隐藏打开文件夹时模糊背景(直接透明到桌面)-rootful
+Author: 来了老弟 h_h_x_t
+Name: 隐藏文件夹模糊-rootful
+
+Package: cn.llld.ycwjjmh
+Version: 0.0.1
 Architecture: iphoneos-arm64e
 Maintainer: 来了老弟 h_h_x_t
 Installed-Size: 168
@@ -2680,6 +3323,22 @@ Name: HideHomeBar隐藏底部小白条-rootless
 
 Package: cn.llld.yghsh
 Version: 1.1
+Architecture: iphoneos-arm
+Maintainer: 来了老弟 h_h_x_t
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/rootful/阳光惠生活去越狱提示-rootful_1.1_iphoneos-arm.deb
+Size: 2946
+MD5sum: 00efd9f66ed5dccf074514263a0c2676
+SHA1: 9b98cdd1555d865b31877b57c5c45446a06b9f04
+SHA256: 3db90ddbbef3e57b41080f0b3ab300656db7c7f976fe008c4139752ba4e9d7dd
+Section: rootful屏蔽弹窗
+Description: 去掉(阳光惠生活)越狱提示，不影响任何插件注入使用
+Author: 来了老弟 h_h_x_t
+Name: 阳光惠生活去越狱提示-rootful
+
+Package: cn.llld.yghsh
+Version: 1.1
 Architecture: iphoneos-arm64e
 Maintainer: 来了老弟 h_h_x_t
 Installed-Size: 168
@@ -2740,6 +3399,22 @@ Description: Store desktop apps, stack apps，Requires installation Legacy arm64
 Author: Muirey03 来了老弟
 Name: Zenith(Apex)App堆叠-rootless
 Sileodepiction: https://laileld.github.io/repo/sileodepiction/cn.llld.zenith/zenith_rootless.json
+
+Package: cn.llld.zfbb
+Version: 1.1
+Architecture: iphoneos-arm
+Maintainer: 来了老弟 X：h_h_x_t
+Installed-Size: 204
+Depends: mobilesubstrate
+Filename: ./debs/rootful/支付宝步数XD-rootful_1.1_iphoneos-arm.deb
+Size: 17616
+MD5sum: 99ede2d12913abc9a3f2602b3b262347
+SHA1: 74551e1256eb1f3e07ed0abaf1b0fce480c03df0
+SHA256: 08c3aa38dfeea9960839a7b4d213cc0ae4f435ceab3c08c9ac024a05c49b8811
+Section: rootful应用插件
+Description: 可注入可越狱使用。自定义步数，屏蔽越狱检测，精简主页显示内容.***长按底栏1秒控件或森林、运动顶栏或任意右上角控件顶部，弹出设置***,支持任意版本。0303:增加移除理财。自行设置里关了视频，底部就居中了
+Author: 来了老弟 X：h_h_x_t
+Name: 支付宝步数XD-rootful
 
 Package: cn.llld.zfbb
 Version: 1.1
@@ -2922,6 +3597,38 @@ Description: The phone automatically turns on Do Not Disturb mode when recording
 Author: gilshahar7, 0xkuj
 Name: DNDMyRecording录屏勿扰模式-rootless
 
+Package: com.llld.flexlist
+Version: 0.0.1-4+debug
+Architecture: iphoneos-arm
+Maintainer: 来了老弟
+Installed-Size: 204
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/rootful/Flexlist汉化-rootful_0.0.1-4+debug_iphoneos-arm.deb
+Size: 12968
+MD5sum: 80780761ad56943b24acefa274afadf0
+SHA1: 0020d73de6745adcd609a7c026981946228fae4d
+SHA256: 0a7b38fd720d629a94044d68fb3ce4e3e706e7f411087a2df563a538dfa80c96
+Section: rootful汉化补丁
+Description: Flexlist--(rootful)简体中文包
+Author: 来了老弟
+Name: Flexlist汉化-rootful
+
+Package: com.llld.flexrootful
+Version: 0.0.31
+Architecture: iphoneos-arm
+Maintainer: 来了老弟
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/rootful/flex汉化包-rootful_0.0.31_iphoneos-arm.deb
+Size: 12344
+MD5sum: 122216987bc74cdff957c33dccf475dd
+SHA1: 9554449451e3a520a0ec0eb6ecac1f9aad225baa
+SHA256: 939fc97be154b0388c9e0c7c3dd7ae037b159c39505aff2736de36f80888ec2c
+Section: rootful汉化补丁
+Description: flex3--(rootful专用)简体中文包
+Author: 来了老弟
+Name: flex汉化包-rootful
+
 Package: com.llld.flexrootless
 Version: 0.0.2
 Architecture: iphoneos-arm64
@@ -2972,6 +3679,22 @@ Name: FUGap控制中心间距-rootless
 
 Package: com.llld.livecalltranslator
 Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: 来了老弟
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/rootful/LiveCallTranslator汉化包-rootful_0.0.1_iphoneos-arm.deb
+Size: 8388
+MD5sum: 2294ea7e71ad2aa58019170f15318649
+SHA1: eb95733cc1ea8b4b4ab196b507ee9a4e86c5a1e2
+SHA256: cd819e67cad9ba4230cc361c1714217012f719904cc4c242102537c28e97de04
+Section: rootful汉化补丁
+Description: LiveCallTranslator汉化--(rootful)简体中文包
+Author: 来了老弟 h_h_x_t
+Name: LiveCallTranslator汉化包-rootful
+
+Package: com.llld.livecalltranslator
+Version: 0.0.1
 Architecture: iphoneos-arm64e
 Maintainer: 来了老弟
 Installed-Size: 168
@@ -3001,6 +3724,22 @@ Section: rootless汉化补丁
 Description: LiveCallTranslator汉化--(rootless)简体中文包
 Author: 来了老弟 h_h_x_t
 Name: LiveCallTranslator汉化包-rootless
+
+Package: com.llld.runerootful
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: 来了老弟
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/rootful/Rune汉化包-rootful_0.0.1_iphoneos-arm.deb
+Size: 9474
+MD5sum: 24b8b74d076111c03146553119f4cccf
+SHA1: 2bc2c5eb3961cc6a3db874146a9e3c9ca273a42f
+SHA256: d1c5b5eb2ddd4d9efaa01d7c9d15d5ceeb77419a4f60d772825278853a1798c9
+Section: rootful汉化补丁
+Description: Rune汉化--(rootful)简体中文包
+Author: 来了老弟 h_h_x_t
+Name: Rune汉化包-rootful
 
 Package: com.llld.runeroothide
 Version: 0.0.1
@@ -3450,6 +4189,22 @@ Description: The side volume buttons change the volume by 6.25 percent per click
 Author: PoomSmart
 Depiction: https://Randy-420.GitHub.io/depic/volumeStep.html
 Name: VolumeStep13/14
+
+Package: com.xx.dyhook
+Version: 1.0.2
+Architecture: iphoneos-arm
+Maintainer: x✨
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/rootful/DY抖音图层调整-rootful.deb
+Size: 34612
+MD5sum: 694d0f7cbe21b13dd91308bcd4d2762b
+SHA1: 393972b6da7f5fd075a18d2d7b2f4e9eb9dc8c03
+SHA256: ae8c5d16102127bc90ffe7044d713f405cb4d3b1035731ef852b440969c0b6d9
+Section: rootful插件
+Description: 作者为人低调，这是他自用 (我也用)，首页视频界面双指双击弹出设置UI，作用：抖音顶部或侧面的功能，图层隐藏调节透明度
+Author: x✨
+Name: 抖音图层调整-rootful
+Sileodepiction: https://laileld.github.io/repo/sileodepiction/com.xx.dyhook/dyhook-rootless.json
 
 Package: com.xx.dyhook
 Version: 1.0.2
