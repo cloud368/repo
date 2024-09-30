@@ -1,140 +1,369 @@
-Package: byg.iosios.net.Flex3
-Version: 1:3~Beta61
+Package: ch.xxtou.hudapp
+Version: 1.11.6
 Architecture: iphoneos-arm64
 Maintainer: 桃花源
-Depends: mobilesubstrate, firmware (>= 9.0)
-Conflicts: Flexpackage, Flexpackagebeta, com.fuyuchi.flex, Flex2packagebeta, Flex2package,  com.fuyuchi.flex2, Flex2Blackpackagebeta, com.johncoates.Flex3, Flex3FeatureCatalog, byg.iosios.net.Flex3beta
-Replaces: Flexpackage, Flexpackagebeta, com.fuyuchi.flex, Flex2packagebeta, Flex2package,  com.fuyuchi.flex2, Flex2Blackpackagebeta, com.johncoates.Flex3, Flex3FeatureCatalog, Flex3ToolsOnly
-Filename: ./debs/Flex 3 Beta程序修改器-Rootless.deb
-Size: 16719016
-MD5sum: 12afa1cda4f633a0351cf82e1c05a5a8
-SHA1: f9b6bdf993a45aebf1726bc9773694511c9d16ec
-SHA256: 6dc494c56ddc69f8c64ca69bcaee2c2616fd214ae42c5e55a22d16c4c0629812
+Installed-Size: 428
+Depends: firmware (>= 14.0), mobilesubstrate (>= 0.9.7000)
+Filename: ./debs/TrollSpeed.deb
+Size: 143706
+MD5sum: f35ee3a21cd2dc068ae64f951ab1d717
+SHA1: b1472d5c0b63e00fc382544a6266859c0b67f35f
+SHA256: 864f7e51bd612efe04db9f6d7c108f44327886842eb3296fef308e0a5f370df0
 Section: Theos依赖
-Description: Develop your own tweaks and share them on the Flex Community Cloud作者今天刚维护更新的61beta-Rootless版本，兄弟们冲吧，如果打开闪退的话就进入系统设置里的显示与亮度，关闭粗体显示！免费账号每天可下载2个补丁，此账号可无限下载！sundasheng521@qq.com密码7758521a
+Description: Troll your speed, but jailbroken.
 Author: PoomSmart
-Icon: https://chinesebuilding.club/pic/cydia.png
-Name: Flex 3 Beta程序修改器-Rootless
-Sponsor: 搬运工
+Name: TrollSpeed
 
-Package: byg.iosios.net.trollstore
-Version: 2.1
+Package: com.exile90.icleanerpro
+Version: 7.10.0
 Architecture: iphoneos-arm64
 Maintainer: 桃花源
-Installed-Size: 184
-Depends: mobilesubstrate
-Filename: ./debs/TrollStore巨魔通用汉化包-Rootless.deb
-Size: 17282
-MD5sum: 15308e0846bc3c1f5b9f70fbe8732879
-SHA1: 602ec21a9568dbb9220e3adface69d8e842a3f32
-SHA256: 189c45fb371c2f7c5726508f71391f4a2fcaac01135fc1b4548d420e96ca4331
+Depends: firmware (>= 4.0), findutils, apt | apt7
+Conflicts: org.altervista.exilecom.icleaner
+Replaces: org.altervista.exilecom.icleaner
+Filename: ./debs/iCleaner Pro.deb
+Size: 1096316
+MD5sum: b0ed5b5fb3860d0026be11d3cea30ca1
+SHA1: 757581a770a44bcef89af68b8ed2d012132d3baf
+SHA256: 5f0627b6577e3a3503d9001f03db3a84b227d884150ef49e76bf7a72fcd39b4e
 Section: Theos依赖
-Description: TrollStore巨魔通用汉化插件，强迫症福音！受不了巨魔英文的兄弟们冲吧！让你的巨魔变中文！
+Homepage: http://ib-soft.net/icleaner
+Description: The first real iOS system cleanup and management utility
 Author: PoomSmart
-Icon: https://chinesebuilding.club/pic/cydia.png
-Name: TrollStore巨魔通用汉化包-Rootless
-Sponsor: 搬运工
+Depiction: http://ib-soft.net/depictions/?pkgId=com.exile90.icleanerpro
+Icon: file:///Applications/iCleaner.app/Icon.png
+Name: iCleaner Pro
 
-Package: byg.iosios.net.zetsu.cn.rl
-Version: 1.6.2
+Package: com.lizi.stupidenglishhdpatch
+Version: 1.0
 Architecture: iphoneos-arm64
 Maintainer: 桃花源
-Depends: jp.dcsyhi.zetsu
-Conflicts: byg.iosios.ney.zetsurootless15
-Filename: ./debs/Zetsu 分屏中文汉化插件-Rootless.deb
-Size: 14048
-MD5sum: 499ccaa754b1749230ec9804b85ee704
-SHA1: 3361917fd48f713c63237168891e3b7a8ddbbbff
-SHA256: d18c2582e6e65ac7069009b4c295a463040ee734260077abb0d38582fed1e34a
+Installed-Size: 88
+Depends: coreutils, sed, plutil, firmware (>> 14.0)
+Filename: ./debs/傻瓜英语HD Patch.deb
+Size: 2918
+MD5sum: f043e740f2f3dcbe28dcb96c52a1fcac
+SHA1: 61a94e410e5d5de63cbbc6e5f5898ebc64e69a41
+SHA256: 3552abd5fdc500236c1b7cb04b811f761502b0a11fdcc181ea64c5a9a7c1c760
 Section: Theos依赖
-Description: Zetsu 分屏简体中文包(rootless)。安装之后，会使你的Zetsu插件变成中文显示！自动唤醒安装zetsu分屏，半越狱请手动安装chariz源里的zetsu！不喜欢1.6版本的可以长按更改降级1.5版本！
+Description: ***Made using Flex To Theos updated by Randy420***
 Author: PoomSmart
-Icon: https://chinesebuilding.club/pic/cydia.png
-Name: Zetsu 分屏中文汉化插件-Rootless
-Sponsor: 搬运工
+Name: 傻瓜英语HD Patch
 
-Package: cn.llld.ftt
-Version: 0.1
+Package: com.nan.bindfs
+Version: 0.4.1
 Architecture: iphoneos-arm64
 Maintainer: 桃花源
-Filename: ./debs/ftt中文版-rootless.deb
-Size: 48580
-MD5sum: 92bfd602a2c28d3c98a203cddeb9fc11
-SHA1: 332244e0baa40925962cd05e5f73a8c386dcd61b
-SHA256: 260b795a17b5f6866bac9a5450d792963cae5abbe2bee512d5917a94c53faae3
+Depends: coreutils, sed, plutil, firmware (>> 14.0)
+Conflicts: mobilesubstrate (= 999)
+Filename: ./debs/mount_bindfs (Dopamine).deb
+Size: 6604
+MD5sum: aaf07a9b4c2092d4210f266dd721b4d5
+SHA1: 5596597307e04790964694d614d1e873dccd2e5c
+SHA256: c0ccb3aa8dfedd5f5d956a0b56dac3d008f2db877313cb1d090fe6d54f9b1d34
 Section: Theos依赖
-Description: This is just the Chinese version of "ftt", the English version in（ https://github.com/randy-420/ftt ）Download。。。。工具作用：把Flex3补丁转换为Theos项目，原版(https://github.com/Randy-420/ftt)，补丁路径：/var/mobile/Library/Application Support/Flex3/patches.plist或前面加/var/jb
+Description: 以 bindfs 挂载文件夹的 cli 工具
 Author: PoomSmart
-Name: ftt中文版-rootless
+Icon: https://invalidunit.github.io/sileodepiction/Default/image_terminal.png
+Name: mount_bindfs (Dopamine)
+Sileodepiction: https://invalidunit.github.io/sileodepiction/com.nan.bindfs/js.json
 
-Package: openssl
-Version: 3.2.1
-Architecture: iphoneos-arm
+Package: com.ryannair05.cask3
+Version: 1.0.2
+Architecture: iphoneos-arm64
 Maintainer: 桃花源
-Installed-Size: 888
-Depends: libiosexec1 (>= 1.3.1), libssl3 (= 3.2.1)
-Filename: ./debs/openssl_3.2.1_iphoneos-arm.deb
-Size: 302728
-MD5sum: 711194665de47f415255bb544686cf7b
-SHA1: f9bcd905d9f814a8e17734093dbb00cfa5bb3078
-SHA256: 012056f661af1f31bfafb36c76207a2cc85e9369bb0e487126ef74121f9be4f2
+Installed-Size: 862
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 14.0)
+Replaces: com.ryannair05.cask2
+Filename: ./debs/Cask 3.deb
+Size: 330330
+MD5sum: 67a9379614cc913de284f0b6987189eb
+SHA1: 15a42549399c8c2fbc902ae15cec83fb8cc0647b
+SHA256: 1578eced68f15da5cb62422f1235d017f4baa9ec1f4f22d5f83dc62cedbcc26d
 Section: Theos依赖
-Priority: standard
-Description: Secure Sockets Layer toolkit - cryptographic utility
- This package is part of the OpenSSL project's implementation of the SSL
- and TLS cryptographic protocols for secure communication over the
- Internet.
- .
- It contains the general-purpose command line binary /usr/bin/openssl,
- useful for cryptographic operations such as:
-  * creating RSA, DH, and DSA key parameters;
-  * creating X.509 certificates, CSRs, and CRLs;
-  * calculating message digests;
-  * encrypting and decrypting with ciphers;
-  * testing SSL/TLS clients and servers;
-  * handling S/MIME signed or encrypted mail.
+Description: Animated table scrolling
+Tag: compatible_min::ios14.0
 Author: PoomSmart
+Depiction: https://chariz.com/get/cask-3
+Icon: https://img.chariz.cloud/icon/cask-3/icon@3x.png
+Name: Cask 3
+
+Package: dev.theos.orion14
+Version: 1.0.1
+Architecture: iphoneos-arm64
+Maintainer: 桃花源
+Installed-Size: 514
+Depends: firmware (>= 14.0), firmware (<< 17.0), mobilesubstrate (>= 0.9.5000)
+Provides: dev.theos.orion (= 1.0.1)
+Filename: ./debs/Orion Runtime (iOS 14 – 16).deb
+Size: 106270
+MD5sum: 0f312532e419f4d906a3ea1e93726b4a
+SHA1: 8fe4869cb1e43b564e05aefd9e5a57ac5b9d1b20
+SHA256: 092752b3815c6811dd5cf52522afed00c5f3e2de373077aa4fd7d9bd1d351ac0
+Section: Theos依赖
+Description: Runtime for tweaks built using Orion and Swift
+Tag: role::developer, compatible_min::ios14.0
+Author: PoomSmart
+Depiction: https://chariz.com/get/orion-runtime14
+Icon: https://img.chariz.cloud/icon/orion-runtime14/icon@3x.png
+Name: Orion Runtime (iOS 14 – 16)
+
+Package: ellekit
+Version: 1.1.2
+Architecture: iphoneos-arm64
+Maintainer: 桃花源
+Conflicts: com.ex.substitute, org.coolstar.libhooker, science.xnu.substitute, mobilesubstrate, com.saurik.substrate.safemode
+Replaces: com.ex.libsubstitute, org.coolstar.libhooker, mobilesubstrate
+Provides: mobilesubstrate (= 99), org.coolstar.libhooker (= 1.6.9)
+Filename: ./debs/ElleKit.deb
+Size: 400074
+MD5sum: 4e170b878540a6be516729310e79bbd1
+SHA1: 3b3132d9fe430de730417b433e002dec1e67a239
+SHA256: 5491c96fd5a3959d4a9ae77cbc41b8723e1d0953732be66e6cc05d4ca38508b2
+Section: Theos依赖
+Priority: optional
+Description: ElleKit tweak injection libraries and loader
+Author: PoomSmart
+Icon: https://ellekit.space/logos/logo.png
+Name: ElleKit
+
+Package: esgin.arm64
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: 桃花源
+Installed-Size: 114514
+Filename: ./debs/轻松签+安装器(arm64).deb
+Size: 12776466
+MD5sum: 81fea757df5da5b9130b3589181f42a3
+SHA1: 1a2df981f041afbea07c2bf1a26e7048db7a517b
+SHA256: 16b88a00c7596b07fbd83a8dab84573820b1d5c23ba7ff1844591a5ade1367c3
+Section: Theos依赖
+Description: **适用于A8(x)-A11**
+Tag: compatible_min::ios14.0
+Author: PoomSmart
+Name: 轻松签+安装器(arm64)
+
+Package: git
+Version: 2.39.1
+Architecture: iphoneos-arm64
+Maintainer: 桃花源
+Installed-Size: 29680
+Depends: libiosexec1 (>= 1.2.2), libcurl4, libssl3, libintl8, libpcre2-8-0, libidn2-0, firmware (>= 14.0) | libexpat1, pager
+Filename: ./debs/git.deb
+Size: 7468676
+MD5sum: b9ab7fbec5e65f5ead6494fdb50c57b5
+SHA1: ad11a864e25cb160803037eb63685e61e0e57a94
+SHA256: c4b8237a870d5fac8ed0a556be1a6af8f70c640386167a10f487e213a126c5ab
+Section: Theos依赖
+Priority: optional
+Description: fast, scalable, distributed revision control system
+Author: PoomSmart
+Name: git
+
+Package: jailbreak.lizi.repo
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: 桃花源
+Filename: ./debs/整合插件源.deb
+Size: 1860
+MD5sum: fc42f2aee45e6224da4f77ba3fc1b59f
+SHA1: c973fc9c1b255f03554bc993259878b26f091b7d
+SHA256: 1e602db5533d193be5275e1612c3438350ac7279b11b429b925e1011e5485d45
+Section: Theos依赖
+Priority: optional
+Description: 一个为无根越狱准备的插件源
+Author: PoomSmart
+Name: 整合插件源
+
+Package: lizi.ftt.cn
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: 桃花源
+Filename: ./debs/ftt汉化.deb
+Size: 48366
+MD5sum: 6176f31dd82fb970b2a633de7875a191
+SHA1: 2884da167594f566eaf708c70b78580d5c1b1c90
+SHA256: 59c117de4a431257d92ee01deef783fd775ea277af50991f231b4f3ce623765e
+Section: Theos依赖
+Priority: optional
+Description: flex to theos
+Author: PoomSmart
+Name: ftt汉化
+
+Package: lizi.newterm.cn
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: 桃花源
+Filename: ./debs/NewTerm3汉化（先装NewTerm）.deb
+Size: 1790
+MD5sum: a51f773010eb7d5d0bf2c0228779cfb8
+SHA1: 4628873b39080f9baa33598d0619ef21f0289ed3
+SHA256: b1d4a7f76a79a37aa28b69956ff4a67695a55d551bb1a73d6d7cf14f444be710
+Section: Theos依赖
+Priority: optional
+Description: 中文汉化插件
+Author: PoomSmart
+Name: NewTerm3汉化（先装NewTerm）
+
+Package: neofetch
+Version: 7.1.0+20220216.ccd5d9f
+Architecture: iphoneos-arm64
+Maintainer: 桃花源
+Installed-Size: 384
+Depends: bash (>= 5.0), awk
+Conflicts: com.matdev.neofetch-ios
+Replaces: com.matdev.neofetch-ios
+Filename: ./debs/neofetch.deb
+Size: 91736
+MD5sum: 4b2f81c5968e71f22bada4f49ee37a42
+SHA1: ba7b90a25a41cf59ff45769fd8a2dce8aa93489c
+SHA256: ea449332088ef44046dd10a94debfb1a757ac07ce768c9c23a2c165de17392c1
+Section: Theos依赖
+Priority: optional
+Homepage: https://github.com/dylanaraps/neofetch
+Description: Shows System Information with Distribution Logo
+Author: PoomSmart
+Name: neofetch
+
+Package: openssh
+Version: 1:0
+Architecture: iphoneos-arm64
+Maintainer: 桃花源
+Installed-Size: 8
+Depends: openssh-client, openssh-server, openssh-sftp-server
+Filename: ./debs/openssh.deb
+Size: 851618
+MD5sum: 68cada72d6a98af5857223fed5426811
+SHA1: 6aa817b3483ab78aa575f5168c6068195580cd9e
+SHA256: 1a493d3e8452850ba919937c83c2a054a9521466c80b10354cba43d68fe9a73c
+Section: Theos依赖
+Priority: important
+Description: secure shell client and server (metapackage)
+Author: PoomSmart
+Name: openssh
 
 Package: preferenceloader
-Version: 2.2.5
+Version: 2.2.7
 Architecture: iphoneos-arm64
 Maintainer: 桃花源
-Installed-Size: 308
-Depends: mobilesubstrate, firmware (>= 15.0)
+Installed-Size: 370
+Depends: mobilesubstrate
 Filename: ./debs/PreferenceLoader.deb
-Size: 23172
-MD5sum: cd30332d734f1c9caf437990c37ea20b
-SHA1: e259960074a02f6c3f239c5b86e243084eebf3ea
-SHA256: 69780d59761f21722f98b9cafb1839b87408328129619be37e7ba9aeaf0a7248
+Size: 19566
+MD5sum: d28d33fec5ec0043a0dedb850451d68f
+SHA1: 2ed155f98abf5b7c845c8448457cab11112437ea
+SHA256: db154f7eeaf2dfafdf604beca3a8809825b5257ce46b9b5d3cf774de63a61ce4
 Section: Theos依赖
 Description: load preferences in style
- 此版本是无根版本,其他越狱不要安装或更新
- 本站基本上不搬运依赖，因fugu15越狱的特殊性，如果没有此插件依赖，设置选项会不显示插件，应群友要求，特此上架更新！
-Tag: role::hacker, purpose::library
 Author: PoomSmart
-Icon: https://chinesebuilding.club/pic/cydia.png
 Name: PreferenceLoader
-Sponsor: 搬运工
+
+Package: tweaktool
+Version: 2.0.0-beta
+Architecture: iphoneos-arm64
+Maintainer: 桃花源
+Depends: sudo, bash (>= 5.0.3-2), coreutils (>= 8.31-1), grep (>= 3.1-1), sed (>= 4.5-1), gawk (>= 4.2.1-1), tar (>= 1.33-1)
+Filename: ./debs/一键备份和恢复工具-Rootless.deb
+Size: 11268
+MD5sum: be12f364a14c5d0238ef7f017a5a5f10
+SHA1: 9b4474954277126db01a5f6bdac7e404cbd265b3
+SHA256: 598e3b90cb2fa5c4fc11d058dbf44187b0d00b704d8cff767c43a9d90e9d55c9
+Section: Theos依赖
+Description: 适合xina和多巴胺越狱的插件及其配置的一键备份恢复工具。Filza进入/var/mobile/tweak_tool/目录，运行“一键备份和恢复工具.sh”文件即可。
+Author: PoomSmart
+Name: 一键备份和恢复工具-Rootless
+
+Package: wget
+Version: 1.21.3-1
+Architecture: iphoneos-arm64
+Maintainer: 桃花源
+Installed-Size: 596
+Depends: libiosexec1 (>= 1.2.2), libssl3, libpcre2-8-0, libintl8, libunistring5, libidn2-0
+Filename: ./debs/wget.deb
+Size: 277000
+MD5sum: 85a5e395615dc80ec377e4d185a05176
+SHA1: 1a6caa54cccd61700166dc4deba55ad23be274c9
+SHA256: 3df444214338c9e9558958ac361dde73cf1b77846ea9e76ca765fa0a1b7b48e5
+Section: Theos依赖
+Priority: important
+Description: retrieves files from the web
+Author: PoomSmart
+Name: wget
+
+Package: ws.hbang.alderis
+Version: 1.2.3
+Architecture: iphoneos-arm64
+Maintainer: 桃花源
+Installed-Size: 2463
+Depends: firmware (>= 12.0), firmware (>= 12.2) | org.swift.libswift (>= 5.0), uikittools
+Replaces: org.thebigboss.libcolorpicker, me.nepeta.libcolorpicker
+Provides: org.thebigboss.libcolorpicker (= 99.0), me.nepeta.libcolorpicker (= 99.0)
+Filename: ./debs/Alderis Color Picker.deb
+Size: 330054
+MD5sum: 38c0131ce274df543609ef5be4d1b7da
+SHA1: 1513ffa914959f4ef816e27f14e29beb26b70bd6
+SHA256: f89e2978741d9435f27d96bc98809da4afafb485d1fe53ffc39fa86dfd8d5658
+Section: Theos依赖
+Description: Color picker support library for tweaks
+Tag: role::developer, compatible_min::ios12.0
+Author: PoomSmart
+Depiction: https://chariz.com/get/alderis
+Icon: https://img.chariz.cloud/icon/alderis/icon@3x.png
+Name: Alderis Color Picker
+Support: https://hashbang.productions/support/
+
+Package: ws.hbang.common
+Version: 2.0
+Architecture: iphoneos-arm64
+Maintainer: 桃花源
+Installed-Size: 3132
+Depends: firmware (>= 15.0)
+Filename: ./debs/Cephei Tweak Support.deb
+Size: 228042
+MD5sum: 37e00225d20da8bd59ab5bc1c4281a33
+SHA1: b29839721d7d0d10e30cacd112cf2b5942b51357
+SHA256: 0d5e14d4a3d4491b14fa033a5a0fc17172c44782274bcfb3e2dc5e859743c700
+Section: Theos依赖
+Description: Support library for tweaks
+Tag: role::developer, compatible_min::ios15.0
+Author: PoomSmart
+Depiction: https://chariz.com/get/cephei
+Icon: https://img.chariz.cloud/icon/cephei/icon@3x.png
+Name: Cephei Tweak Support
+Support: https://hashbang.productions/support/
+
+Package: ws.hbang.lizinewterm
+Version: 3.0
+Architecture: iphoneos-arm64
+Maintainer: 桃花源
+Installed-Size: 14899
+Depends: firmware (>= 14.0), zsh | bash | fish, coreutils, ncurses, system-cmds
+Filename: ./debs/newterm3中文版(带theos包).deb
+Size: 18562160
+MD5sum: 0ffba6911ed81f8a949e3c4db7a6b56a
+SHA1: 49563e25e1e06a0f36c2e89381c9ab8f9f1800a6
+SHA256: 391be2a2e2c3287076abd5b6fb7b10db28ae8d5ee5116b5723552d8b9c7594b9
+Section: Theos依赖
+Description: newterm3中文版(带theos包，无sdk)，李子博客上找教程
+Tag: compatible_min::ios14.0
+Author: PoomSmart
+Icon: https://img.chariz.cloud/icon/newterm-beta/icon@3x.png
+Name: newterm3中文版(带theos包)
 
 Package: ws.hbang.newterm3
-Version: 3.0~beta1
-Architecture: iphoneos-arm
-Maintainer: HASHBANG Productions <support@hbang.ws>
-Installed-Size: 14891
-Depends: firmware (>= 14.0), zsh | bash | fish, coreutils, ncurses, system-cmds
-Conflicts: ws.hbang.newterm, ws.hbang.newterm2
-Replaces: ws.hbang.newterm, ws.hbang.newterm2
-Filename: ./debs/NewTerm 3 Beta.deb
-Size: 3833846
-MD5sum: adc326ee5d441247dc761046930f4c82
-SHA1: df6f8413fb57223021ba387e10f65b72cd842257
-SHA256: ca11f5cce4b152d5917d6db1b23ad3ba52bf8f91ec300738e0860415c9809f1b
-Section: Terminal Support
-Description: Powerful terminal app for iOS
+Version: 3.0
+Architecture: iphoneos-arm64
+Maintainer: 桃花源
+Installed-Size: 14899
+Filename: ./debs/NewTerm3.deb
+Size: 4206162
+MD5sum: c1aa66c706aa9f0b06f57a1b8d9126fb
+SHA1: 432cc81421b1feed27835c0b80fa19e3457b44aa
+SHA256: e9ab6801492161a68a349b5a5ffeb0b377852d18271a7e7a760c472686717cb7
+Section: Theos依赖
+Description: 它是个终端
 Tag: compatible_min::ios14.0
-Author: HASHBANG Productions <support@hbang.ws>
-Depiction: https://chariz.com/get/newterm-beta
+Author: PoomSmart
 Icon: https://img.chariz.cloud/icon/newterm-beta/icon@3x.png
-Name: NewTerm 3 Beta
-Support: https://hashbang.productions/support/
+Name: NewTerm3
 
