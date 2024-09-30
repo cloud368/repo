@@ -124,7 +124,7 @@ Installed-Size: 14891
 Depends: firmware (>= 14.0), zsh | bash | fish, coreutils, ncurses, system-cmds
 Conflicts: ws.hbang.newterm, ws.hbang.newterm2
 Replaces: ws.hbang.newterm, ws.hbang.newterm2
-Filename: ./debs/New3.deb
+Filename: ./debs/NewTerm 3 Beta.deb
 Size: 3833846
 MD5sum: adc326ee5d441247dc761046930f4c82
 SHA1: df6f8413fb57223021ba387e10f65b72cd842257
