@@ -870,6 +870,28 @@ Icon: https://chinesebuilding.club/pic/cydia.png
 Name: Flex 3 Beta程序修改器-Rootless
 Sponsor: 搬运工
 
+Package: byg.iosios.net.afc2d-arm64
+Version: 1.2.0
+Architecture: iphoneos-arm64
+Maintainer: 桃花源
+Installed-Size: 342
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: cy+cpu.arm64, ldid, firmware (>= 11.0)
+Conflicts: com.saurik.afc2d, net.angelxwind.afc2d-arm64, com.mrmadtw.afc2forios11, repo.feng.afc2add11, us.scw.afctwoadd, net.angelxwind.afc2ios70, afc2.25pp, afc2.25pp7, afc2.91, app.taig.afc2, com.cannathea.afc2d-arm64
+Replaces: com.saurik.afc2d, net.angelxwind.afc2d-arm64, com.mrmadtw.afc2forios11, repo.feng.afc2add11, us.scw.afctwoadd, net.angelxwind.afc2ios70, afc2.25pp, afc2.25pp7, afc2.91, app.taig.afc2
+Provides: com.saurik.afc2d, net.angelxwind.afc2d-arm64, com.mrmadtw.afc2forios11, repo.feng.afc2add11, us.scw.afctwoadd, net.angelxwind.afc2ios70, afc2.25pp, afc2.25pp7, afc2.91, app.taig.afc2
+Filename: ./debs/Debio/AppleFileConduit2电脑访问手机文件-Rootless.deb
+Size: 10418
+MD5sum: 1397bf1a4960d4ae2260639bc57c0c34
+SHA1: f366fff680344f774e56ff184c3a54bffb0438c7
+SHA256: f0535101d155ce887b1653714987666c791914f923a8efd4d58ec00a65ba3a83
+Section: Theos依赖
+Description: 允许设备通过USB访问完整的文件系统，对iOS11及更高版本的设备特别有用。神秘大佬修复支持Rootless。
+Author: PoomSmart
+Icon: https://chinesebuilding.club/pic/cydia.png
+Name: AppleFileConduit2电脑访问手机文件-Rootless
+Sponsor: 搬运工
+
 Package: byg.iosios.net.axon.rootless
 Version: 2.1.3
 Architecture: iphoneos-arm64
@@ -887,6 +909,41 @@ Description: 锁屏通知美化。妖刀修复更新支持iOS 16、iOS 17
 Author: Nepeta & Baw Appie & Acreson
 Icon: https://chinesebuilding.club/pic/cydia.png
 Name: Axon美化通知-Rootles
+Sponsor: 搬运工
+
+Package: byg.iosios.net.bfdecryptor
+Version: 1.3.5
+Architecture: iphoneos-arm64
+Maintainer: 桃花源
+Depends: mobilesubstrate, com.opa334.altlist, firmware (>= 11.0)
+Filename: ./debs/Debio/Bfdecryptor砸壳神器-Rootless.deb
+Size: 105180
+MD5sum: 20b4b99d8f5ddcc8722f07c09cf0e958
+SHA1: 33aec88afd60e4289a76c521c8f5181af52c5a0e
+SHA256: 6107c57eed3cb361d925029270d473c8e6e01a7dd289ae6983af3073a3a6636b
+Section: Theos依赖
+Description: bfdecrypt for rootless/Ellekit一款砸取App Store下载软件的砸壳神器，貌似有用，有需要的可以尝试，可能不是全权限的，特征是小组件不显示。如果安装了没反应可能就是你的越狱环境不行，不知道怎么砸壳的可以看群里发砸壳，很简单，配合appdata插件快速找到砸壳之后保存的位置，在数据目录！
+Author: PoomSmart
+Icon: https://chinesebuilding.club/pic/cydia.png
+Name: Bfdecryptor砸壳神器-Rootless
+Sponsor: 搬运工
+
+Package: byg.iosios.net.bindfs
+Version: 0.3.2
+Architecture: iphoneos-arm64
+Maintainer: 桃花源
+Depends: coreutils, sed, plutil, firmware (>> 14.0), firmware (<< 16.0)
+Conflicts: plistbuddy
+Filename: ./debs/Debio/mount_bindfs多巴胺挂载工具-Rootless.deb
+Size: 7976
+MD5sum: 0de444c37b1e848b2a0ea9b361e26517
+SHA1: fa07fa8e8251d2c9e5d3ba734faae8f056c3b566
+SHA256: 958085ae0ee8c4b4ef488406d85d730a2048f6799ff4a719b87b83efcdc332cd
+Section: Theos依赖
+Description: 多巴胺挂载工具，配合终端软件，可以挂载系统目录，进行系统字体更换或者其它功能，不懂的可以进搬运工源里看教程如何使用！挂载映射换字体比滑雪板好用！更新修复多巴胺1.1存在的问题！
+Author: PoomSmart
+Icon: https://chinesebuilding.club/pic/cydia.png
+Name: mount_bindfs多巴胺挂载工具-Rootless
 Sponsor: 搬运工
 
 Package: byg.iosios.net.ccborder
@@ -944,6 +1001,42 @@ Icon: https://chinesebuilding.club/pic/cydia.png
 Name: Choicy屏蔽越狱汉化插件-Rootless
 Sponsor: 桃花源
 
+Package: byg.iosios.net.chromatic.rootless
+Version: 3.0
+Architecture: iphoneos-arm64
+Maintainer: 桃花源
+Pre-Depends: firmware (>= 13.0), dpkg, uikittools
+Conflicts: wiki.qaq.chromatic
+Filename: ./debs/Debio/Saily越狱商店-Rootless.deb
+Size: 3775058
+MD5sum: 6f5743d471a049f603ee32c99b2683ea
+SHA1: 873b02fe1ef04e127af1e2c119fd3a7d4eef4dbe
+SHA256: c4665f9a43d9db07de4e4b50783d1fa470d53f873d19c8686d3f64311b242769
+Section: Theos依赖
+Description: Modern. Fast. Beautiful.一款类似于sileo的越狱插件商店，但是更现代化，本版本是多巴胺使用，只显示无根插件，值得使用！喜欢的小伙们多多支持搬运工源，继续努力为大家更新免费好用的插件！
+Author: PoomSmart
+Icon: https://chinesebuilding.club/pic/cydia.png
+Name: Saily越狱商店-Rootless
+Sponsor: 搬运工
+
+Package: byg.iosios.net.disableshuttersound-rootless
+Version: 1.1-2
+Architecture: iphoneos-arm64
+Maintainer: 桃花源
+Installed-Size: 152
+Depends: mobilesubstrate, firmware (>= 15.0)
+Filename: ./debs/Debio/禁用拍照声音-Rootless.deb
+Size: 3288
+MD5sum: 1618384076928f6473820857ac46ae8f
+SHA1: 3e26107ad7410d7e7ebae7b34aacabfa306c5a4b
+SHA256: 7858c916f8b1b26e92e5b88978bf91eb86f30317324e78594134b2f2cd42edfa
+Section: Theos依赖
+Description: Disable shutter sound禁用拍照声音
+Author: PoomSmart
+Icon: https://chinesebuilding.club/pic/cydia.png
+Name: 禁用拍照声音-Rootless
+Sponsor: 搬运工
+
 Package: byg.iosios.net.hideserialnumber
 Version: 0.0.3
 Architecture: iphoneos-arm64
@@ -977,6 +1070,60 @@ Description: Hide Serial Number in Settings About page.在“设置关于”页�
 Author: ichitaso
 Icon: https://chinesebuilding.club/pic/cydia.png
 Name: HideSerialNumber隐藏序列号-Rootless
+Sponsor: 搬运工
+
+Package: byg.iosios.net.otadisabler
+Version: 0.5
+Architecture: iphoneos-arm64
+Maintainer: 桃花源
+Installed-Size: 168
+Depends: firmware (>= 9.0), mobilesubstrate
+Filename: ./debs/Debio/OTADisabler屏蔽系统更新-Rootless.deb
+Size: 10142
+MD5sum: 5572c1634ed852e13e03e59e737a28ce
+SHA1: f053498c1acaeea82248cb0089d6b773144a15c6
+SHA256: 4d289bc76ead72c6bce20d4695712017b894ac63e5c82468ccc5abf0a6122474
+Section: Theos依赖
+Description: Delete and disable OTA badge安装此插件即可屏蔽系统更新，yyds！半越狱不知道行不行，自行测试！
+Author: PoomSmart
+Icon: https://chinesebuilding.club/pic/cydia.png
+Name: OTADisabler屏蔽系统更新-Rootless
+Sponsor: 搬运工
+
+Package: byg.iosios.net.recordanywhere
+Version: 1.1.0
+Architecture: iphoneos-arm64
+Maintainer: 桃花源
+Installed-Size: 168
+Depends: mobilesubstrate
+Filename: ./debs/Debio/锁屏录屏-Rootless.deb
+Size: 4632
+MD5sum: a3808ded5c0538909fcc473b09dc6ccf
+SHA1: 54576fd257b78c019046d4f626e6b2f9c8e9fcc6
+SHA256: d328de95c2f4816941b2aaf350e3714ff1d49269f82cdaa0efba6a53550cd023
+Section: Theos依赖
+Description: 使手机在锁屏状态也可以继续录屏。修复支持Dopamine，感谢原作者提供的思路。
+Author: PoomSmart
+Icon: https://chinesebuilding.club/pic/cydia.png
+Name: 锁屏录屏-Rootless
+Sponsor: 搬运工
+
+Package: byg.iosios.net.showtouch-rootless
+Version: 1.0.4-3
+Architecture: iphoneos-arm64
+Maintainer: 桃花源
+Installed-Size: 1368
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: ./debs/Debio/ShowTouch录屏轨迹-Rootless.deb
+Size: 390440
+MD5sum: 3cea966ac374089a87790fc21a0cdb8d
+SHA1: c6f45ab7750c794ebfb581a69feffb07034922eb
+SHA256: ac17427fd645da1e2cc619040cb498bedd1e8da874dd37ed56597591ffba3690
+Section: Theos依赖
+Description: 在录屏的时候显示您触摸屏幕的位置，方便用户知道你干了啥，非常使用的一款插件！
+Author: PoomSmart
+Icon: https://chinesebuilding.club/pic/cydia.png
+Name: ShowTouch录屏轨迹-Rootless
 Sponsor: 搬运工
 
 Package: byg.iosios.net.trollstore
@@ -8802,6 +8949,21 @@ Name: CSources2-UserIcons
 Sileodepiction: https://DirtyBeans.github.io/depictions/native/com.dirtybeans.csources2-usericons/depiction.json
 Sponsor: Dirty Beans
 Support: https://csources2.wordpress.com/update-history/
+
+Package: com.donkey.vr
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: 桃花源
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: ./debs/Debio/虚拟摄像头助手.deb
+Size: 44870
+MD5sum: 6ee75a88dfb6cc917c0a3ec2865175f3
+SHA1: 50045adaa40848a3bc0ca2d43f8927a79df2184a
+SHA256: 2e546fef294f2f8b333dbe474c1b59b7a2d3862b097463a22ea5f8555fd86d2c
+Section: Theos依赖
+Priority: optional
+Author: PoomSmart
+Name: 虚拟摄像头助手
 
 Package: com.dumpapp.wechat-rootless
 Version: 2.0.0
@@ -19099,6 +19261,24 @@ Author: xybp888
 Depiction: 一键锁屏安装后在桌面显示一个图标，点击图标就能快速锁屏
 Icon: https://TrollStoreX.Github.io/sileodepiction/repo_pic/suo.png
 Name: 一键锁屏
+
+Package: com.xybp888.magiciannojailbreak.fugu15
+Version: 0.0.1-4257
+Architecture: iphoneos-arm64
+Maintainer: 桃花源
+Installed-Size: 432
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/Debio/魔术师(iOS15).deb
+Size: 73478
+MD5sum: dd6e40e7113ec17496416f15f4cd9a6b
+SHA1: 79c41efb874c1db160e41cc9ddddde8cfe865585
+SHA256: ac5b31c9316c9036ce4b25cfec933118564634ddce541203760f6123027c99c2
+Section: Theos依赖
+Description: 本插件仅供学习测试之用,请于24小时内卸载,一切法律责任与本插件和作者无关！本插件的作用是屏蔽插件注入软件，从而避免越狱检测，但是需要付费购买了电话助手才能免费使用！和choicy的效果差不多吧，因人而异！
+Author: PoomSmart
+Icon: https://chinesebuilding.club/pic/cydia.png
+Name: 魔术师(iOS15)
+Sponsor: 搬运工
 
 Package: com.yan.stella
 Version: 1.0.3
