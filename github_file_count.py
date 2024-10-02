@@ -24,7 +24,7 @@ if __name__ == "__main__":
     owner = "cloud368"
     repo = "repo"
     path = "repo/debs/"
-    token = "API"
+    token = "PAT"
 
     file_count = count_files_in_folder(owner, repo, path, token)
     if file_count is not None:
