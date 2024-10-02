@@ -21,10 +21,10 @@ def count_files_in_folder(owner, repo, path, token):
 # 主程序
 if __name__ == "__main__":
     # 使用示例
-    owner = "你的GitHub用户名"
-    repo = "你的仓库名"
-    path = "要统计的文件夹路径"
-    token = "你的GitHub个人访问令牌"
+    owner = "cloud368"
+    repo = "repo"
+    path = "repo/debs/"
+    token = "API"
 
     file_count = count_files_in_folder(owner, repo, path, token)
     if file_count is not None:
