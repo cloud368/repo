@@ -14892,6 +14892,25 @@ Description: BigSurCenter轻量级的iOS控制中心。                         
 Author: nicho1asdev
 Name: BigSurCenter（破解版）
 
+Package: com.noisyflake.betteralarm
+Version: 1.4.1
+Architecture: iphoneos-arm
+Maintainer: 桃花源
+Installed-Size: 740
+Depends: mobilesubstrate, firmware (>= 14.0), preferenceloader
+Filename: ./debs/iphone-arm64/betterAlarm.deb
+Size: 300842
+MD5sum: dc0a8020da8281f2421213027b01c690
+SHA1: 13ca396585190f635ce05ad3a21f8eaee9b785f6
+SHA256: 8a384fc10efc5edfd46e11a706c6bf98b56b345d66977e5a4fce579c8e58aa5f
+Section: Theos依赖
+Description: A beautiful timer and alarm screen
+Tag: cydia::commercial, compatible_min::ios14.0
+Author: PoomSmart
+Depiction: https://chariz.com/buy/betteralarm
+Icon: https://img.chariz.cloud/icon/betteralarm/icon@3x.png
+Name: betterAlarm
+
 Package: com.noisyflake.velvet2
 Version: 2.1.2-2
 Architecture: iphoneos-arm64
@@ -21505,6 +21524,23 @@ Section: Tweaks
 Description: 用两根手指点击通知以复制其文本。用两个手指按住以复制其标题。
 Author: iCraze
 Name: NotiCopy15
+
+Package: oldabi
+Version: 0.3.1
+Architecture: iphoneos-arm64
+Maintainer: 桃花源
+Depends: ellekit (>= 0.4), cy+cpu.arm64e, firmware (>= 15.0)
+Filename: ./debs/iphone-arm64/Legacy arm64e Support.deb
+Size: 16480
+MD5sum: ea9907a5393814cc8cbb69b7b3608e76
+SHA1: ea82ff77a1ecf179c8f8a6866c7d237e86a968ce
+SHA256: 759ee99a526336d18ee0deb74e112fe2823e7212a3e1f96050220c5d25366f4b
+Section: Theos依赖
+Description: Support for legacy arm64e ABI in iOS 15.0+
+Author: PoomSmart
+Icon: https://chinesebuilding.club/pic/cydia.png
+Name: Legacy arm64e Support
+Sponsor: 搬运工
 
 Package: oldabi-xina
 Version: 1.0.0-2+debug
