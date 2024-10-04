@@ -1156,73 +1156,6 @@ Icon: https://chinesebuilding.club/pic/cydia.png
 Name: TrollStore巨魔安装器
 Sponsor: 桃花源
 
-Package: byg.iosios.net.vcam-rootless
-Version: 1.0.0
-Architecture: iphoneos-arm64
-Maintainer: 桃花源
-Installed-Size: 288
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./debs/VCAM/arm64/虚拟摄像头-Rootless_1.0.0.deb
-Size: 59060
-MD5sum: fda248ba3d388c4ae4640c5370ae3437
-SHA1: 9b02708792d4165a25bf4de5f773a80eb475891b
-SHA256: 894f99aa39f15949983694c58a58506231e51ddc43c1a21d5d90131562d918bd
-Description: 虚拟摄像头多巴胺版本请勿用于违法！如果无效，就是插件无效了，可以卸载了！
-Author: PoomSmart
-Icon: https://chinesebuilding.club/pic/cydia.png
-Name: 虚拟摄像头-Rootless
-Sponsor: 搬运工
-
-Package: byg.iosios.net.vcam.rootful
-Version: 1.0.0-18+debug
-Architecture: iphoneos-arm
-Maintainer: 桃花源
-Installed-Size: 968
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./debs/VCAM/arm/VCAM虚拟视频_1.0.0-18+debug.deb
-Size: 172032
-MD5sum: 55104c4f9d5a3921ac4cedf7cb0d5633
-SHA1: 50d01ccda4fe750b1e6348b57c68361f91f25e42
-SHA256: 059cadce8cf04af7bff50f2d2c21e82836bcdf13cbf3442b10046cbbccf85319
-Description: 在app任意界面三指双击显示悬浮按钮；长按悬浮按钮或者再次三指双击隐藏；制作替换的视频用剪映先镜像再逆时针旋转90°比较好哈！
-Author: PoomSmart
-Icon: https://chinesebuilding.club/pic/cydia.png
-Name: VCAM虚拟视频
-Sponsor: 搬运工
-
-Package: byg.iosios.net.vcam.rootless
-Version: 1.0.0-4+debug
-Architecture: iphoneos-arm64
-Maintainer: 桃花源
-Installed-Size: 948
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./debs/VCAM/arm64/VCAM虚拟视频-Rootless.deb
-Size: 164894
-MD5sum: 7e256926c448c041c20a2946500a4559
-SHA1: caf8a5d9622dc3a6766077c2af6ab86572fc642d
-SHA256: 7ea5264f683440429d948346620661e1fdfe1162e50df4f90d0273206e098d69
-Description: 在app任意界面三指双击显示悬浮按钮；长按悬浮按钮或者再次三指双击隐藏；制作替换的视频用剪映先镜像再逆时针旋转90°，这样比较好替换哈！
-Author: PoomSmart
-Icon: https://chinesebuilding.club/pic/cydia.png
-Name: VCAM虚拟视频-Rootless
-Sponsor: 搬运工
-
-Package: byg.iosios.net.vicwechat
-Version: 2.1-8
-Architecture: iphoneos-arm
-Maintainer: 桃花源
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./debs/VCAM/arm/微信虚拟视频_2.1-8.deb
-Size: 2037262
-MD5sum: 17d11b0cd97e76fe73c7d522ef140854
-SHA1: bcd15f6a8d277a60350d8e5e6f45523e37b96bb0
-SHA256: 7b7deb8904dd1e7d90f0673f4cf8e876ef4e488c2a83818eb41475f772fbb1e6
-Description: 抢红包,推送小助手,伪装计算器,备注用户头像,虚拟视频，右滑快速备注，全局长按导航栏快捷功能,证书有效期查询,新增语音包，一键已读消息等。木笛默认密码113113。
-Author: PoomSmart
-Icon: https://chinesebuilding.club/pic/cydia.png
-Name: 微信虚拟视频
-Sponsor: 搬运工
-
 Package: byg.iosios.net.zetsu.cn.rl
 Version: 1.6.2
 Architecture: iphoneos-arm64
@@ -6876,20 +6809,6 @@ Depiction: http://brendonjkding.github.io/depictions/web/?p=com.brend0n.qqmusicd
 Name: DesktopLyrics
 Sileodepiction: http://brendonjkding.github.io/depictions/web/com.brend0n.qqmusicdesktoplyrics/depiction.json
 
-Package: com.bynow.xnzp
-Version: 1.0-5
-Architecture: iphoneos-arm
-Maintainer: 桃花源
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./debs/VCAM/arm/虚拟视频.deb
-Size: 427656
-MD5sum: 01b5d6493f4b4838199250cbfe88fe07
-SHA1: 4595c2358e0d58c360ab10d802ea86e01336b57c
-SHA256: f20939f2e65ebe0976d07f1356fe7b8e2b352430f125bacff3da07658be568c2
-Description: 自用微信虚拟视频;优化了一些功能，快捷面板增加快速进入插件设置入口，视频通话页面通过点击图标（如果没有开启虚拟视频，可快速进入插件设置勾选）调出快捷面板选择视频或禁用等功能，自己摸索。
-Author: PoomSmart
-Name: 虚拟视频
-
 Package: com.chinamobile
 Version: 1.0
 Architecture: iphoneos-arm64
@@ -9368,6 +9287,69 @@ Moderndepiction: https://ethxnn88.github.io/repo/depiction/native/com.ethxnn88.v
 Name: VisibleIsland
 Sileodepiction: https://ethxnn88.github.io/repo/depiction/native/com.ethxnn88.visibleisland.json
 Tags: compatible_min::ios16.0, compatible_max::ios16.6.1
+
+Package: com.ex.substitute
+Version: 2.3.1
+Architecture: iphoneos-arm
+Maintainer: 桃花源
+Installed-Size: 27456
+Pre-Depends: coreutils-bin, dpkg (>=1.17.11)
+Depends: firmware (>= 8.0), cy+cpu.arm64, com.saurik.substrate.safemode (>=0.9.6005), uikittools (>=1.1.13-4), darwintools
+Conflicts: com.ex.libsubstitute, org.coolstar.tweakinject, science.xnu.substitute, mobilesubstrate, ws.hbang.stopcrashingpls (<<1.0.2)
+Breaks: com.saurik.substrate.safemode (<<0.9.6004)
+Replaces: com.ex.libsubstitute, org.coolstar.tweakinject, mobilesubstrate
+Provides: com.ex.libsubstitute, mobilesubstrate (= 0.9.7033+dummy)
+Filename: ./debs/Debio/arm/Substitute.deb
+Size: 9320498
+MD5sum: 2d2622011cbe28189bebeb6718507ca9
+SHA1: a8a357704dd97212fd4d1644a84e75a2f3034156
+SHA256: 4f294157fb89420ffa582adbefbe24eccbbec1d78872862430edd2746009c3fc
+Priority: optional
+Description: Substrate substitute for code substitution
+Author: PoomSmart
+Name: Substitute
+
+Package: com.ex.substitute
+Version: 2.3.1+9.g200ddd5
+Architecture: iphoneos-arm
+Maintainer: 桃花源
+Installed-Size: 27268
+Pre-Depends: coreutils-bin, dpkg (>=1.17.11)
+Depends: firmware (>= 8.0), cy+cpu.arm64, com.saurik.substrate.safemode (>=0.9.6005), uikittools (>=1.1.13-4), darwintools
+Conflicts: com.ex.libsubstitute, org.coolstar.tweakinject, science.xnu.substitute, mobilesubstrate, ws.hbang.stopcrashingpls (<<1.0.2)
+Breaks: com.saurik.substrate.safemode (<<0.9.6004)
+Replaces: com.ex.libsubstitute, org.coolstar.tweakinject, mobilesubstrate
+Provides: com.ex.libsubstitute, mobilesubstrate (= 0.9.7033+dummy)
+Filename: ./debs/Debio/arm/Substitute_2.3.1+9.g200ddd5.deb
+Size: 9257536
+MD5sum: 1569d04ec797cd3515a082aaf3be985c
+SHA1: 1fe0cf18983c480be48ce697865a8991af783857
+SHA256: cabd746b9cb89d675b78f777f041643c0875f6a0ad3c8589bfcffc6b3da666a2
+Priority: optional
+Description: Substrate substitute for code substitution
+Author: PoomSmart
+Name: Substitute
+
+Package: com.ex.substitute
+Version: 2.3.2+2.g3e9b535
+Architecture: iphoneos-arm
+Maintainer: 桃花源
+Installed-Size: 27512
+Pre-Depends: coreutils-bin, dpkg (>=1.17.11)
+Depends: firmware (>= 8.0), cy+cpu.arm64, com.saurik.substrate.safemode (>=0.9.6005), uikittools (>=1.1.13-4), darwintools
+Conflicts: com.ex.libsubstitute, org.coolstar.tweakinject, science.xnu.substitute, mobilesubstrate, ws.hbang.stopcrashingpls (<<1.0.2)
+Breaks: com.saurik.substrate.safemode (<<0.9.6004)
+Replaces: com.ex.libsubstitute, org.coolstar.tweakinject, mobilesubstrate
+Provides: com.ex.libsubstitute, mobilesubstrate (= 0.9.7033+dummy)
+Filename: ./debs/Debio/arm/Substitute_2.3.2+2.g3e9b535.deb
+Size: 9283858
+MD5sum: 3c53966579818f052078044b87d6a6be
+SHA1: 4c8f5e182c9108b6f97575111bd2fdc980deb5cb
+SHA256: fee875dd40fb10266a41476188a30a259a58bc6320853e2b137a8e8a9efebeae
+Priority: optional
+Description: Substrate substitute for code substitution
+Author: PoomSmart
+Name: Substitute
 
 Package: com.exile90.icleanerpro
 Version: 7.10.0
@@ -11881,22 +11863,6 @@ Author: lenglengyu
 Depiction: https://repo.lenglengyu.top/packageInfo/shortvideodl.html
 Name: 短视频助手-Rootless
 Sileodepiction: https://repo.lenglengyu.top/packageInfo/shortvideodlsileo
-
-Package: com.lenglengyu.xunisxthook
-Version: 0.0.3
-Architecture: iphoneos-arm
-Maintainer: 桃花源
-Depends: mobilesubstrate, com.lenglengyu.libsupervipp
-Filename: ./debs/VCAM/arm/W2虚拟视频【破解版】.deb
-Size: 167112
-MD5sum: a33ec58e6df9a94bcb29ddc0cdc162b4
-SHA1: 78ba2523b75a99d4f0b5a5b193ac05f0c4dcc54f
-SHA256: cf0d10062db73e80ac10670af9b1a10b20a5efe0fbe653caa2bdd6eeb086034a
-Description: 全局虚拟视频，快按音量+ 音量-唤出菜单。
-Author: PoomSmart
-Depiction: https://repo.lenglengyu.top/packageInfo/xunisxthook.html
-Name: W2虚拟视频【破解版】
-Sileodepiction: https://repo.lenglengyu.top/packageInfo/xunisxthooksileo
 
 Package: com.live4iphonerel
 Version: 1.0
@@ -16680,22 +16646,6 @@ Name: 虚拟视频
 Package: com.pingfan.wechat
 Version: 2.2-1
 Architecture: iphoneos-arm64
-Maintainer: 桃花源
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./debs/VCAM/arm64/微信虚拟视频-Rootless_2.2-1.deb
-Size: 2094648
-MD5sum: e110defb4d492071f178a9b6adcdbe1b
-SHA1: dd877561f977911e9fd3a0eae17c41ba05d037aa
-SHA256: 3e5b51f40721e0e9d8a3ce005a653da936e8a9848a95476a4ecaab38a2a2e4e7
-Description: 抢红包,推送小助手,伪装计算器,备注用户头像,虚拟视频，右滑快速备注，全局长按导航栏快捷功能,证书有效期查询,语音包，一键已读消息等。木笛默认密码113113。不显示请缷载微信插件收纳！
-Author: PoomSmart
-Icon: https://chinesebuilding.club/pic/cydia.png
-Name: 微信虚拟视频-Rootless
-Sponsor: 搬运工
-
-Package: com.pingfan.wechat
-Version: 2.2-1
-Architecture: iphoneos-arm64
 Maintainer: 平凡
 Depends: mobilesubstrate (>= 0.9.5000)
 Filename: ./debs/iphone-arm64/虚拟视频_2.2-1.deb
@@ -17197,6 +17147,25 @@ Description: Universal audio visualizer for iOS15。Developer does not support r
 Author: Ryan Nair <ryannairtweaks@gmail.com>
 Name: Mitsuha Forever-可视化音频动效-rootless
 Sileodepiction: https://laileld.github.io/repo/sileodepiction/com.ryannair05.mitsuhaforever/mitsuhaforever-rootless.json
+
+Package: com.saurik.substrate.safemode
+Version: 0.9.6005
+Architecture: iphoneos-arm
+Maintainer: 桃花源
+Installed-Size: 144
+Depends: mobilesubstrate (>= 0.9.3367+38)
+Conflicts: safe-mode-fixer-ios7
+Replaces: safe-mode-fixer-ios7
+Filename: ./debs/Debio/arm/Substrate Safe Mode.deb
+Size: 17360
+MD5sum: 66d60ccf2777e6ae9cc3980a197391df
+SHA1: 31b70d91c227bba63a16a29abd9878bf6dc5e328
+SHA256: c3ae6e1eb59998733359c01b918ef688015484f1573db592188effe196e55a3f
+Priority: optional
+Description: safe mode safety extension (safe)
+Author: PoomSmart
+Depiction: http://cydia.saurik.com/info/com.saurik.substrate.safemode/
+Name: Substrate Safe Mode
 
 Package: com.sgwc.events.lans233
 Version: 1.0
@@ -19545,23 +19514,6 @@ Description: 自定义设置选项的圆角
 Author: CydiaGeek <lucaluca86@aol.com>
 Name: roundPrefs自定义设置圆角
 
-Package: com.yourepo.lly.dismissalert-rootless
-Version: 1.0.0
-Architecture: iphoneos-arm64
-Maintainer: 桃花源
-Installed-Size: 620
-Depends: mobilesubstrate, preferenceloader
-Filename: ./debs/VCAM/arm64/DismissAlert-Rootless【屏蔽弹窗】.deb
-Size: 123638
-MD5sum: df56ea43502c5aa8fffd3c0965ab0430
-SHA1: ccb19107bcf79847950753fe860be73f1ecabe0a
-SHA256: e180512bbce0e0f42e4506af05730bb4a2a377492325927f1fdcaa91007013f4
-Description: 强制取消系统弹窗，如授权弹窗、app签名到期弹窗等等。
-Author: PoomSmart
-Depiction: https://repo.lenglengyu.top/packageInfo/dismissalert.html
-Name: DismissAlert-Rootless【屏蔽弹窗】
-Sileodepiction: https://repo.lenglengyu.top/packageInfo/dismissalertsileo
-
 Package: com.yourepo.themepro.themepro-154-rootless
 Version: 2.7.7
 Architecture: iphoneos-arm64
@@ -19646,6 +19598,29 @@ Description: 下面的自定义文本按主页打开/向上滑动解锁更多！
 Author: CydiaGeek <lucaluca86@aol.com>
 Icon: file:///Library/PreferenceBundles/Cthulhu.bundle/icon@2x.png
 Name: Cthulhu
+
+Package: cydia
+Version: 1.1.36-4
+Architecture: iphoneos-arm
+Maintainer: 桃花源
+Installed-Size: 6496
+Pre-Depends: debianutils, dpkg (>= 1.16.1), firmware (>=12.0)
+Depends: bzip2, darwintools, debianutils, dpkg (>= 1.19.1), gzip, sed, shell-cmds, system-cmds, uikittools (>= 1.1.14), xz-utils, zstd, firmware (>= 14.0)
+Conflicts: bigboss, bigbossbetarepo, com.sosiphone.addcydia, cydia-sources, cydia-lproj, ispazio.net, modmyifone, ste, yellowsn0w.com, zodttd
+Replaces: bigboss, bigbossbetarepo, com.sosiphone.addcydia, cydia-sources, cydia-lproj, ispazio.net, modmyifone, saurik, ste, yellowsn0w.com, zodttd
+Provides: bigbossbetarepo, cydia-sources, cydia-lproj
+Filename: ./debs/Debio/arm/Cydia Installer.deb
+Size: 1346826
+MD5sum: f312edd944bd00007b2787275d1b5116
+SHA1: 4473631e71bfc43ab827fd74cd32f8a880b07160
+SHA256: 9c049cce4650d0071356d92bd60b268afec088770a47e7155edaf9254b4a5b1a
+Priority: important
+Description: graphical iPhone front-end for APT. This version is fixed for iOS 15+
+Tag: purpose::uikit, role::enduser
+Author: PoomSmart
+Depiction: http://cydia.saurik.com/info/cydia/
+Icon: file:///Applications/Cydia.app/Icon-60.png
+Name: Cydia Installer
 
 Package: declinecalls
 Version: 1.0
