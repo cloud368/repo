@@ -1156,6 +1156,73 @@ Icon: https://chinesebuilding.club/pic/cydia.png
 Name: TrollStore巨魔安装器
 Sponsor: 桃花源
 
+Package: byg.iosios.net.vcam-rootless
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Maintainer: 桃花源
+Installed-Size: 288
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/VCAM/arm64/虚拟摄像头-Rootless_1.0.0.deb
+Size: 59060
+MD5sum: fda248ba3d388c4ae4640c5370ae3437
+SHA1: 9b02708792d4165a25bf4de5f773a80eb475891b
+SHA256: 894f99aa39f15949983694c58a58506231e51ddc43c1a21d5d90131562d918bd
+Description: 虚拟摄像头多巴胺版本请勿用于违法！如果无效，就是插件无效了，可以卸载了！
+Author: PoomSmart
+Icon: https://chinesebuilding.club/pic/cydia.png
+Name: 虚拟摄像头-Rootless
+Sponsor: 搬运工
+
+Package: byg.iosios.net.vcam.rootful
+Version: 1.0.0-18+debug
+Architecture: iphoneos-arm
+Maintainer: 桃花源
+Installed-Size: 968
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/VCAM/arm/VCAM虚拟视频_1.0.0-18+debug.deb
+Size: 172032
+MD5sum: 55104c4f9d5a3921ac4cedf7cb0d5633
+SHA1: 50d01ccda4fe750b1e6348b57c68361f91f25e42
+SHA256: 059cadce8cf04af7bff50f2d2c21e82836bcdf13cbf3442b10046cbbccf85319
+Description: 在app任意界面三指双击显示悬浮按钮；长按悬浮按钮或者再次三指双击隐藏；制作替换的视频用剪映先镜像再逆时针旋转90°比较好哈！
+Author: PoomSmart
+Icon: https://chinesebuilding.club/pic/cydia.png
+Name: VCAM虚拟视频
+Sponsor: 搬运工
+
+Package: byg.iosios.net.vcam.rootless
+Version: 1.0.0-4+debug
+Architecture: iphoneos-arm64
+Maintainer: 桃花源
+Installed-Size: 948
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/VCAM/arm64/VCAM虚拟视频-Rootless.deb
+Size: 164894
+MD5sum: 7e256926c448c041c20a2946500a4559
+SHA1: caf8a5d9622dc3a6766077c2af6ab86572fc642d
+SHA256: 7ea5264f683440429d948346620661e1fdfe1162e50df4f90d0273206e098d69
+Description: 在app任意界面三指双击显示悬浮按钮；长按悬浮按钮或者再次三指双击隐藏；制作替换的视频用剪映先镜像再逆时针旋转90°，这样比较好替换哈！
+Author: PoomSmart
+Icon: https://chinesebuilding.club/pic/cydia.png
+Name: VCAM虚拟视频-Rootless
+Sponsor: 搬运工
+
+Package: byg.iosios.net.vicwechat
+Version: 2.1-8
+Architecture: iphoneos-arm
+Maintainer: 桃花源
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/VCAM/arm/微信虚拟视频_2.1-8.deb
+Size: 2037262
+MD5sum: 17d11b0cd97e76fe73c7d522ef140854
+SHA1: bcd15f6a8d277a60350d8e5e6f45523e37b96bb0
+SHA256: 7b7deb8904dd1e7d90f0673f4cf8e876ef4e488c2a83818eb41475f772fbb1e6
+Description: 抢红包,推送小助手,伪装计算器,备注用户头像,虚拟视频，右滑快速备注，全局长按导航栏快捷功能,证书有效期查询,新增语音包，一键已读消息等。木笛默认密码113113。
+Author: PoomSmart
+Icon: https://chinesebuilding.club/pic/cydia.png
+Name: 微信虚拟视频
+Sponsor: 搬运工
+
 Package: byg.iosios.net.zetsu.cn.rl
 Version: 1.6.2
 Architecture: iphoneos-arm64
@@ -6809,6 +6876,20 @@ Depiction: http://brendonjkding.github.io/depictions/web/?p=com.brend0n.qqmusicd
 Name: DesktopLyrics
 Sileodepiction: http://brendonjkding.github.io/depictions/web/com.brend0n.qqmusicdesktoplyrics/depiction.json
 
+Package: com.bynow.xnzp
+Version: 1.0-5
+Architecture: iphoneos-arm
+Maintainer: 桃花源
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/VCAM/arm/虚拟视频.deb
+Size: 427656
+MD5sum: 01b5d6493f4b4838199250cbfe88fe07
+SHA1: 4595c2358e0d58c360ab10d802ea86e01336b57c
+SHA256: f20939f2e65ebe0976d07f1356fe7b8e2b352430f125bacff3da07658be568c2
+Description: 自用微信虚拟视频;优化了一些功能，快捷面板增加快速进入插件设置入口，视频通话页面通过点击图标（如果没有开启虚拟视频，可快速进入插件设置勾选）调出快捷面板选择视频或禁用等功能，自己摸索。
+Author: PoomSmart
+Name: 虚拟视频
+
 Package: com.chinamobile
 Version: 1.0
 Architecture: iphoneos-arm64
@@ -11801,6 +11882,22 @@ Depiction: https://repo.lenglengyu.top/packageInfo/shortvideodl.html
 Name: 短视频助手-Rootless
 Sileodepiction: https://repo.lenglengyu.top/packageInfo/shortvideodlsileo
 
+Package: com.lenglengyu.xunisxthook
+Version: 0.0.3
+Architecture: iphoneos-arm
+Maintainer: 桃花源
+Depends: mobilesubstrate, com.lenglengyu.libsupervipp
+Filename: ./debs/VCAM/arm/W2虚拟视频【破解版】.deb
+Size: 167112
+MD5sum: a33ec58e6df9a94bcb29ddc0cdc162b4
+SHA1: 78ba2523b75a99d4f0b5a5b193ac05f0c4dcc54f
+SHA256: cf0d10062db73e80ac10670af9b1a10b20a5efe0fbe653caa2bdd6eeb086034a
+Description: 全局虚拟视频，快按音量+ 音量-唤出菜单。
+Author: PoomSmart
+Depiction: https://repo.lenglengyu.top/packageInfo/xunisxthook.html
+Name: W2虚拟视频【破解版】
+Sileodepiction: https://repo.lenglengyu.top/packageInfo/xunisxthooksileo
+
 Package: com.live4iphonerel
 Version: 1.0
 Architecture: iphoneos-arm64
@@ -16583,6 +16680,22 @@ Name: 虚拟视频
 Package: com.pingfan.wechat
 Version: 2.2-1
 Architecture: iphoneos-arm64
+Maintainer: 桃花源
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/VCAM/arm64/微信虚拟视频-Rootless_2.2-1.deb
+Size: 2094648
+MD5sum: e110defb4d492071f178a9b6adcdbe1b
+SHA1: dd877561f977911e9fd3a0eae17c41ba05d037aa
+SHA256: 3e5b51f40721e0e9d8a3ce005a653da936e8a9848a95476a4ecaab38a2a2e4e7
+Description: 抢红包,推送小助手,伪装计算器,备注用户头像,虚拟视频，右滑快速备注，全局长按导航栏快捷功能,证书有效期查询,语音包，一键已读消息等。木笛默认密码113113。不显示请缷载微信插件收纳！
+Author: PoomSmart
+Icon: https://chinesebuilding.club/pic/cydia.png
+Name: 微信虚拟视频-Rootless
+Sponsor: 搬运工
+
+Package: com.pingfan.wechat
+Version: 2.2-1
+Architecture: iphoneos-arm64
 Maintainer: 平凡
 Depends: mobilesubstrate (>= 0.9.5000)
 Filename: ./debs/iphone-arm64/虚拟视频_2.2-1.deb
@@ -19431,6 +19544,23 @@ Section: Tweaks
 Description: 自定义设置选项的圆角
 Author: CydiaGeek <lucaluca86@aol.com>
 Name: roundPrefs自定义设置圆角
+
+Package: com.yourepo.lly.dismissalert-rootless
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Maintainer: 桃花源
+Installed-Size: 620
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/VCAM/arm64/DismissAlert-Rootless【屏蔽弹窗】.deb
+Size: 123638
+MD5sum: df56ea43502c5aa8fffd3c0965ab0430
+SHA1: ccb19107bcf79847950753fe860be73f1ecabe0a
+SHA256: e180512bbce0e0f42e4506af05730bb4a2a377492325927f1fdcaa91007013f4
+Description: 强制取消系统弹窗，如授权弹窗、app签名到期弹窗等等。
+Author: PoomSmart
+Depiction: https://repo.lenglengyu.top/packageInfo/dismissalert.html
+Name: DismissAlert-Rootless【屏蔽弹窗】
+Sileodepiction: https://repo.lenglengyu.top/packageInfo/dismissalertsileo
 
 Package: com.yourepo.themepro.themepro-154-rootless
 Version: 2.7.7
