@@ -8965,21 +8965,6 @@ Sileodepiction: https://DirtyBeans.github.io/depictions/native/com.dirtybeans.cs
 Sponsor: Dirty Beans
 Support: https://csources2.wordpress.com/update-history/
 
-Package: com.donkey.vr
-Version: 1.0
-Architecture: iphoneos-arm
-Maintainer: 桃花源
-Depends: firmware (>= 5.0), mobilesubstrate
-Filename: ./debs/Debio/虚拟摄像头助手.deb
-Size: 44870
-MD5sum: 6ee75a88dfb6cc917c0a3ec2865175f3
-SHA1: 50045adaa40848a3bc0ca2d43f8927a79df2184a
-SHA256: 2e546fef294f2f8b333dbe474c1b59b7a2d3862b097463a22ea5f8555fd86d2c
-Section: Theos依赖
-Priority: optional
-Author: PoomSmart
-Name: 虚拟摄像头助手
-
 Package: com.dumpapp.wechat-rootless
 Version: 2.0.0
 Architecture: iphoneos-arm64
@@ -16638,81 +16623,6 @@ Section: Tweaks
 Description: 拼多多去广告
 Author: M哥
 Name: 拼多多-rootless
-
-Package: com.pingfan.wechat
-Version: 2.1-8
-Architecture: iphoneos-arm64
-Maintainer: 平凡
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./debs/iphone-arm64/虚拟视频_2.1-8.deb
-Size: 2820628
-MD5sum: 39bcaf1b182075fe16376b40a76ce4cf
-SHA1: 01799fb7bccf27b9785537a02e857abcf1ef6ddf
-SHA256: 5365f34de1c6ab2b0125b0b72df9eb5019eedce218d31e5c56967b70477a83c6
-Section: Tweaks
-Description: 抢红包,推送小助手,伪装计算器,备注用户头像,虚拟视频，全局长按导航栏快捷功能,等;修复转账金额移动复原，添加文字修改,语音包,一键已读,新增多端登录设备隐藏等。
-Author: 平凡
-Name: 虚拟视频
-
-Package: com.pingfan.wechat
-Version: 2.1-9
-Architecture: iphoneos-arm64
-Maintainer: 平凡
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./debs/iphone-arm64/虚拟视频.deb
-Size: 2825826
-MD5sum: beca1aa91f03f4179910333afc04cab8
-SHA1: 5b8c460e0d8aa9193603cce5cbce61879e411577
-SHA256: cbc2669740e12e646f673503669decc7b50152148ffdf8a98e4d74b2a6702926
-Section: Tweaks
-Description: 抢红包,推送小助手,伪装计算器,备注用户头像,虚拟视频，全局长按导航栏快捷功能,等;修复转账金额移动复原，添加文字修改,语音包,一键已读,新增多端登录设备隐藏等。
-Author: 平凡
-Name: 虚拟视频
-
-Package: com.pingfan.wechat
-Version: 2.1-9
-Architecture: iphoneos-arm64
-Maintainer: 平凡
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./debs/iphone-arm64/虚拟视频_2.1-9_1.deb
-Size: 2825826
-MD5sum: beca1aa91f03f4179910333afc04cab8
-SHA1: 5b8c460e0d8aa9193603cce5cbce61879e411577
-SHA256: cbc2669740e12e646f673503669decc7b50152148ffdf8a98e4d74b2a6702926
-Section: Tweaks
-Description: 抢红包,推送小助手,伪装计算器,备注用户头像,虚拟视频，全局长按导航栏快捷功能,等;修复转账金额移动复原，添加文字修改,语音包,一键已读,新增多端登录设备隐藏等。
-Author: 平凡
-Name: 虚拟视频
-
-Package: com.pingfan.wechat
-Version: 2.1-9
-Architecture: iphoneos-arm64
-Maintainer: 平凡
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./debs/iphone-arm64/虚拟视频_2.1-9.deb
-Size: 2824590
-MD5sum: 6af71fedded048be7855bd32a8dd91f5
-SHA1: 62807ae422012e42b5b2549d4f4a1a82bba74802
-SHA256: cebda898044c8932ebf36dbca148e8898ec4b973440708e6d55e30a6f5980b0b
-Section: Tweaks
-Description: 抢红包,推送小助手,伪装计算器,备注用户头像,虚拟视频，全局长按导航栏快捷功能,等;修复转账金额移动复原，添加文字修改,语音包,一键已读,新增多端登录设备隐藏等。
-Author: 平凡
-Name: 虚拟视频
-
-Package: com.pingfan.wechat
-Version: 2.2-1
-Architecture: iphoneos-arm64
-Maintainer: 平凡
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./debs/iphone-arm64/虚拟视频_2.2-1.deb
-Size: 2827574
-MD5sum: c2d45cb109aba3fce8ed44dedbd214ec
-SHA1: 02e9fcacf4ff600e783d751eec2ac462b2f74c76
-SHA256: 98b5aad76a45de668f9c9b4a1567f347dec2b8398203b361886ec1b080b257c1
-Section: Tweaks
-Description: 抢红包,推送小助手,伪装计算器,备注用户头像,虚拟视频，全局长按导航栏快捷功能,等;修复转账金额移动复原，添加文字修改,语音包,一键已读,多端登录设备隐藏新增朋友圈转发、修改聊天时间等。
-Author: 平凡
-Name: 虚拟视频
 
 Package: com.pixelomer.oneko.lans233
 Version: 1.0.0
