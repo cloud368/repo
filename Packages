@@ -1311,6 +1311,22 @@ Description: An awesome MobileSubstrate tweak!
 Author: CoolStar
 Name: ClassicFolders 2
 
+Package: cloud368.colorfulwallpaperx
+Version: 4.2k
+Architecture: iphoneos-arm64
+Maintainer: 桃花源
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Filename: ./debs/iphone-arm64/ColorfulWallpaperX 动态壁纸-Rootless.deb
+Size: 1354790
+MD5sum: 1231d800a50a92e82a16df045daf830c
+SHA1: 41dc05117d539c846fbaee12117c56de5d05aeb8
+SHA256: 3b98d4122bdcf4431d85fc2d94964b5f3a24cb32c5960f3305bdfa23d9f6461d
+Section: Theos依赖
+Description: Dynamic wallpaper with colorful effects.
+Author: PoomSmart
+Icon: https://repo.cypwn.xyz/packages/ColorfulWallpaperX-Rootless/icon.png
+Name: ColorfulWallpaperX 动态壁纸-Rootless
+
 Package: cn.Axs.swipeextenderx
 Version: 0.0.2
 Architecture: iphoneos-arm64
@@ -19404,6 +19420,22 @@ Section: Tweaks
 Description: 隐藏应用程序蓝点黄点
 Author: M哥
 Name: 隐藏主屏幕app黄点
+
+Package: com.yi.wcenablemomentslivephoto
+Version: 1.1-2
+Architecture: iphoneos-arm64
+Maintainer: 桃花源
+Installed-Size: 88
+Depends: mobilesubstrate, firmware (>= 14.0)
+Filename: ./debs/iphone-arm64/WCEnableMomentsLivePhoto.deb
+Size: 14304
+MD5sum: e29b6371bf80978cc799af636b6c8a14
+SHA1: 36cefd08dd8af7187c8d65644ea340ad63f8f0bb
+SHA256: 67a5556a8a9be85678bc7acd94f121f31bd128abb79c3195611efaf694d117f4
+Section: Theos依赖
+Description: WeChat Enable Testing Moments Live Photo v8.0.51+
+Author: PoomSmart
+Name: WCEnableMomentsLivePhoto
 
 Package: com.yourepo.0xkuj.storeswitcher2rootless
 Version: 1.0.4
