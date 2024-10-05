@@ -870,6 +870,41 @@ Icon: https://chinesebuilding.club/pic/cydia.png
 Name: Flex 3 Beta程序修改器-Rootless
 Sponsor: 搬运工
 
+Package: byg.iosios.net.audiorecorderxs-rootless
+Version: 5.0-37
+Architecture: iphoneos-arm64
+Maintainer: 桃花源
+Installed-Size: 6072
+Depends: mobilesubstrate, byg.iosios.net.limneoscrack-rootless, net.limneos.simpleactivationactions-rootless, firmware(>=12.0)
+Conflicts: net.limneos.callrecorder, com.pulandres.audiorecorderxs, com.pulandres.callbarxs, com.repo.xarold.com.audiorecorderxs, com.pulandres.bioprotectxs, net.pulandres.nfcwriterx, com.repo.xarold.com.nfcwriterx, com.hk.audiorecorderxs.cn.rl, byg.iosios.net.audiorecorderxs.cn.zh
+Replaces: net.limneos.audiorecorder,net.limneos.audiorecorderx
+Filename: ./debs/History/iphoneos-arm64/AudioRecorder XS 通话录音破解版-Rootless.deb
+Size: 1280608
+MD5sum: 9a968a836b04259f0ca16599df3b24d5
+SHA1: 5b51b891b91024477760bf760a8cbfe315521932
+SHA256: 81f0f2a9993126cd2b4467055c4ce19320377c10c088a3345f9748cafb83b600
+Description: Most Advanced iOS Call Recorder Ever!通话录音破解版，iOS上一款非常优秀的录音插件，非常的好用！现搬运工源可以免费使用，已汉化，无需再安装汉化插件！搬运工源，你最好的家！
+Author: PoomSmart
+Icon: https://chinesebuilding.club/pic/cydia.png
+Name: AudioRecorder XS 通话录音破解版-Rootless
+Sponsor: 搬运工
+
+Package: byg.iosios.net.audiorecorderxs.cn.zh
+Version: 5.0-3
+Architecture: iphoneos-arm64
+Maintainer: 桃花源
+Depends: mobilesubstrate
+Filename: ./debs/History/iphoneos-arm64/AudioRecorder XS 通话录音中文包-Rootless.deb
+Size: 13074
+MD5sum: 06aa50452a87f129562d7294ea805425
+SHA1: e0dfed512df58dd87a74273dfcb317b177ce1d11
+SHA256: fcff11117e77a3f38d16df65f316a83e72a8add050f30fc9d9d791b6a4689e66
+Description: AudioRecorder XS 简体中文包(rootless)。汉化插件
+Author: PoomSmart
+Icon: https://chinesebuilding.club/pic/cydia.png
+Name: AudioRecorder XS 通话录音中文包-Rootless
+Sponsor: 搬运工
+
 Package: byg.iosios.net.axon.rootless
 Version: 2.1.3
 Architecture: iphoneos-arm64
@@ -1015,6 +1050,58 @@ Icon: https://chinesebuilding.club/pic/cydia.png
 Name: 禁用拍照声音-Rootless
 Sponsor: 搬运工
 
+Package: byg.iosios.net.disintegratelock
+Version: 1.0.1
+Architecture: iphoneos-arm64
+Maintainer: 桃花源
+Installed-Size: 488
+Depends: mobilesubstrate (>= 0.9.5000), ws.hbang.common (>= 1.14)
+Filename: ./debs/History/iphoneos-arm64/DisintegrateLock息屏特效-Rootless.deb
+Size: 73498
+MD5sum: bd64991be714631994fe42fafd9a5abe
+SHA1: d658fe2c9770f15d45b46938afc90aecbe0e0828
+SHA256: 4fb0f57215c06ea81e74f1ccd38c24b5455f9184662078fdc0057bd1327614ff
+Description: 一个牛逼的息屏动画特效！看起来还不错，希望花里胡哨的小伙们有福啦！（由国人lans233汉化并分享，非常感谢！）搬运工源，永久免费，只为越狱分享！
+Author: PoomSmart
+Icon: https://chinesebuilding.club/pic/cydia.png
+Name: DisintegrateLock息屏特效-Rootless
+Sponsor: 搬运工
+
+Package: byg.iosios.net.eneko
+Version: 1.4.2
+Architecture: iphoneos-arm64
+Maintainer: 桃花源
+Installed-Size: 404
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.mrgcgamer.libgcuniversal
+Conflicts: love.litten.eneko
+Filename: ./debs/History/iphoneos-arm64/Eneko视频壁纸-Rootless.deb
+Size: 31138
+MD5sum: beb09dec193700f40bb389dbac98af98
+SHA1: 56d36ebdcfed686e970e347e3cb9c318d63eaf2d
+SHA256: 9a3c723656d0fe8f9a42e343ad6ee2e10ac98f2ad9385a293fe8095ff4c650da
+Description: 视频壁纸插件，搬运工源已汉化！装x神器！非常的酷炫好看！
+Author: PoomSmart
+Icon: https://chinesebuilding.club/pic/cydia.png
+Name: Eneko视频壁纸-Rootless
+Sponsor: 搬运工
+
+Package: byg.iosios.net.ersatz
+Version: 1.0.1
+Architecture: iphoneos-arm64
+Maintainer: 桃花源
+Installed-Size: 504
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/History/iphoneos-arm64/Ersatz替换文字-Rootless.deb
+Size: 52862
+MD5sum: 1e7feec9aa6d6ce839fc789f59d4a610
+SHA1: 0a96f66ee42a8912f9889ad5a9030b1656f68068
+SHA256: 2342c7cc0083232cb02efac24901e1afcb53ea62749fd56cba8c724f678260cd
+Description: Replace any text, system-wide! 全局替换任意位置的文字。可以用来自己汉化插件，也可以改自己想要显示的文字！
+Author: PoomSmart
+Icon: https://chinesebuilding.club/pic/cydia.png
+Name: Ersatz替换文字-Rootless
+Sponsor: 搬运工
+
 Package: byg.iosios.net.hideserialnumber
 Version: 0.0.3
 Architecture: iphoneos-arm64
@@ -1117,6 +1204,24 @@ MD5sum: 47bef6b3329fae283fa2bfba93863e23
 SHA1: 3fdff56f6c2a1bcc599f5161abe1af1718759cef
 SHA256: 67aed5fec451f5999d345034982f81da93f740887d6638855694f202c1dd758c
 Section: Theos依赖
+Description: 本插件去掉了legacy64依赖，但可能会造成安全模式，有问题请用源里的另一款！SneakyCam 是一款支持息屏状态使用拍照或录像的插件。即使在关闭屏幕的情况下，也能随时随地谨慎地拍照或录制视频。Smile 滫威锋网友提供，SneakyCam去除兼容层，直接安装插件本体。使用基板作者的Allemand (OldABI v2) 修改。
+Author: PoomSmart
+Icon: https://chinesebuilding.club/pic/cydia.png
+Name: SneakyCam 隐私相机-Rootless
+Sponsor: 搬运工
+
+Package: byg.iosios.net.sneakyca.rootless
+Version: 2.0.7.1
+Architecture: iphoneos-arm64
+Maintainer: 桃花源
+Installed-Size: 560
+Depends: mobilesubstrate, preferenceloader
+Conflicts: byg.iosios.net.sneakycam
+Filename: ./debs/History/iphoneos-arm64/SneakyCam 隐私相机-Rootless.deb
+Size: 113296
+MD5sum: 94265a0ad88076b966c46d7cb070fe74
+SHA1: d976d998940acd7e1cef0e0358953f2f9d8ff25a
+SHA256: 60149b3082acb4a91a0cc4a15a3f06dc9c4d5782a27cb34a105badbfd6d9699f
 Description: 本插件去掉了legacy64依赖，但可能会造成安全模式，有问题请用源里的另一款！SneakyCam 是一款支持息屏状态使用拍照或录像的插件。即使在关闭屏幕的情况下，也能随时随地谨慎地拍照或录制视频。Smile 滫威锋网友提供，SneakyCam去除兼容层，直接安装插件本体。使用基板作者的Allemand (OldABI v2) 修改。
 Author: PoomSmart
 Icon: https://chinesebuilding.club/pic/cydia.png
@@ -1322,6 +1427,21 @@ MD5sum: 1231d800a50a92e82a16df045daf830c
 SHA1: 41dc05117d539c846fbaee12117c56de5d05aeb8
 SHA256: 3b98d4122bdcf4431d85fc2d94964b5f3a24cb32c5960f3305bdfa23d9f6461d
 Section: Theos依赖
+Description: Dynamic wallpaper with colorful effects.
+Author: PoomSmart
+Icon: https://repo.cypwn.xyz/packages/ColorfulWallpaperX-Rootless/icon.png
+Name: ColorfulWallpaperX 动态壁纸-Rootless
+
+Package: cloud368.colorfulwallpaperx
+Version: 4.2k
+Architecture: iphoneos-arm64
+Maintainer: 桃花源
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Filename: ./debs/History/iphoneos-arm64/ColorfulWallpaperX 动态壁纸-Rootless.deb
+Size: 1354774
+MD5sum: 37d8375156f949ffe95a865e0829d236
+SHA1: 331e240df7fe0dcf1e8b20ee60f60d2c43138c95
+SHA256: f49fa41a71200f0a87fee58ddc6cddfe2e3f807f19d60699e052aa57a03697bf
 Description: Dynamic wallpaper with colorful effects.
 Author: PoomSmart
 Icon: https://repo.cypwn.xyz/packages/ColorfulWallpaperX-Rootless/icon.png
@@ -21670,6 +21790,24 @@ Author: Amy While <me@anamy.gay>
 Icon: https://getsileo.app/img/icon.png
 Name: Sileo
 Sileodepiction: https://featuredpage.getsileo.app/depiction.json
+
+Package: org.mr.answeringmachinex-rootless
+Version: 2.0-2
+Architecture: iphoneos-arm64
+Maintainer: 桃花源
+Installed-Size: 2464
+Depends: mobilesubstrate, preferenceloader, net.limneos.libbulletin (>= 0.1-158) ,  firmware (>= 11.0), org.mr.unsubsrl
+Conflicts: net.limneos.audiorecorder (<= 1.7-4)
+Filename: ./debs/History/iphoneos-arm64/AnsweringMachine XS通话应答破解版-Rootless.deb
+Size: 562044
+MD5sum: 76f1c0e3a8dc75dcccd88f76ad34f7ab
+SHA1: 1cf5219a78e9859d98c633e86dbaedc82b25632c
+SHA256: e4fa2715a577d8ef3f945b551627e8b68627228c58446a1a0a9c3620edb0f93c
+Description: 通话应答破解版
+Author: PoomSmart
+Icon: https://chinesebuilding.club/pic/cydia.png
+Name: AnsweringMachine XS通话应答破解版-Rootless
+Sponsor: 搬运工
 
 Package: org.s1ris.lower
 Version: 1.5.11
