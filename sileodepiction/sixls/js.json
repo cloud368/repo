@@ -1,6 +1,6 @@
 {
     "class": "DepictionTabView",
-    "headerImage": "https://cloud368.github.io/repo/images/Axslogo.png",
+    "headerImage": "https://cloud368.github.io/repo/images/1.png",
     "tintColor": "00BFFF",
     "minVersion": "0.3",
     "tabs": [
@@ -32,11 +32,11 @@
                     "screenshots": [
                         {
                             "accessibilityText": "Screenshot",
-                            "url": "https://cloud368.github.io/repo/sileodepiction/sixls/Screenshot_01.png"
+                            "url": "https://cloud368.github.io/repo/images/2.png"
                         },
                         {
                             "accessibilityText": "Screenshot",
-                            "url": "https://cloud368.github.io/repo/sileodepiction/sixls/Screenshot_02.png"
+                            "url": "https://cloud368.github.io/repo/images/3.png"
                         }
                     ]
                 },
