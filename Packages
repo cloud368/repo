@@ -21822,19 +21822,18 @@ Author: PoomSmart
 Package: openssl
 Version: 3.2.1
 Architecture: iphoneos-arm64
-Maintainer: 桃花源
+Maintainer: Procursus Team <support@procurs.us>
 Installed-Size: 888
 Depends: libiosexec1 (>= 1.3.1), libssl3 (= 3.2.1)
-Filename: ./debs/Theos/openssl 3.2.1.deb
-Size: 302170
-MD5sum: 37a9b961c59563e083b6d18890feae3a
-SHA1: 57b826964b33bf2388886ac5b792059cd1997a4d
-SHA256: c703a247fdbdf2e9b4f9edbc417a1adfc3cddeb3e62cdffc38aa82fb43fd701f
-Section: Theos依赖
+Filename: ./debs/Theos/openssl.3.2.1.deb
+Size: 263328
+MD5sum: ad59961fc5ca1eef2929c1f6e3512dfa
+SHA1: 7bcbed186bcad0cf0cb5eaaa17097d44330620b5
+SHA256: 2fb983846d81ffcd0a54f15d83a5d4f460f7324b5cdb116bc010225dfa8880b4
+Section: Security
 Priority: standard
 Description: Secure Sockets Layer toolkit - cryptographic utility
-Author: PoomSmart
-Name: openssl 3.2.1
+Name: openssl
 
 Package: org.coolstar.sileo
 Version: 2.5
