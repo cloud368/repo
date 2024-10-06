@@ -19776,6 +19776,68 @@ Depiction: https://chariz.com/get/orion-runtime14
 Icon: https://img.chariz.cloud/icon/orion-runtime14/icon@3x.png
 Name: Orion Runtime (iOS 14 – 16)
 
+Package: dev.traurige.eneko
+Version: 1.4
+Architecture: iphoneos-arm64
+Maintainer: 桃花源
+Installed-Size: 400
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.mrgcgamer.libgcuniversal
+Conflicts: love.litten.eneko
+Filename: ./debs/History/iphoneos-arm64/Eneko_1.4.deb
+Size: 31858
+MD5sum: 2539403302008fac123870d4b70c9b63
+SHA1: 2cb34e2138e2ca1444fb3453c03ffab7980f541d
+SHA256: 65072ed3467742e94d882944c37062f353b4aa6598c4485779004d625d40d7c4
+Description: Live wallpapers for iOS
+Author: PoomSmart
+Name: Eneko
+
+Package: dev.traurige.eneko
+Version: 1.4
+Architecture: iphoneos-arm64
+Maintainer: 桃花源
+Installed-Size: 400
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.mrgcgamer.libgcuniversal
+Conflicts: love.litten.eneko
+Filename: ./debs/History/iphoneos-arm/Eneko_1.4.deb
+Size: 31858
+MD5sum: 2539403302008fac123870d4b70c9b63
+SHA1: 2cb34e2138e2ca1444fb3453c03ffab7980f541d
+SHA256: 65072ed3467742e94d882944c37062f353b4aa6598c4485779004d625d40d7c4
+Description: Live wallpapers for iOS
+Author: PoomSmart
+Name: Eneko
+
+Package: dev.traurige.kayoko
+Version: 1.4.2
+Architecture: iphoneos-arm64
+Maintainer: 桃花源
+Installed-Size: 956
+Depends: firmware (>= 13.0), mobilesubstrate, preferenceloader, com.opa334.libsandy
+Filename: ./debs/History/iphoneos-arm64/Kayoko_1.4.2.deb
+Size: 91678
+MD5sum: 0339109170eefaa7166b8c5ff1b5cb2d
+SHA1: 42ef9be785525aa8b417136958977daf3ebe28e9
+SHA256: 5338dee8d7f243abff8b01c7405eecd88baf1f91b3378b54203c8746e1d80248
+Description: Feature rich clipboard manager for iOS
+Author: PoomSmart
+Name: Kayoko
+
+Package: dev.traurige.kayoko
+Version: 1.4.2
+Architecture: iphoneos-arm64
+Maintainer: 桃花源
+Installed-Size: 956
+Depends: firmware (>= 13.0), mobilesubstrate, preferenceloader, com.opa334.libsandy
+Filename: ./debs/History/iphoneos-arm/Kayoko_1.4.2.deb
+Size: 91678
+MD5sum: 0339109170eefaa7166b8c5ff1b5cb2d
+SHA1: 42ef9be785525aa8b417136958977daf3ebe28e9
+SHA256: 5338dee8d7f243abff8b01c7405eecd88baf1f91b3378b54203c8746e1d80248
+Description: Feature rich clipboard manager for iOS
+Author: PoomSmart
+Name: Kayoko
+
 Package: dev.traurige.libkitten
 Version: 1.4.1
 Architecture: iphoneos-arm64
@@ -22526,6 +22588,34 @@ Author: CBZ
 Icon: https://repo.cypwn.xyz/assets/repo/Featured/snail.png
 Name: Snail-Cracks-Rootless
 Sponsor: M哥
+
+Package: space.shino.hidetime
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Maintainer: 桃花源
+Installed-Size: 168
+Filename: ./debs/History/iphoneos-arm64/HideTime 隐藏锁屏日期时间.deb
+Size: 3438
+MD5sum: 6304d1d2658dd768f30569d845c8410f
+SHA1: 857f5d86eca29d898901f3a34b513fbd585728ba
+SHA256: 1418b814560c877ea1681df43dc2716d784e0ed373a7a40f2cae9cbd942b8d39
+Description: An awesome MobileSubstrate tweak!
+Author: PoomSmart
+Name: HideTime 隐藏锁屏日期时间
+
+Package: space.shino.hidetime
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Maintainer: 桃花源
+Installed-Size: 168
+Filename: ./debs/History/iphoneos-arm/HideTime 隐藏锁屏日期时间.deb
+Size: 3438
+MD5sum: 6304d1d2658dd768f30569d845c8410f
+SHA1: 857f5d86eca29d898901f3a34b513fbd585728ba
+SHA256: 1418b814560c877ea1681df43dc2716d784e0ed373a7a40f2cae9cbd942b8d39
+Description: An awesome MobileSubstrate tweak!
+Author: PoomSmart
+Name: HideTime 隐藏锁屏日期时间
 
 Package: sushi
 Version: 1.0.1
